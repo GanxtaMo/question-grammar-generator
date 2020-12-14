@@ -1,0 +1,74 @@
+@prefix :        <http://localhost:8080/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+
+@base            <http://localhost:8080#> .
+
+:lexicon_en a    lemon:Lexicon ;
+  lemon:language "en" ;
+  lemon:entry    :to_bear ;
+  lemon:entry    :born    ;
+  lemon:entry    :by .
+
+
+
+:to_bear a         lemon:lexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:verb ;
+  lemon:canonicalForm  :form_bear ;
+  lemon:otherForm      :form_born ;
+  lemon:synBehavior    :bear_frame_transitive ;
+  lemon:sense          :bear_ontomap .
+
+:form_bear a        lemon:Form ;
+  lemon:writtenRep     "bear"@en ;
+  lexinfo:verbFormMood lexinfo:infinitive .
+
+:form_born  a        lemon:Form ;
+      lemon:writtenRep "born"@en ;
+      lexinfo:tense    lexinfo:past .
+
+:bear_frame_transitive a lexinfo:TransitiveFrame ;
+  lexinfo:subject          :bear_subj ;
+  lexinfo:directObject     :bear_obj .
+
+:bear_ontomap a   lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping :bear_ontomap ;
+  lemon:reference   <http://dbpedia.org/ontology/birthDate> ;
+  lemon:subjOfProp  :bear_obj ;
+  lemon:objOfProp   :bear_subj ;
+  lemon:condition   :bear_condition .
+
+:bear_condition a lemon:condition ;
+      lemon:propertyDomain <http://dbpedia.org/ontology/Person> ;
+      lemon:propertyRange  <https://www.w3.org/2001/XMLSchema#date> .
+
+:born a            lemon:LexicalEntry ;
+  lexinfo:partOfSpeech lexinfo:adjective ;
+  lemon:canonicalForm  :form_born_canonical ;
+  lemon:synBehavior    :born_frame_adjectivepp ;
+  lemon:sense          :born_ontomap .
+
+:form_born_canonical a lemon:Form ;
+  lemon:writtenRep         "born"@en .
+
+:born_frame_adjectivepp a  lexinfo:AdjectivePPFrame ;
+  lexinfo:copulativeSubject    :born_subj ;
+  lexinfo:prepositionalAdjunct :born_obj .
+
+:born_ontomap a lemon:OntoMap, lemon:LexicalSense ;
+  lemon:ontoMapping :born_ontomap ;
+  lemon:reference   <http://dbpedia.org/ontology/birthDate> ;
+  lemon:subjOfProp  :born_subj ;
+  lemon:objOfProp   :born_obj ;
+  lemon:condition   :born_condition .
+
+:born_condition a lemon:condition ;
+       lemon:propertyDomain <http://dbpedia.org/ontology/Person> ;
+       lemon:propertyRange  <https://www.w3.org/2001/XMLSchema#date> .
+
+:born_obj lemon:marker :by .
+
+:by a                  lemon:SynRoleMarker ;
+  lemon:canonicalForm  [ lemon:writtenRep "by"@en ] ;
+  lexinfo:partOfSpeech lexinfo:preposition .
