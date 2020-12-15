@@ -8,7 +8,8 @@
 :lexicon_en a    lemon:Lexicon ;
   lemon:language "en" ;
   lemon:entry    :to_border ;
-  lemon:entry    :bordered .
+  lemon:entry    :bordered  ;
+  lemon:entry    :by .
 
 :to_border a           lemon:LexicalEntry ;
   lexinfo:partOfSpeech lexinfo:verb ;
@@ -44,3 +45,9 @@
 :border_condition a    lemon:condition ;
   lemon:propertyDomain <NIL> ;
   lemon:propertyRange  <NIL> .
+
+:border_obj lemon:marker :by .
+
+:by a                  lemon:SynRoleMarker ;
+  lemon:canonicalForm  [ lemon:writtenRep "by"@en ] ;
+  lexinfo:partOfSpeech lexinfo:preposition .

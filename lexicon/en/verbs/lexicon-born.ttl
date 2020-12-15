@@ -41,7 +41,7 @@
 
 :bear_condition a lemon:condition ;
       lemon:propertyDomain <http://dbpedia.org/ontology/Person> ;
-      lemon:propertyRange  <https://www.w3.org/2001/XMLSchema#date> .
+      lemon:propertyRange  <http://dbpedia.org/ontology/date> .
 
 :born a            lemon:LexicalEntry ;
   lexinfo:partOfSpeech lexinfo:adjective ;
@@ -65,7 +65,7 @@
 
 :born_condition a lemon:condition ;
        lemon:propertyDomain <http://dbpedia.org/ontology/Person> ;
-       lemon:propertyRange  <https://www.w3.org/2001/XMLSchema#date> .
+       lemon:propertyRange  <http://dbpedia.org/ontology/date> .
 
 :born_obj lemon:marker :by .
 

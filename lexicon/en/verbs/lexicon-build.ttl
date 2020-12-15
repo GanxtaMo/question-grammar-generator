@@ -40,7 +40,7 @@
 
 :build_condition a    lemon:condition ;
   lemon:propertyDomain <http://dbpedia.org/ontology/HistoricPlace> ;
-  lemon:propertyRange  <https://www.w3.org/2001/XMLSchema#date> .
+  lemon:propertyRange  <http://dbpedia.org/ontology/date> .
 
 :build_obj lemon:marker :by .
 
