@@ -33,7 +33,7 @@
 
 :build_ontomap a   lemon:OntoMap, lemon:LexicalSense ;
   lemon:ontoMapping :build_ontomap ;
-  lemon:reference   <http://dbpedia.org/ontology/beginningDate> ;
+  lemon:reference   <http://dbpedia.org/ontology/date> ;
   lemon:subjOfProp  :build_obj ;
   lemon:objOfProp   :build_subj ;
   lemon:condition   :build_condition .

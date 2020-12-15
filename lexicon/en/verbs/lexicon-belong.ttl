@@ -46,14 +46,14 @@
 
 :belong_sense1 a     lemon:OntoMap, lemon:LexicalSense ;
   lemon:ontoMapping :belong_sense1 ;
-  lemon:reference   <http://dbpedia.org/ontology/Animal> ;
+  lemon:reference   <http://dbpedia.org/ontology/species> ;
   lemon:subjOfProp  :belong_subj ;
   lemon:objOfProp   :belong_obj ;
   lemon:condition   :belong_condition .
 
 :belong_condition a      lemon:condition ;
-  lemon:propertyDomain <http://dbpedia.org/ontology/Species> ;
-  lemon:propertyRange  <http://dbpedia.org/ontology/Animal> .
+  lemon:propertyDomain <http://dbpedia.org/ontology/Animal> ;
+  lemon:propertyRange  <http://dbpedia.org/ontology/species> .
 
 
 :belong_obj lemon:marker :to .

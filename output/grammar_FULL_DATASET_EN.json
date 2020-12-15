@@ -3193,10 +3193,10 @@
     "id" : "11",
     "language" : "EN",
     "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
+    "bindingType" : "LOCATION",
+    "returnType" : "LOCATION",
     "frameType" : "VP",
-    "sentences" : [ "What bordered ($x | THING_NP)?", "What borders ($x | THING_NP)?" ],
+    "sentences" : [ "What bordered ($x | LOCATION_NP)?", "What borders ($x | LOCATION_NP)?", "Which populated place bordered ($x | LOCATION_NP)?", "Which populated place borders ($x | LOCATION_NP)?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/State> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
@@ -5451,16 +5451,316 @@
     "bindingType" : "THING",
     "returnType" : "THING",
     "frameType" : "IPP",
-    "sentences" : [ "When was the ($x | THING_NP) belonged?", "When was the ($x | THING_NP) belongs?", "When were the ($x | THING_NP) belonged?", "When were the ($x | THING_NP) belongs?", "Which species was the ($x | THING_NP) belonged?", "Which species was the ($x | THING_NP) belongs?", "Which species were the ($x | THING_NP) belonged?", "Which species were the ($x | THING_NP) belongs?" ],
+    "sentences" : [ "When was the ($x | THING_NP) belonged?", "When was the ($x | THING_NP) belongs?", "When were the ($x | THING_NP) belonged?", "When were the ($x | THING_NP) belongs?", "Which animal was the ($x | THING_NP) belonged?", "Which animal was the ($x | THING_NP) belongs?", "Which animal were the ($x | THING_NP) belonged?", "Which animal were the ($x | THING_NP) belongs?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/Animal> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/species> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "objOfProp"
     },
     "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
-      "bindingList" : [ ]
+      "bindingList" : [ {
+        "label" : "Black Rhinoceros",
+        "uri" : "http://dbpedia.org/resource/Black_Rhinoceros"
+      }, {
+        "label" : "Gray Wolf",
+        "uri" : "http://dbpedia.org/resource/Gray_Wolf"
+      }, {
+        "label" : "Red Fox",
+        "uri" : "http://dbpedia.org/resource/Red_Fox"
+      }, {
+        "label" : "Venus Flytrap",
+        "uri" : "http://dbpedia.org/resource/Venus_Flytrap"
+      }, {
+        "label" : "White Rhinoceros",
+        "uri" : "http://dbpedia.org/resource/White_Rhinoceros"
+      }, {
+        "label" : "American black bear",
+        "uri" : "http://dbpedia.org/resource/American_black_bear"
+      }, {
+        "label" : "Banana",
+        "uri" : "http://dbpedia.org/resource/Banana"
+      }, {
+        "label" : "Bonobo",
+        "uri" : "http://dbpedia.org/resource/Bonobo"
+      }, {
+        "label" : "British Shorthair",
+        "uri" : "http://dbpedia.org/resource/British_Shorthair"
+      }, {
+        "label" : "Caterpillar",
+        "uri" : "http://dbpedia.org/resource/Caterpillar"
+      }, {
+        "label" : "Cheetah",
+        "uri" : "http://dbpedia.org/resource/Cheetah"
+      }, {
+        "label" : "Chicken",
+        "uri" : "http://dbpedia.org/resource/Chicken"
+      }, {
+        "label" : "Donkey",
+        "uri" : "http://dbpedia.org/resource/Donkey"
+      }, {
+        "label" : "Duck",
+        "uri" : "http://dbpedia.org/resource/Duck"
+      }, {
+        "label" : "Escherichia coli",
+        "uri" : "http://dbpedia.org/resource/Escherichia_coli"
+      }, {
+        "label" : "Extinction",
+        "uri" : "http://dbpedia.org/resource/Extinction"
+      }, {
+        "label" : "Fairy",
+        "uri" : "http://dbpedia.org/resource/Fairy"
+      }, {
+        "label" : "Frog",
+        "uri" : "http://dbpedia.org/resource/Frog"
+      }, {
+        "label" : "Giant (mythology)",
+        "uri" : "http://dbpedia.org/resource/Giant_(mythology)"
+      }, {
+        "label" : "Gray wolf",
+        "uri" : "http://dbpedia.org/resource/Gray_wolf"
+      }, {
+        "label" : "Great white shark",
+        "uri" : "http://dbpedia.org/resource/Great_white_shark"
+      }, {
+        "label" : "Hare",
+        "uri" : "http://dbpedia.org/resource/Hare"
+      }, {
+        "label" : "Leopard",
+        "uri" : "http://dbpedia.org/resource/Leopard"
+      }, {
+        "label" : "Lion",
+        "uri" : "http://dbpedia.org/resource/Lion"
+      }, {
+        "label" : "Lobster",
+        "uri" : "http://dbpedia.org/resource/Lobster"
+      }, {
+        "label" : "Mango",
+        "uri" : "http://dbpedia.org/resource/Mango"
+      }, {
+        "label" : "Panthera leo",
+        "uri" : "http://dbpedia.org/resource/Panthera_leo"
+      }, {
+        "label" : "Panthera onca",
+        "uri" : "http://dbpedia.org/resource/Panthera_onca"
+      }, {
+        "label" : "Panthera pardus",
+        "uri" : "http://dbpedia.org/resource/Panthera_pardus"
+      }, {
+        "label" : "Panthera tigris",
+        "uri" : "http://dbpedia.org/resource/Panthera_tigris"
+      }, {
+        "label" : "Snail",
+        "uri" : "http://dbpedia.org/resource/Snail"
+      }, {
+        "label" : "Snake",
+        "uri" : "http://dbpedia.org/resource/Snake"
+      }, {
+        "label" : "Sponge",
+        "uri" : "http://dbpedia.org/resource/Sponge"
+      }, {
+        "label" : "Supercomputer",
+        "uri" : "http://dbpedia.org/resource/Supercomputer"
+      }, {
+        "label" : "Supernatural",
+        "uri" : "http://dbpedia.org/resource/Supernatural"
+      }, {
+        "label" : "Tasmanian devil",
+        "uri" : "http://dbpedia.org/resource/Tasmanian_devil"
+      }, {
+        "label" : "Tiger",
+        "uri" : "http://dbpedia.org/resource/Tiger"
+      }, {
+        "label" : "Toad",
+        "uri" : "http://dbpedia.org/resource/Toad"
+      }, {
+        "label" : "Turtle",
+        "uri" : "http://dbpedia.org/resource/Turtle"
+      }, {
+        "label" : "Undead",
+        "uri" : "http://dbpedia.org/resource/Undead"
+      }, {
+        "label" : "Ursus arctos",
+        "uri" : "http://dbpedia.org/resource/Ursus_arctos"
+      }, {
+        "label" : "Vampire",
+        "uri" : "http://dbpedia.org/resource/Vampire"
+      }, {
+        "label" : "Walrus",
+        "uri" : "http://dbpedia.org/resource/Walrus"
+      }, {
+        "label" : "Weasel",
+        "uri" : "http://dbpedia.org/resource/Weasel"
+      }, {
+        "label" : "Werewolf",
+        "uri" : "http://dbpedia.org/resource/Werewolf"
+      }, {
+        "label" : "White-nosed coati",
+        "uri" : "http://dbpedia.org/resource/White-nosed_coati"
+      }, {
+        "label" : "Witchcraft",
+        "uri" : "http://dbpedia.org/resource/Witchcraft"
+      }, {
+        "label" : "Battus polydamas",
+        "uri" : "http://dbpedia.org/resource/Battus_polydamas"
+      }, {
+        "label" : "Bengal tiger",
+        "uri" : "http://dbpedia.org/resource/Bengal_tiger"
+      }, {
+        "label" : "Black magpie",
+        "uri" : "http://dbpedia.org/resource/Black_magpie"
+      }, {
+        "label" : "Common ringtail possum",
+        "uri" : "http://dbpedia.org/resource/Common_ringtail_possum"
+      }, {
+        "label" : "Kyphosis",
+        "uri" : "http://dbpedia.org/resource/Kyphosis"
+      }, {
+        "label" : "Pixie",
+        "uri" : "http://dbpedia.org/resource/Pixie"
+      }, {
+        "label" : "Rag doll",
+        "uri" : "http://dbpedia.org/resource/Rag_doll"
+      }, {
+        "label" : "Wild horse",
+        "uri" : "http://dbpedia.org/resource/Wild_horse"
+      }, {
+        "label" : "Yellow baboon",
+        "uri" : "http://dbpedia.org/resource/Yellow_baboon"
+      }, {
+        "label" : "Apple",
+        "uri" : "http://dbpedia.org/resource/Apple"
+      }, {
+        "label" : "Canary Islands chiffchaff",
+        "uri" : "http://dbpedia.org/resource/Canary_Islands_chiffchaff"
+      }, {
+        "label" : "Anadenanthera peregrina",
+        "uri" : "http://dbpedia.org/resource/Anadenanthera_peregrina"
+      }, {
+        "label" : "Lynx lynx",
+        "uri" : "http://dbpedia.org/resource/Lynx_lynx"
+      }, {
+        "label" : "Minbari",
+        "uri" : "http://dbpedia.org/resource/Minbari"
+      }, {
+        "label" : "Propionibacterium acnes",
+        "uri" : "http://dbpedia.org/resource/Propionibacterium_acnes"
+      }, {
+        "label" : "Spotted hyena",
+        "uri" : "http://dbpedia.org/resource/Spotted_hyena"
+      }, {
+        "label" : "Squalidae",
+        "uri" : "http://dbpedia.org/resource/Squalidae"
+      }, {
+        "label" : "Ursus americanus",
+        "uri" : "http://dbpedia.org/resource/Ursus_americanus"
+      }, {
+        "label" : "Viola tricolor",
+        "uri" : "http://dbpedia.org/resource/Viola_tricolor"
+      }, {
+        "label" : "Indian leopard",
+        "uri" : "http://dbpedia.org/resource/Indian_leopard"
+      }, {
+        "label" : "Vriesea splendens",
+        "uri" : "http://dbpedia.org/resource/Vriesea_splendens"
+      }, {
+        "label" : "Ampelopsis glandulosa",
+        "uri" : "http://dbpedia.org/resource/Ampelopsis_glandulosa"
+      }, {
+        "label" : "Asplenium trichomanes",
+        "uri" : "http://dbpedia.org/resource/Asplenium_trichomanes"
+      }, {
+        "label" : "Eastern gorilla",
+        "uri" : "http://dbpedia.org/resource/Eastern_gorilla"
+      }, {
+        "label" : "Xanthomonas oryzae",
+        "uri" : "http://dbpedia.org/resource/Xanthomonas_oryzae"
+      }, {
+        "label" : "Coincya monensis",
+        "uri" : "http://dbpedia.org/resource/Coincya_monensis"
+      }, {
+        "label" : "Erysimum cheiri",
+        "uri" : "http://dbpedia.org/resource/Erysimum_cheiri"
+      }, {
+        "label" : "Iris spuria",
+        "uri" : "http://dbpedia.org/resource/Iris_spuria"
+      }, {
+        "label" : "Stratiotes aloides",
+        "uri" : "http://dbpedia.org/resource/Stratiotes_aloides"
+      }, {
+        "label" : "Viola alba",
+        "uri" : "http://dbpedia.org/resource/Viola_alba"
+      }, {
+        "label" : "Atropoides nummifer",
+        "uri" : "http://dbpedia.org/resource/Atropoides_nummifer"
+      }, {
+        "label" : "Banksia spinulosa var. cunninghamii",
+        "uri" : "http://dbpedia.org/resource/Banksia_spinulosa_var._cunninghamii"
+      }, {
+        "label" : "Conospermum stoechadis",
+        "uri" : "http://dbpedia.org/resource/Conospermum_stoechadis"
+      }, {
+        "label" : "Regina rigida",
+        "uri" : "http://dbpedia.org/resource/Regina_rigida"
+      }, {
+        "label" : "Schoenoplectus californicus",
+        "uri" : "http://dbpedia.org/resource/Schoenoplectus_californicus"
+      }, {
+        "label" : "Verticordia huegelii",
+        "uri" : "http://dbpedia.org/resource/Verticordia_huegelii"
+      }, {
+        "label" : "Verticordia insignis",
+        "uri" : "http://dbpedia.org/resource/Verticordia_insignis"
+      }, {
+        "label" : "Verticordia plumosa",
+        "uri" : "http://dbpedia.org/resource/Verticordia_plumosa"
+      }, {
+        "label" : "Micrurus nigrocinctus",
+        "uri" : "http://dbpedia.org/resource/Micrurus_nigrocinctus"
+      }, {
+        "label" : "Alaskan tundra wolf",
+        "uri" : "http://dbpedia.org/resource/Alaskan_tundra_wolf"
+      }, {
+        "label" : "Sidalcea oregana",
+        "uri" : "http://dbpedia.org/resource/Sidalcea_oregana"
+      }, {
+        "label" : "Coenocorypha aucklandica",
+        "uri" : "http://dbpedia.org/resource/Coenocorypha_aucklandica"
+      }, {
+        "label" : "Tropidoclonion lineatum",
+        "uri" : "http://dbpedia.org/resource/Tropidoclonion_lineatum"
+      }, {
+        "label" : "Cyclura rileyi rileyi",
+        "uri" : "http://dbpedia.org/resource/Cyclura_rileyi_rileyi"
+      }, {
+        "label" : "Vitis x labruscana",
+        "uri" : "http://dbpedia.org/resource/Vitis_x_labruscana"
+      }, {
+        "label" : "Corynorhinus townsendii",
+        "uri" : "http://dbpedia.org/resource/Corynorhinus_townsendii"
+      }, {
+        "label" : "Oncorhynchus clarki clarki",
+        "uri" : "http://dbpedia.org/resource/Oncorhynchus_clarki_clarki"
+      }, {
+        "label" : "Caliroa cerasi",
+        "uri" : "http://dbpedia.org/resource/Caliroa_cerasi"
+      }, {
+        "label" : "C. carpio",
+        "uri" : "http://dbpedia.org/resource/C._carpio"
+      }, {
+        "label" : "Florida Woodrat",
+        "uri" : "http://dbpedia.org/resource/Florida_Woodrat"
+      }, {
+        "label" : "Acrocephalus percernis",
+        "uri" : "http://dbpedia.org/resource/Acrocephalus_percernis"
+      }, {
+        "label" : "List of Star Wars species (F–J)",
+        "uri" : "http://dbpedia.org/resource/List_of_Star_Wars_species_(F–J)"
+      }, {
+        "label" : "Acer platanoides",
+        "uri" : "http://dbpedia.org/resource/Acer_platanoides"
+      } ]
     },
     "combination" : false
   }, {
@@ -5470,16 +5770,316 @@
     "bindingType" : "THING",
     "returnType" : "THING",
     "frameType" : "IPP",
-    "sentences" : [ "What was belong to $x?", "What was belonged to $x?", "What was belongs to $x?", "What were belong to $x?", "What were belonged to $x?", "What were belongs to $x?", "Which animal was belong to $x?", "Which animal was belonged to $x?", "Which animal was belongs to $x?", "Which animals were belong to $x?", "Which animals were belonged to $x?", "Which animals were belongs to $x?" ],
+    "sentences" : [ "What was belong to $x?", "What was belonged to $x?", "What was belongs to $x?", "What were belong to $x?", "What were belonged to $x?", "What were belongs to $x?", "Which species was belong to $x?", "Which species was belonged to $x?", "Which species was belongs to $x?", "Which specieses were belong to $x?", "Which specieses were belonged to $x?", "Which specieses were belongs to $x?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/Animal> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/species> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
     "returnVariable" : "objOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
-      "bindingList" : [ ]
+      "bindingList" : [ {
+        "label" : "Albus Dumbledore",
+        "uri" : "http://dbpedia.org/resource/Albus_Dumbledore"
+      }, {
+        "label" : "Beefalo",
+        "uri" : "http://dbpedia.org/resource/Beefalo"
+      }, {
+        "label" : "Black rat",
+        "uri" : "http://dbpedia.org/resource/Black_rat"
+      }, {
+        "label" : "Bugs Bunny",
+        "uri" : "http://dbpedia.org/resource/Bugs_Bunny"
+      }, {
+        "label" : "Cabbage",
+        "uri" : "http://dbpedia.org/resource/Cabbage"
+      }, {
+        "label" : "Chicken",
+        "uri" : "http://dbpedia.org/resource/Chicken"
+      }, {
+        "label" : "Daffy Duck",
+        "uri" : "http://dbpedia.org/resource/Daffy_Duck"
+      }, {
+        "label" : "Darth Vader",
+        "uri" : "http://dbpedia.org/resource/Darth_Vader"
+      }, {
+        "label" : "Donkey",
+        "uri" : "http://dbpedia.org/resource/Donkey"
+      }, {
+        "label" : "Fafhrd and the Gray Mouser",
+        "uri" : "http://dbpedia.org/resource/Fafhrd_and_the_Gray_Mouser"
+      }, {
+        "label" : "Hello Kitty",
+        "uri" : "http://dbpedia.org/resource/Hello_Kitty"
+      }, {
+        "label" : "Jar Jar Binks",
+        "uri" : "http://dbpedia.org/resource/Jar_Jar_Binks"
+      }, {
+        "label" : "Lando Calrissian",
+        "uri" : "http://dbpedia.org/resource/Lando_Calrissian"
+      }, {
+        "label" : "Luke Skywalker",
+        "uri" : "http://dbpedia.org/resource/Luke_Skywalker"
+      }, {
+        "label" : "Mule",
+        "uri" : "http://dbpedia.org/resource/Mule"
+      }, {
+        "label" : "Obi-Wan Kenobi",
+        "uri" : "http://dbpedia.org/resource/Obi-Wan_Kenobi"
+      }, {
+        "label" : "Porky Pig",
+        "uri" : "http://dbpedia.org/resource/Porky_Pig"
+      }, {
+        "label" : "Princess Leia",
+        "uri" : "http://dbpedia.org/resource/Princess_Leia"
+      }, {
+        "label" : "Przewalski's horse",
+        "uri" : "http://dbpedia.org/resource/Przewalski's_horse"
+      }, {
+        "label" : "Pseudotsuga menziesii var. glauca",
+        "uri" : "http://dbpedia.org/resource/Pseudotsuga_menziesii_var._glauca"
+      }, {
+        "label" : "Scrooge McDuck",
+        "uri" : "http://dbpedia.org/resource/Scrooge_McDuck"
+      }, {
+        "label" : "Sugar beet",
+        "uri" : "http://dbpedia.org/resource/Sugar_beet"
+      }, {
+        "label" : "Turnip",
+        "uri" : "http://dbpedia.org/resource/Turnip"
+      }, {
+        "label" : "Wedge Antilles",
+        "uri" : "http://dbpedia.org/resource/Wedge_Antilles"
+      }, {
+        "label" : "Dukhat",
+        "uri" : "http://dbpedia.org/resource/Dukhat"
+      }, {
+        "label" : "Hodge-Podge (comics)",
+        "uri" : "http://dbpedia.org/resource/Hodge-Podge_(comics)"
+      }, {
+        "label" : "Human foamy virus",
+        "uri" : "http://dbpedia.org/resource/Human_foamy_virus"
+      }, {
+        "label" : "Leoben Conoy",
+        "uri" : "http://dbpedia.org/resource/Leoben_Conoy"
+      }, {
+        "label" : "Selous' zebra",
+        "uri" : "http://dbpedia.org/resource/Selous'_zebra"
+      }, {
+        "label" : "Simba",
+        "uri" : "http://dbpedia.org/resource/Simba"
+      }, {
+        "label" : "Toto (Oz)",
+        "uri" : "http://dbpedia.org/resource/Toto_(Oz)"
+      }, {
+        "label" : "Armenian cucumber",
+        "uri" : "http://dbpedia.org/resource/Armenian_cucumber"
+      }, {
+        "label" : "Bat Boy (character)",
+        "uri" : "http://dbpedia.org/resource/Bat_Boy_(character)"
+      }, {
+        "label" : "Bok choy",
+        "uri" : "http://dbpedia.org/resource/Bok_choy"
+      }, {
+        "label" : "Celebrity tomato",
+        "uri" : "http://dbpedia.org/resource/Celebrity_tomato"
+      }, {
+        "label" : "Count Iblis",
+        "uri" : "http://dbpedia.org/resource/Count_Iblis"
+      }, {
+        "label" : "Don Orville",
+        "uri" : "http://dbpedia.org/resource/Don_Orville"
+      }, {
+        "label" : "Dr. Octagon",
+        "uri" : "http://dbpedia.org/resource/Dr._Octagon"
+      }, {
+        "label" : "Fartman (Howard Stern)",
+        "uri" : "http://dbpedia.org/resource/Fartman_(Howard_Stern)"
+      }, {
+        "label" : "Favorita (grape)",
+        "uri" : "http://dbpedia.org/resource/Favorita_(grape)"
+      }, {
+        "label" : "Flying Spaghetti Monster",
+        "uri" : "http://dbpedia.org/resource/Flying_Spaghetti_Monster"
+      }, {
+        "label" : "Genie (Disney character)",
+        "uri" : "http://dbpedia.org/resource/Genie_(Disney_character)"
+      }, {
+        "label" : "Gort (The Day the Earth Stood Still)",
+        "uri" : "http://dbpedia.org/resource/Gort_(The_Day_the_Earth_Stood_Still)"
+      }, {
+        "label" : "Grandpa (The Munsters)",
+        "uri" : "http://dbpedia.org/resource/Grandpa_(The_Munsters)"
+      }, {
+        "label" : "Huckleberry Hound",
+        "uri" : "http://dbpedia.org/resource/Huckleberry_Hound"
+      }, {
+        "label" : "Humphrey the Bear",
+        "uri" : "http://dbpedia.org/resource/Humphrey_the_Bear"
+      }, {
+        "label" : "Iago (Disney character)",
+        "uri" : "http://dbpedia.org/resource/Iago_(Disney_character)"
+      }, {
+        "label" : "Jango Fett",
+        "uri" : "http://dbpedia.org/resource/Jango_Fett"
+      }, {
+        "label" : "Jason Stackhouse",
+        "uri" : "http://dbpedia.org/resource/Jason_Stackhouse"
+      }, {
+        "label" : "Kaa",
+        "uri" : "http://dbpedia.org/resource/Kaa"
+      }, {
+        "label" : "Kermode bear",
+        "uri" : "http://dbpedia.org/resource/Kermode_bear"
+      }, {
+        "label" : "Londo Mollari",
+        "uri" : "http://dbpedia.org/resource/Londo_Mollari"
+      }, {
+        "label" : "Mater (Cars)",
+        "uri" : "http://dbpedia.org/resource/Mater_(Cars)"
+      }, {
+        "label" : "Piggy (Merrie Melodies)",
+        "uri" : "http://dbpedia.org/resource/Piggy_(Merrie_Melodies)"
+      }, {
+        "label" : "Portnoy (comics)",
+        "uri" : "http://dbpedia.org/resource/Portnoy_(comics)"
+      }, {
+        "label" : "Sherman Klump",
+        "uri" : "http://dbpedia.org/resource/Sherman_Klump"
+      }, {
+        "label" : "Shoshone pupfish",
+        "uri" : "http://dbpedia.org/resource/Shoshone_pupfish"
+      }, {
+        "label" : "Snowball (Animal Farm)",
+        "uri" : "http://dbpedia.org/resource/Snowball_(Animal_Farm)"
+      }, {
+        "label" : "Sookie Stackhouse",
+        "uri" : "http://dbpedia.org/resource/Sookie_Stackhouse"
+      }, {
+        "label" : "Tabasco pepper",
+        "uri" : "http://dbpedia.org/resource/Tabasco_pepper"
+      }, {
+        "label" : "The Crusher (Looney Tunes)",
+        "uri" : "http://dbpedia.org/resource/The_Crusher_(Looney_Tunes)"
+      }, {
+        "label" : "Chewbacca",
+        "uri" : "http://dbpedia.org/resource/Chewbacca"
+      }, {
+        "label" : "Padmé Amidala",
+        "uri" : "http://dbpedia.org/resource/Padmé_Amidala"
+      }, {
+        "label" : "Anya potato",
+        "uri" : "http://dbpedia.org/resource/Anya_potato"
+      }, {
+        "label" : "Eastern Canary Islands chiffchaff",
+        "uri" : "http://dbpedia.org/resource/Eastern_Canary_Islands_chiffchaff"
+      }, {
+        "label" : "Kumlien's gull",
+        "uri" : "http://dbpedia.org/resource/Kumlien's_gull"
+      }, {
+        "label" : "Labib (mascot)",
+        "uri" : "http://dbpedia.org/resource/Labib_(mascot)"
+      }, {
+        "label" : "Marcus Cole",
+        "uri" : "http://dbpedia.org/resource/Marcus_Cole"
+      }, {
+        "label" : "Piri piri",
+        "uri" : "http://dbpedia.org/resource/Piri_piri"
+      }, {
+        "label" : "Western Canary Islands chiffchaff",
+        "uri" : "http://dbpedia.org/resource/Western_Canary_Islands_chiffchaff"
+      }, {
+        "label" : "Delenn",
+        "uri" : "http://dbpedia.org/resource/Delenn"
+      }, {
+        "label" : "G'Kar",
+        "uri" : "http://dbpedia.org/resource/G'Kar"
+      }, {
+        "label" : "Grenache",
+        "uri" : "http://dbpedia.org/resource/Grenache"
+      }, {
+        "label" : "Grignolino",
+        "uri" : "http://dbpedia.org/resource/Grignolino"
+      }, {
+        "label" : "Morgan Clark",
+        "uri" : "http://dbpedia.org/resource/Morgan_Clark"
+      }, {
+        "label" : "Rana temporaria temporaria",
+        "uri" : "http://dbpedia.org/resource/Rana_temporaria_temporaria"
+      }, {
+        "label" : "Sangiovese",
+        "uri" : "http://dbpedia.org/resource/Sangiovese"
+      }, {
+        "label" : "Teal'c",
+        "uri" : "http://dbpedia.org/resource/Teal'c"
+      }, {
+        "label" : "Tik-Tok (Oz)",
+        "uri" : "http://dbpedia.org/resource/Tik-Tok_(Oz)"
+      }, {
+        "label" : "Viognier",
+        "uri" : "http://dbpedia.org/resource/Viognier"
+      }, {
+        "label" : "Chapman's zebra",
+        "uri" : "http://dbpedia.org/resource/Chapman's_zebra"
+      }, {
+        "label" : "Himalayan wolf",
+        "uri" : "http://dbpedia.org/resource/Himalayan_wolf"
+      }, {
+        "label" : "Arabian red fox",
+        "uri" : "http://dbpedia.org/resource/Arabian_red_fox"
+      }, {
+        "label" : "Congo lion",
+        "uri" : "http://dbpedia.org/resource/Congo_lion"
+      }, {
+        "label" : "Oxalis luteola",
+        "uri" : "http://dbpedia.org/resource/Oxalis_luteola"
+      }, {
+        "label" : "Taxus × media",
+        "uri" : "http://dbpedia.org/resource/Taxus_×_media"
+      }, {
+        "label" : "Carex magellanica subsp. irrigua",
+        "uri" : "http://dbpedia.org/resource/Carex_magellanica_subsp._irrigua"
+      }, {
+        "label" : "Indochinese leopard",
+        "uri" : "http://dbpedia.org/resource/Indochinese_leopard"
+      }, {
+        "label" : "Bourret's box turtle",
+        "uri" : "http://dbpedia.org/resource/Bourret's_box_turtle"
+      }, {
+        "label" : "Cyclura cychlura figginsi",
+        "uri" : "http://dbpedia.org/resource/Cyclura_cychlura_figginsi"
+      }, {
+        "label" : "Mexican grizzly bear",
+        "uri" : "http://dbpedia.org/resource/Mexican_grizzly_bear"
+      }, {
+        "label" : "South American great horned owl",
+        "uri" : "http://dbpedia.org/resource/South_American_great_horned_owl"
+      }, {
+        "label" : "Yellow-cheeked becard",
+        "uri" : "http://dbpedia.org/resource/Yellow-cheeked_becard"
+      }, {
+        "label" : "Banksia spinulosa var. cunninghamii",
+        "uri" : "http://dbpedia.org/resource/Banksia_spinulosa_var._cunninghamii"
+      }, {
+        "label" : "Banksia spinulosa var. spinulosa",
+        "uri" : "http://dbpedia.org/resource/Banksia_spinulosa_var._spinulosa"
+      }, {
+        "label" : "Brown-throated wren",
+        "uri" : "http://dbpedia.org/resource/Brown-throated_wren"
+      }, {
+        "label" : "Bukettraube",
+        "uri" : "http://dbpedia.org/resource/Bukettraube"
+      }, {
+        "label" : "Carcharocles angustidens",
+        "uri" : "http://dbpedia.org/resource/Carcharocles_angustidens"
+      }, {
+        "label" : "Conospermum stoechadis subsp. sclerophyllum",
+        "uri" : "http://dbpedia.org/resource/Conospermum_stoechadis_subsp._sclerophyllum"
+      }, {
+        "label" : "Crotalus mitchellii angelensis",
+        "uri" : "http://dbpedia.org/resource/Crotalus_mitchellii_angelensis"
+      } ]
     },
     "combination" : false
   }, {
@@ -5491,14 +6091,314 @@
     "frameType" : "IPP",
     "sentences" : [ "When was the ($x | THING_NP) built?", "When were the ($x | THING_NP) built?", "Which date was the ($x | THING_NP) built?", "Which date were the ($x | THING_NP) built?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/beginningDate> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/date> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
     "returnVariable" : "objOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
-      "bindingList" : [ ]
+      "bindingList" : [ {
+        "label" : "Battle of Evesham",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Evesham"
+      }, {
+        "label" : "Battle of Lechfeld (955)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Lechfeld_(955)"
+      }, {
+        "label" : "Peasants' Revolt",
+        "uri" : "http://dbpedia.org/resource/Peasants'_Revolt"
+      }, {
+        "label" : "Battle of Ane",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Ane"
+      }, {
+        "label" : "Battle of Grunwald",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Grunwald"
+      }, {
+        "label" : "Battle of Marv",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Marv"
+      }, {
+        "label" : "Battle of Mursa Major",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Mursa_Major"
+      }, {
+        "label" : "Battle of Sandwich (1217)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Sandwich_(1217)"
+      }, {
+        "label" : "Battle of Taillebourg",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Taillebourg"
+      }, {
+        "label" : "Battle of al-Qādisiyyah",
+        "uri" : "http://dbpedia.org/resource/Battle_of_al-Qādisiyyah"
+      }, {
+        "label" : "Battle of Burton Bridge (1322)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Burton_Bridge_(1322)"
+      }, {
+        "label" : "Battle of Harran",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Harran"
+      }, {
+        "label" : "Battle of Marj al-Saffar (1126)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Marj_al-Saffar_(1126)"
+      }, {
+        "label" : "Battle of Marj al-Saffar (634)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Marj_al-Saffar_(634)"
+      }, {
+        "label" : "Battle of Moclín (1280)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Moclín_(1280)"
+      }, {
+        "label" : "Battle of the Curragh",
+        "uri" : "http://dbpedia.org/resource/Battle_of_the_Curragh"
+      }, {
+        "label" : "Battle of the Rhyndacus (1211)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_the_Rhyndacus_(1211)"
+      }, {
+        "label" : "Capture of Berwick (1296)",
+        "uri" : "http://dbpedia.org/resource/Capture_of_Berwick_(1296)"
+      }, {
+        "label" : "Siege of Damascus (634)",
+        "uri" : "http://dbpedia.org/resource/Siege_of_Damascus_(634)"
+      }, {
+        "label" : "Siege of Tartu (1224)",
+        "uri" : "http://dbpedia.org/resource/Siege_of_Tartu_(1224)"
+      }, {
+        "label" : "Combat of the Thirty",
+        "uri" : "http://dbpedia.org/resource/Combat_of_the_Thirty"
+      }, {
+        "label" : "1348 Friuli earthquake",
+        "uri" : "http://dbpedia.org/resource/1348_Friuli_earthquake"
+      }, {
+        "label" : "1548 capture of Aden",
+        "uri" : "http://dbpedia.org/resource/1548_capture_of_Aden"
+      }, {
+        "label" : "749 Galilee earthquake",
+        "uri" : "http://dbpedia.org/resource/749_Galilee_earthquake"
+      }, {
+        "label" : "856 Damghan earthquake",
+        "uri" : "http://dbpedia.org/resource/856_Damghan_earthquake"
+      }, {
+        "label" : "893 Ardabil earthquake",
+        "uri" : "http://dbpedia.org/resource/893_Ardabil_earthquake"
+      }, {
+        "label" : "Battle of Chlumec",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Chlumec"
+      }, {
+        "label" : "Battle of Lochmaben Fair",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Lochmaben_Fair"
+      }, {
+        "label" : "Battle of Morella",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Morella"
+      }, {
+        "label" : "Battle of Oranik (1448)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Oranik_(1448)"
+      }, {
+        "label" : "Battle of Pontvallain",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Pontvallain"
+      }, {
+        "label" : "Battle of Tripolje",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Tripolje"
+      }, {
+        "label" : "Capture of Roxburgh",
+        "uri" : "http://dbpedia.org/resource/Capture_of_Roxburgh"
+      }, {
+        "label" : "Siege of Svetigrad (1448)",
+        "uri" : "http://dbpedia.org/resource/Siege_of_Svetigrad_(1448)"
+      }, {
+        "label" : "Battle of Bileća",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Bileća"
+      }, {
+        "label" : "Battle of Elbistan",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Elbistan"
+      }, {
+        "label" : "Battle of Marj Ayyun",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Marj_Ayyun"
+      }, {
+        "label" : "Battle of Mount Cadmus",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Mount_Cadmus"
+      }, {
+        "label" : "Battle of Valverde (1385)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Valverde_(1385)"
+      }, {
+        "label" : "Siege of Lisbon (1384)",
+        "uri" : "http://dbpedia.org/resource/Siege_of_Lisbon_(1384)"
+      }, {
+        "label" : "Siege of Sidon",
+        "uri" : "http://dbpedia.org/resource/Siege_of_Sidon"
+      }, {
+        "label" : "Yaldā Night",
+        "uri" : "http://dbpedia.org/resource/Yaldā_Night"
+      }, {
+        "label" : "Battle of Cochin (1504)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Cochin_(1504)"
+      }, {
+        "label" : "Battle of Montichiari",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Montichiari"
+      }, {
+        "label" : "Battle of Muros Bay",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Muros_Bay"
+      }, {
+        "label" : "Battle of Seminara (1503)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Seminara_(1503)"
+      }, {
+        "label" : "Battle of Viljandi (1223)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Viljandi_(1223)"
+      }, {
+        "label" : "Conquest of Asilah",
+        "uri" : "http://dbpedia.org/resource/Conquest_of_Asilah"
+      }, {
+        "label" : "Battle of Anghiari",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Anghiari"
+      }, {
+        "label" : "Battle of Tricamarum",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Tricamarum"
+      }, {
+        "label" : "Heiji Rebellion",
+        "uri" : "http://dbpedia.org/resource/Heiji_Rebellion"
+      }, {
+        "label" : "Battle of Cortenuova",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Cortenuova"
+      }, {
+        "label" : "Battle of Pliska",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Pliska"
+      }, {
+        "label" : "Battle of Saule",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Saule"
+      }, {
+        "label" : "Battle of Otonetë",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Otonetë"
+      }, {
+        "label" : "Consualia",
+        "uri" : "http://dbpedia.org/resource/Consualia"
+      }, {
+        "label" : "Battle of Alhandic",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Alhandic"
+      }, {
+        "label" : "Capture of Algiers (1529)",
+        "uri" : "http://dbpedia.org/resource/Capture_of_Algiers_(1529)"
+      }, {
+        "label" : "Conquest of Santarém",
+        "uri" : "http://dbpedia.org/resource/Conquest_of_Santarém"
+      }, {
+        "label" : "Siege of Jaén (1245–46)",
+        "uri" : "http://dbpedia.org/resource/Siege_of_Jaén_(1245–46)"
+      }, {
+        "label" : "Siege of Van (1548)",
+        "uri" : "http://dbpedia.org/resource/Siege_of_Van_(1548)"
+      }, {
+        "label" : "Conquest of Wu by Jin",
+        "uri" : "http://dbpedia.org/resource/Conquest_of_Wu_by_Jin"
+      }, {
+        "label" : "Battle of Mellrichstadt",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Mellrichstadt"
+      }, {
+        "label" : "Battle of Andalien",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Andalien"
+      }, {
+        "label" : "Battle of Cătlăbuga",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Cătlăbuga"
+      }, {
+        "label" : "Battle of Penco",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Penco"
+      }, {
+        "label" : "Battle of Quilacura",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Quilacura"
+      }, {
+        "label" : "Battle of Sauðafell",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Sauðafell"
+      }, {
+        "label" : "Battle of Sant'Egidio",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Sant'Egidio"
+      }, {
+        "label" : "Battle of Cascina",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Cascina"
+      }, {
+        "label" : "Siege of Kiev (1240)",
+        "uri" : "http://dbpedia.org/resource/Siege_of_Kiev_(1240)"
+      }, {
+        "label" : "Battle of Andrassos",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Andrassos"
+      }, {
+        "label" : "Battle of Kratzau",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Kratzau"
+      }, {
+        "label" : "Battle of Othée",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Othée"
+      }, {
+        "label" : "Sack of Damietta (853)",
+        "uri" : "http://dbpedia.org/resource/Sack_of_Damietta_(853)"
+      }, {
+        "label" : "Battle of Marton",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Marton"
+      }, {
+        "label" : "Battle of Qatwan",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Qatwan"
+      }, {
+        "label" : "Jingnan Campaign",
+        "uri" : "http://dbpedia.org/resource/Jingnan_Campaign"
+      }, {
+        "label" : "Sima Yi's Liaodong campaign",
+        "uri" : "http://dbpedia.org/resource/Sima_Yi's_Liaodong_campaign"
+      }, {
+        "label" : "Battle of Brownsville",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Brownsville"
+      }, {
+        "label" : "Battle of Kosmidion",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Kosmidion"
+      }, {
+        "label" : "Battle of Mokra (July 1462)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Mokra_(July_1462)"
+      }, {
+        "label" : "Battle of Petroe",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Petroe"
+      }, {
+        "label" : "Battle of Piedra Pisada",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Piedra_Pisada"
+      }, {
+        "label" : "Battle of Worksop",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Worksop"
+      }, {
+        "label" : "Capture of Oxford",
+        "uri" : "http://dbpedia.org/resource/Capture_of_Oxford"
+      }, {
+        "label" : "Loire Campaign (1429)",
+        "uri" : "http://dbpedia.org/resource/Loire_Campaign_(1429)"
+      }, {
+        "label" : "Mehmed II's first Albanian campaign",
+        "uri" : "http://dbpedia.org/resource/Mehmed_II's_first_Albanian_campaign"
+      }, {
+        "label" : "Stand of the Swiss Guard",
+        "uri" : "http://dbpedia.org/resource/Stand_of_the_Swiss_Guard"
+      }, {
+        "label" : "Battle of Launac",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Launac"
+      }, {
+        "label" : "Battle of Momotsugi",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Momotsugi"
+      }, {
+        "label" : "Battle of Motta (1412)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Motta_(1412)"
+      }, {
+        "label" : "Battle of Qianshuiyuan",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Qianshuiyuan"
+      }, {
+        "label" : "Battle of Clontarf",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Clontarf"
+      }, {
+        "label" : "Battle of Montecatini",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Montecatini"
+      }, {
+        "label" : "Battle of Roslin",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Roslin"
+      }, {
+        "label" : "Siege of Jerusalem (1187)",
+        "uri" : "http://dbpedia.org/resource/Siege_of_Jerusalem_(1187)"
+      }, {
+        "label" : "Siege of Jerusalem (1244)",
+        "uri" : "http://dbpedia.org/resource/Siege_of_Jerusalem_(1244)"
+      }, {
+        "label" : "Battle of Achelous (917)",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Achelous_(917)"
+      }, {
+        "label" : "Battle of Alarcos",
+        "uri" : "http://dbpedia.org/resource/Battle_of_Alarcos"
+      } ]
     },
     "combination" : false
   }, {
@@ -5510,14 +6410,314 @@
     "frameType" : "IPP",
     "sentences" : [ "What was built by $x?", "What were built by $x?", "Which historic place was built by $x?", "Which historic places were built by $x?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/beginningDate> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/date> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "objOfProp"
     },
     "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
-      "bindingList" : [ ]
+      "bindingList" : [ {
+        "label" : "1905-01-22",
+        "uri" : "1905-01-22"
+      }, {
+        "label" : "1948-05-15",
+        "uri" : "1948-05-15"
+      }, {
+        "label" : "1949-07-20",
+        "uri" : "1949-07-20"
+      }, {
+        "label" : "1966-07-30",
+        "uri" : "1966-07-30"
+      }, {
+        "label" : "1940-10-31",
+        "uri" : "1940-10-31"
+      }, {
+        "label" : "1265-08-04",
+        "uri" : "1265-08-04"
+      }, {
+        "label" : "1943-07-05",
+        "uri" : "1943-07-05"
+      }, {
+        "label" : "1943-07-12",
+        "uri" : "1943-07-12"
+      }, {
+        "label" : "1943-07-16",
+        "uri" : "1943-07-16"
+      }, {
+        "label" : "1943-08-23",
+        "uri" : "1943-08-23"
+      }, {
+        "label" : "0955-08-10",
+        "uri" : "0955-08-10"
+      }, {
+        "label" : "1708-09-28",
+        "uri" : "1708-09-28"
+      }, {
+        "label" : "1708-09-29",
+        "uri" : "1708-09-29"
+      }, {
+        "label" : "1708-10-09",
+        "uri" : "1708-10-09"
+      }, {
+        "label" : "1939-09-03",
+        "uri" : "1939-09-03"
+      }, {
+        "label" : "1944-12-16",
+        "uri" : "1944-12-16"
+      }, {
+        "label" : "1945-01-25",
+        "uri" : "1945-01-25"
+      }, {
+        "label" : "1927-08-01",
+        "uri" : "1927-08-01"
+      }, {
+        "label" : "1946-03-31",
+        "uri" : "1946-03-31"
+      }, {
+        "label" : "1856-03-30",
+        "uri" : "1856-03-30"
+      }, {
+        "label" : "1969-07-18",
+        "uri" : "1969-07-18"
+      }, {
+        "label" : "1870-07-19",
+        "uri" : "1870-07-19"
+      }, {
+        "label" : "1871-05-10",
+        "uri" : "1871-05-10"
+      }, {
+        "label" : "1934-10-16",
+        "uri" : "1934-10-16"
+      }, {
+        "label" : "1937-12-13",
+        "uri" : "1937-12-13"
+      }, {
+        "label" : "1381-05-30",
+        "uri" : "1381-05-30"
+      }, {
+        "label" : "1985-11-17",
+        "uri" : "1985-11-17"
+      }, {
+        "label" : "1808-01-26",
+        "uri" : "1808-01-26"
+      }, {
+        "label" : "1904-02-08",
+        "uri" : "1904-02-08"
+      }, {
+        "label" : "1905-09-05",
+        "uri" : "1905-09-05"
+      }, {
+        "label" : "1845-08-28",
+        "uri" : "1845-08-28"
+      }, {
+        "label" : "1899-10-11",
+        "uri" : "1899-10-11"
+      }, {
+        "label" : "1902-05-31",
+        "uri" : "1902-05-31"
+      }, {
+        "label" : "1962-11-21",
+        "uri" : "1962-11-21"
+      }, {
+        "label" : "1956-10-29",
+        "uri" : "1956-10-29"
+      }, {
+        "label" : "1835-10-02",
+        "uri" : "1835-10-02"
+      }, {
+        "label" : "1618-05-23",
+        "uri" : "1618-05-23"
+      }, {
+        "label" : "1812-06-18",
+        "uri" : "1812-06-18"
+      }, {
+        "label" : "1815-02-18",
+        "uri" : "1815-02-18"
+      }, {
+        "label" : "1740-12-16",
+        "uri" : "1740-12-16"
+      }, {
+        "label" : "1702-07-09",
+        "uri" : "1702-07-09"
+      }, {
+        "label" : "1914-08-04",
+        "uri" : "1914-08-04"
+      }, {
+        "label" : "1918-11-11",
+        "uri" : "1918-11-11"
+      }, {
+        "label" : "1939-11-30",
+        "uri" : "1939-11-30"
+      }, {
+        "label" : "1942-04-09",
+        "uri" : "1942-04-09"
+      }, {
+        "label" : "1933-05-31",
+        "uri" : "1933-05-31"
+      }, {
+        "label" : "1642-11-12",
+        "uri" : "1642-11-12"
+      }, {
+        "label" : "1912-11-21",
+        "uri" : "1912-11-21"
+      }, {
+        "label" : "1809-04-21",
+        "uri" : "1809-04-21"
+      }, {
+        "label" : "1997-09-16",
+        "uri" : "1997-09-16"
+      }, {
+        "label" : "1977-05-26",
+        "uri" : "1977-05-26"
+      }, {
+        "label" : "1945-08-09",
+        "uri" : "1945-08-09"
+      }, {
+        "label" : "1227-07-28",
+        "uri" : "1227-07-28"
+      }, {
+        "label" : "1915-11-06",
+        "uri" : "1915-11-06"
+      }, {
+        "label" : "1809-06-18",
+        "uri" : "1809-06-18"
+      }, {
+        "label" : "1866-07-16",
+        "uri" : "1866-07-16"
+      }, {
+        "label" : "1813-12-07",
+        "uri" : "1813-12-07"
+      }, {
+        "label" : "1620-10-07",
+        "uri" : "1620-10-07"
+      }, {
+        "label" : "1922-08-30",
+        "uri" : "1922-08-30"
+      }, {
+        "label" : "1410-07-15",
+        "uri" : "1410-07-15"
+      }, {
+        "label" : "1974-04-02",
+        "uri" : "1974-04-02"
+      }, {
+        "label" : "1864-07-03",
+        "uri" : "1864-07-03"
+      }, {
+        "label" : "1801-03-13",
+        "uri" : "1801-03-13"
+      }, {
+        "label" : "1814-03-15",
+        "uri" : "1814-03-15"
+      }, {
+        "label" : "1510-12-02",
+        "uri" : "1510-12-02"
+      }, {
+        "label" : "1943-08-04",
+        "uri" : "1943-08-04"
+      }, {
+        "label" : "0351-09-28",
+        "uri" : "0351-09-28"
+      }, {
+        "label" : "1837-11-23",
+        "uri" : "1837-11-23"
+      }, {
+        "label" : "1217-08-24",
+        "uri" : "1217-08-24"
+      }, {
+        "label" : "1691-08-19",
+        "uri" : "1691-08-19"
+      }, {
+        "label" : "1242-07-21",
+        "uri" : "1242-07-21"
+      }, {
+        "label" : "1941-04-12",
+        "uri" : "1941-04-12"
+      }, {
+        "label" : "1991-02-20",
+        "uri" : "1991-02-20"
+      }, {
+        "label" : "1657-07-08",
+        "uri" : "1657-07-08"
+      }, {
+        "label" : "1925-08-03",
+        "uri" : "1925-08-03"
+      }, {
+        "label" : "0636-11-19",
+        "uri" : "0636-11-19"
+      }, {
+        "label" : "1855-09-08",
+        "uri" : "1855-09-08"
+      }, {
+        "label" : "1916-09-20",
+        "uri" : "1916-09-20"
+      }, {
+        "label" : "1854-10-25",
+        "uri" : "1854-10-25"
+      }, {
+        "label" : "1914-08-03",
+        "uri" : "1914-08-03"
+      }, {
+        "label" : "1940-06-10",
+        "uri" : "1940-06-10"
+      }, {
+        "label" : "2004-04-15",
+        "uri" : "2004-04-15"
+      }, {
+        "label" : "2008-02-07",
+        "uri" : "2008-02-07"
+      }, {
+        "label" : "1627-03-03",
+        "uri" : "1627-03-03"
+      }, {
+        "label" : "1953-10-07",
+        "uri" : "1953-10-07"
+      }, {
+        "label" : "1795-07-21",
+        "uri" : "1795-07-21"
+      }, {
+        "label" : "1872-07-06",
+        "uri" : "1872-07-06"
+      }, {
+        "label" : "2006-05-25",
+        "uri" : "2006-05-25"
+      }, {
+        "label" : "2008-12-08",
+        "uri" : "2008-12-08"
+      }, {
+        "label" : "2005-04-12",
+        "uri" : "2005-04-12"
+      }, {
+        "label" : "1918-04-05",
+        "uri" : "1918-04-05"
+      }, {
+        "label" : "1995-09-15",
+        "uri" : "1995-09-15"
+      }, {
+        "label" : "1987-10-25",
+        "uri" : "1987-10-25"
+      }, {
+        "label" : "2006-11-26",
+        "uri" : "2006-11-26"
+      }, {
+        "label" : "1962-04-30",
+        "uri" : "1962-04-30"
+      }, {
+        "label" : "2015-01-01",
+        "uri" : "2015-01-01"
+      }, {
+        "label" : "1835-09-20",
+        "uri" : "1835-09-20"
+      }, {
+        "label" : "1845-03-01",
+        "uri" : "1845-03-01"
+      }, {
+        "label" : "1813-09-28",
+        "uri" : "1813-09-28"
+      }, {
+        "label" : "2009-05-24",
+        "uri" : "2009-05-24"
+      } ]
     },
     "combination" : false
   }, {

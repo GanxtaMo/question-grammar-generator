@@ -4093,11 +4093,11 @@
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
-    "returnType" : "THING",
+    "returnType" : "LOCATION",
     "frameType" : "VP",
-    "sentences" : [ "What bordered the birth date of $x?", "What borders the birth date of $x?" ],
+    "sentences" : [ "What bordered the birth place of $x?", "What borders the birth place of $x?", "Which populated place bordered the birth place of $x?", "Which populated place borders the birth place of $x?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/State> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/birthDate> ?subjOfProp)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/State> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/birthPlace> ?subjOfProp)\n)\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfPropx"
     },
@@ -4109,59 +4109,6 @@
     "combination" : true
   }, {
     "id" : "178",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "PERSON",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bordered the occupation of $x?", "What borders the occupation of $x?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/State> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/occupation> ?subjOfProp)\n)\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfPropx"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "179",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bordered a Belgian human?", "What bordered Belgian humans?", "What borders a Belgian human?", "What borders Belgian humans?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/State> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q5>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "180",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bordered a Belgian golfer?", "What bordered Belgian golfers?", "What borders a Belgian golfer?", "What borders Belgian golfers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/State> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q13156709>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "181",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
@@ -4480,7 +4427,7 @@
     },
     "combination" : true
   }, {
-    "id" : "182",
+    "id" : "179",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4497,7 +4444,7 @@
     },
     "combination" : true
   }, {
-    "id" : "183",
+    "id" : "180",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4514,7 +4461,7 @@
     },
     "combination" : true
   }, {
-    "id" : "184",
+    "id" : "181",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4531,7 +4478,7 @@
     },
     "combination" : true
   }, {
-    "id" : "185",
+    "id" : "182",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4548,7 +4495,7 @@
     },
     "combination" : true
   }, {
-    "id" : "186",
+    "id" : "183",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4565,7 +4512,7 @@
     },
     "combination" : true
   }, {
-    "id" : "187",
+    "id" : "184",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4582,7 +4529,7 @@
     },
     "combination" : true
   }, {
-    "id" : "188",
+    "id" : "185",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4599,7 +4546,7 @@
     },
     "combination" : true
   }, {
-    "id" : "189",
+    "id" : "186",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4616,7 +4563,7 @@
     },
     "combination" : true
   }, {
-    "id" : "190",
+    "id" : "187",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4633,7 +4580,7 @@
     },
     "combination" : true
   }, {
-    "id" : "191",
+    "id" : "188",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4650,7 +4597,7 @@
     },
     "combination" : true
   }, {
-    "id" : "192",
+    "id" : "189",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4667,7 +4614,7 @@
     },
     "combination" : true
   }, {
-    "id" : "193",
+    "id" : "190",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4684,7 +4631,7 @@
     },
     "combination" : true
   }, {
-    "id" : "194",
+    "id" : "191",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4701,7 +4648,7 @@
     },
     "combination" : true
   }, {
-    "id" : "195",
+    "id" : "192",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4718,7 +4665,7 @@
     },
     "combination" : true
   }, {
-    "id" : "196",
+    "id" : "193",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4735,7 +4682,7 @@
     },
     "combination" : true
   }, {
-    "id" : "197",
+    "id" : "194",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4752,7 +4699,7 @@
     },
     "combination" : true
   }, {
-    "id" : "198",
+    "id" : "195",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4769,7 +4716,7 @@
     },
     "combination" : true
   }, {
-    "id" : "199",
+    "id" : "196",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4786,7 +4733,7 @@
     },
     "combination" : true
   }, {
-    "id" : "200",
+    "id" : "197",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4803,7 +4750,7 @@
     },
     "combination" : true
   }, {
-    "id" : "201",
+    "id" : "198",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4820,7 +4767,7 @@
     },
     "combination" : true
   }, {
-    "id" : "202",
+    "id" : "199",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4926,7 +4873,7 @@
     },
     "combination" : true
   }, {
-    "id" : "203",
+    "id" : "200",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
@@ -5245,7 +5192,7 @@
     },
     "combination" : true
   }, {
-    "id" : "204",
+    "id" : "201",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
@@ -5564,7 +5511,7 @@
     },
     "combination" : true
   }, {
-    "id" : "205",
+    "id" : "202",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5581,7 +5528,7 @@
     },
     "combination" : true
   }, {
-    "id" : "206",
+    "id" : "203",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5598,7 +5545,7 @@
     },
     "combination" : true
   }, {
-    "id" : "207",
+    "id" : "204",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5615,7 +5562,7 @@
     },
     "combination" : true
   }, {
-    "id" : "208",
+    "id" : "205",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5632,7 +5579,7 @@
     },
     "combination" : true
   }, {
-    "id" : "209",
+    "id" : "206",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5649,7 +5596,7 @@
     },
     "combination" : true
   }, {
-    "id" : "210",
+    "id" : "207",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5666,7 +5613,7 @@
     },
     "combination" : true
   }, {
-    "id" : "211",
+    "id" : "208",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5683,7 +5630,7 @@
     },
     "combination" : true
   }, {
-    "id" : "212",
+    "id" : "209",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5700,7 +5647,7 @@
     },
     "combination" : true
   }, {
-    "id" : "213",
+    "id" : "210",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5717,7 +5664,7 @@
     },
     "combination" : true
   }, {
-    "id" : "214",
+    "id" : "211",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5734,7 +5681,7 @@
     },
     "combination" : true
   }, {
-    "id" : "215",
+    "id" : "212",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5751,7 +5698,7 @@
     },
     "combination" : true
   }, {
-    "id" : "216",
+    "id" : "213",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5768,7 +5715,7 @@
     },
     "combination" : true
   }, {
-    "id" : "217",
+    "id" : "214",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5785,7 +5732,7 @@
     },
     "combination" : true
   }, {
-    "id" : "218",
+    "id" : "215",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5802,7 +5749,7 @@
     },
     "combination" : true
   }, {
-    "id" : "219",
+    "id" : "216",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5819,7 +5766,7 @@
     },
     "combination" : true
   }, {
-    "id" : "220",
+    "id" : "217",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5836,7 +5783,7 @@
     },
     "combination" : true
   }, {
-    "id" : "221",
+    "id" : "218",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5853,7 +5800,7 @@
     },
     "combination" : true
   }, {
-    "id" : "222",
+    "id" : "219",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5870,7 +5817,7 @@
     },
     "combination" : true
   }, {
-    "id" : "223",
+    "id" : "220",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5887,7 +5834,7 @@
     },
     "combination" : true
   }, {
-    "id" : "224",
+    "id" : "221",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5904,7 +5851,7 @@
     },
     "combination" : true
   }, {
-    "id" : "225",
+    "id" : "222",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -6085,7 +6032,7 @@
     },
     "combination" : true
   }, {
-    "id" : "226",
+    "id" : "223",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
@@ -6404,7 +6351,7 @@
     },
     "combination" : true
   }, {
-    "id" : "227",
+    "id" : "224",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
@@ -6423,7 +6370,7 @@
     },
     "combination" : true
   }, {
-    "id" : "228",
+    "id" : "225",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -6440,7 +6387,7 @@
     },
     "combination" : true
   }, {
-    "id" : "229",
+    "id" : "226",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -6457,21 +6404,233 @@
     },
     "combination" : true
   }, {
-    "id" : "230",
+    "id" : "227",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
     "returnType" : "THING",
     "frameType" : "IPP",
-    "sentences" : [ "When was the the birth date of $x belonged?", "When was the the birth date of $x belongs?", "When were the the birth date of $x belonged?", "When were the the birth date of $x belongs?", "Which species was the the birth date of $x belonged?", "Which species was the the birth date of $x belongs?", "Which species were the the birth date of $x belonged?", "Which species were the the birth date of $x belongs?" ],
+    "sentences" : [ "When was the the birth date of $x belonged?", "When was the the birth date of $x belongs?", "When were the the birth date of $x belonged?", "When were the the birth date of $x belongs?", "Which animal was the the birth date of $x belonged?", "Which animal was the the birth date of $x belongs?", "Which animal were the the birth date of $x belonged?", "Which animal were the the birth date of $x belongs?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/Animal> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/species> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n)\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfPropx"
     },
     "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "228",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "PERSON",
+    "returnType" : "THING",
+    "frameType" : "IPP",
+    "sentences" : [ "When was the the occupation of $x belonged?", "When was the the occupation of $x belongs?", "When were the the occupation of $x belonged?", "When were the the occupation of $x belongs?", "Which animal was the the occupation of $x belonged?", "Which animal was the the occupation of $x belongs?", "Which animal were the the occupation of $x belonged?", "Which animal were the the occupation of $x belongs?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/species> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/occupation> ?objOfProp)\n)\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfPropx"
+    },
+    "returnVariable" : "subjOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Elric of Melniboné",
+        "uri" : "http://dbpedia.org/resource/Elric_of_Melniboné"
+      }, {
+        "label" : "Behemoth (Master and Margarita)",
+        "uri" : "http://dbpedia.org/resource/Behemoth_(Master_and_Margarita)"
+      }, {
+        "label" : "Barry Knight (politician)",
+        "uri" : "http://dbpedia.org/resource/Barry_Knight_(politician)"
+      }, {
+        "label" : "Sixty Rayburn",
+        "uri" : "http://dbpedia.org/resource/Sixty_Rayburn"
+      }, {
+        "label" : "Lucy Westenra",
+        "uri" : "http://dbpedia.org/resource/Lucy_Westenra"
+      }, {
+        "label" : "Morgan le Fay",
+        "uri" : "http://dbpedia.org/resource/Morgan_le_Fay"
+      }, {
+        "label" : "Thelma Bates",
+        "uri" : "http://dbpedia.org/resource/Thelma_Bates"
+      }, {
+        "label" : "Sea Hag",
+        "uri" : "http://dbpedia.org/resource/Sea_Hag"
+      }, {
+        "label" : "Max Headroom (character)",
+        "uri" : "http://dbpedia.org/resource/Max_Headroom_(character)"
+      }, {
+        "label" : "Brusher Mills",
+        "uri" : "http://dbpedia.org/resource/Brusher_Mills"
+      }, {
+        "label" : "Norman Thelwell",
+        "uri" : "http://dbpedia.org/resource/Norman_Thelwell"
+      }, {
+        "label" : "Harvey Peltier Sr.",
+        "uri" : "http://dbpedia.org/resource/Harvey_Peltier_Sr."
+      }, {
+        "label" : "Ella Dee",
+        "uri" : "http://dbpedia.org/resource/Ella_Dee"
+      }, {
+        "label" : "Albert Stewart Meek",
+        "uri" : "http://dbpedia.org/resource/Albert_Stewart_Meek"
+      }, {
+        "label" : "Ursula (character)",
+        "uri" : "http://dbpedia.org/resource/Ursula_(character)"
+      }, {
+        "label" : "Sybil Leek",
+        "uri" : "http://dbpedia.org/resource/Sybil_Leek"
+      }, {
+        "label" : "David Gessner",
+        "uri" : "http://dbpedia.org/resource/David_Gessner"
+      }, {
+        "label" : "Geoff Holder",
+        "uri" : "http://dbpedia.org/resource/Geoff_Holder"
+      }, {
+        "label" : "Chuck E. Cheese (character)",
+        "uri" : "http://dbpedia.org/resource/Chuck_E._Cheese_(character)"
+      }, {
+        "label" : "List of The Neverending Story characters",
+        "uri" : "http://dbpedia.org/resource/List_of_The_Neverending_Story_characters"
+      }, {
+        "label" : "Dave Elsey",
+        "uri" : "http://dbpedia.org/resource/Dave_Elsey"
+      }, {
+        "label" : "Thulsa Doom",
+        "uri" : "http://dbpedia.org/resource/Thulsa_Doom"
+      }, {
+        "label" : "Mallory (Sliders)",
+        "uri" : "http://dbpedia.org/resource/Mallory_(Sliders)"
+      }, {
+        "label" : "Chris McKinstry",
+        "uri" : "http://dbpedia.org/resource/Chris_McKinstry"
+      }, {
+        "label" : "Maleficent",
+        "uri" : "http://dbpedia.org/resource/Maleficent"
+      }, {
+        "label" : "Evil Queen (Disney)",
+        "uri" : "http://dbpedia.org/resource/Evil_Queen_(Disney)"
+      }, {
+        "label" : "Morgan W. Walker Jr.",
+        "uri" : "http://dbpedia.org/resource/Morgan_W._Walker_Jr."
+      }, {
+        "label" : "Cecil Williamson",
+        "uri" : "http://dbpedia.org/resource/Cecil_Williamson"
+      }, {
+        "label" : "Joe Pillow",
+        "uri" : "http://dbpedia.org/resource/Joe_Pillow"
+      }, {
+        "label" : "Medea (The Icemark Chronicles)",
+        "uri" : "http://dbpedia.org/resource/Medea_(The_Icemark_Chronicles)"
+      }, {
+        "label" : "Mildred Hubble",
+        "uri" : "http://dbpedia.org/resource/Mildred_Hubble"
+      }, {
+        "label" : "La (Tarzan)",
+        "uri" : "http://dbpedia.org/resource/La_(Tarzan)"
+      }, {
+        "label" : "Woody Woodpecker",
+        "uri" : "http://dbpedia.org/resource/Woody_Woodpecker"
+      }, {
+        "label" : "Zelda Spellman",
+        "uri" : "http://dbpedia.org/resource/Zelda_Spellman"
+      }, {
+        "label" : "Sabrina Spellman",
+        "uri" : "http://dbpedia.org/resource/Sabrina_Spellman"
+      }, {
+        "label" : "Ray Lambrecht",
+        "uri" : "http://dbpedia.org/resource/Ray_Lambrecht"
+      }, {
+        "label" : "Ethel Hallow",
+        "uri" : "http://dbpedia.org/resource/Ethel_Hallow"
+      }, {
+        "label" : "Hilda Spellman",
+        "uri" : "http://dbpedia.org/resource/Hilda_Spellman"
+      }, {
+        "label" : "Carl Crane",
+        "uri" : "http://dbpedia.org/resource/Carl_Crane"
+      }, {
+        "label" : "Tom McVea",
+        "uri" : "http://dbpedia.org/resource/Tom_McVea"
+      }, {
+        "label" : "James Heading",
+        "uri" : "http://dbpedia.org/resource/James_Heading"
+      }, {
+        "label" : "Robert Dale (politician)",
+        "uri" : "http://dbpedia.org/resource/Robert_Dale_(politician)"
+      }, {
+        "label" : "David Branscum",
+        "uri" : "http://dbpedia.org/resource/David_Branscum"
+      }, {
+        "label" : "Charles Lumley Hill",
+        "uri" : "http://dbpedia.org/resource/Charles_Lumley_Hill"
+      }, {
+        "label" : "Henry Conwell Wood",
+        "uri" : "http://dbpedia.org/resource/Henry_Conwell_Wood"
+      }, {
+        "label" : "John Macansh",
+        "uri" : "http://dbpedia.org/resource/John_Macansh"
+      }, {
+        "label" : "Brenham C. Crothers",
+        "uri" : "http://dbpedia.org/resource/Brenham_C._Crothers"
+      }, {
+        "label" : "Doug Jennings (politician)",
+        "uri" : "http://dbpedia.org/resource/Doug_Jennings_(politician)"
+      }, {
+        "label" : "Frank and John Craighead",
+        "uri" : "http://dbpedia.org/resource/Frank_and_John_Craighead"
+      }, {
+        "label" : "George W. Littlefield",
+        "uri" : "http://dbpedia.org/resource/George_W._Littlefield"
+      }, {
+        "label" : "Lance Harris",
+        "uri" : "http://dbpedia.org/resource/Lance_Harris"
+      }, {
+        "label" : "James M. McLemore",
+        "uri" : "http://dbpedia.org/resource/James_M._McLemore"
+      }, {
+        "label" : "Lorris M. Wimberly",
+        "uri" : "http://dbpedia.org/resource/Lorris_M._Wimberly"
+      } ]
+    },
+    "combination" : true
+  }, {
+    "id" : "229",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "IPP",
+    "sentences" : [ "When was the a Belgian human belonged?", "When was the Belgian humans belonged?", "When was the a Belgian human belongs?", "When was the Belgian humans belongs?", "When were the a Belgian human belonged?", "When were the Belgian humans belonged?", "When were the a Belgian human belongs?", "When were the Belgian humans belongs?", "Which animal was the a Belgian human belonged?", "Which animal was the Belgian humans belonged?", "Which animal was the a Belgian human belongs?", "Which animal was the Belgian humans belongs?", "Which animal were the a Belgian human belonged?", "Which animal were the Belgian humans belonged?", "Which animal were the a Belgian human belongs?", "Which animal were the Belgian humans belongs?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/species> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q5>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "subjOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "230",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "IPP",
+    "sentences" : [ "When was the a Belgian golfer belonged?", "When was the Belgian golfers belonged?", "When was the a Belgian golfer belongs?", "When was the Belgian golfers belongs?", "When were the a Belgian golfer belonged?", "When were the Belgian golfers belonged?", "When were the a Belgian golfer belongs?", "When were the Belgian golfers belongs?", "Which animal was the a Belgian golfer belonged?", "Which animal was the Belgian golfers belonged?", "Which animal was the a Belgian golfer belongs?", "Which animal was the Belgian golfers belongs?", "Which animal were the a Belgian golfer belonged?", "Which animal were the Belgian golfers belonged?", "Which animal were the a Belgian golfer belongs?", "Which animal were the Belgian golfers belongs?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/species> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q13156709>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "subjOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
       "bindingList" : [ ]
     },
     "combination" : true
@@ -6482,13 +6641,13 @@
     "bindingType" : "PERSON",
     "returnType" : "THING",
     "frameType" : "IPP",
-    "sentences" : [ "When was the the occupation of $x belonged?", "When was the the occupation of $x belongs?", "When were the the occupation of $x belonged?", "When were the the occupation of $x belongs?", "Which species was the the occupation of $x belonged?", "Which species was the the occupation of $x belongs?", "Which species were the the occupation of $x belonged?", "Which species were the the occupation of $x belongs?" ],
+    "sentences" : [ "When was the the birth date of $x built?", "When were the the birth date of $x built?", "Which date was the the birth date of $x built?", "Which date were the the birth date of $x built?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/Animal> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/occupation> ?objOfProp)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/date> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/birthDate> ?subjOfProp)\n)\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfPropx"
     },
-    "returnVariable" : "subjOfProp",
+    "returnVariable" : "objOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
       "bindingList" : [ ]
@@ -6498,17 +6657,157 @@
     "id" : "232",
     "language" : "EN",
     "type" : "SENTENCE",
-    "bindingType" : "THING",
+    "bindingType" : "PERSON",
     "returnType" : "THING",
     "frameType" : "IPP",
-    "sentences" : [ "When was the a Belgian human belonged?", "When was the Belgian humans belonged?", "When was the a Belgian human belongs?", "When was the Belgian humans belongs?", "When were the a Belgian human belonged?", "When were the Belgian humans belonged?", "When were the a Belgian human belongs?", "When were the Belgian humans belongs?", "Which species was the a Belgian human belonged?", "Which species was the Belgian humans belonged?", "Which species was the a Belgian human belongs?", "Which species was the Belgian humans belongs?", "Which species were the a Belgian human belonged?", "Which species were the Belgian humans belonged?", "Which species were the a Belgian human belongs?", "Which species were the Belgian humans belongs?" ],
+    "sentences" : [ "When was the the occupation of $x built?", "When were the the occupation of $x built?", "Which date was the the occupation of $x built?", "Which date were the the occupation of $x built?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/Animal> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q5>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "subjOfProp",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/date> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/occupation> ?subjOfProp)\n)\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfPropx"
+    },
+    "returnVariable" : "objOfProp",
     "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Deaf Smith",
+        "uri" : "http://dbpedia.org/resource/Deaf_Smith"
+      }, {
+        "label" : "Albert Graham Ingalls",
+        "uri" : "http://dbpedia.org/resource/Albert_Graham_Ingalls"
+      }, {
+        "label" : "Francisco da Silveira Pinto da Fonseca Teixeira, 1st Count of Amarante",
+        "uri" : "http://dbpedia.org/resource/Francisco_da_Silveira_Pinto_da_Fonseca_Teixeira,_1st_Count_of_Amarante"
+      }, {
+        "label" : "Philip Van Doren Stern",
+        "uri" : "http://dbpedia.org/resource/Philip_Van_Doren_Stern"
+      }, {
+        "label" : "Mikhail Safonov (pilot)",
+        "uri" : "http://dbpedia.org/resource/Mikhail_Safonov_(pilot)"
+      }, {
+        "label" : "Catharine Merrill",
+        "uri" : "http://dbpedia.org/resource/Catharine_Merrill"
+      }, {
+        "label" : "Hall Lyons",
+        "uri" : "http://dbpedia.org/resource/Hall_Lyons"
+      }, {
+        "label" : "Red Forman",
+        "uri" : "http://dbpedia.org/resource/Red_Forman"
+      }, {
+        "label" : "David Wade (Louisiana)",
+        "uri" : "http://dbpedia.org/resource/David_Wade_(Louisiana)"
+      }, {
+        "label" : "Henry Rutgers",
+        "uri" : "http://dbpedia.org/resource/Henry_Rutgers"
+      }, {
+        "label" : "Adolph G. Metzner",
+        "uri" : "http://dbpedia.org/resource/Adolph_G._Metzner"
+      }, {
+        "label" : "William Mason (1757–1818)",
+        "uri" : "http://dbpedia.org/resource/William_Mason_(1757–1818)"
+      }, {
+        "label" : "Joe Teti",
+        "uri" : "http://dbpedia.org/resource/Joe_Teti"
+      }, {
+        "label" : "Desiree Akhavan",
+        "uri" : "http://dbpedia.org/resource/Desiree_Akhavan"
+      }, {
+        "label" : "Anagnostis Striftombolas",
+        "uri" : "http://dbpedia.org/resource/Anagnostis_Striftombolas"
+      }, {
+        "label" : "Antonios Kalamogdartis",
+        "uri" : "http://dbpedia.org/resource/Antonios_Kalamogdartis"
+      }, {
+        "label" : "Giannis Chondrogiannis",
+        "uri" : "http://dbpedia.org/resource/Giannis_Chondrogiannis"
+      }, {
+        "label" : "Konstantinos Gofas",
+        "uri" : "http://dbpedia.org/resource/Konstantinos_Gofas"
+      }, {
+        "label" : "Panagiotis Anagnostopoulos",
+        "uri" : "http://dbpedia.org/resource/Panagiotis_Anagnostopoulos"
+      }, {
+        "label" : "Panagiotis Karatzas",
+        "uri" : "http://dbpedia.org/resource/Panagiotis_Karatzas"
+      }, {
+        "label" : "Theodoros Papasimakopoulos",
+        "uri" : "http://dbpedia.org/resource/Theodoros_Papasimakopoulos"
+      }, {
+        "label" : "Andreas Kontogouris",
+        "uri" : "http://dbpedia.org/resource/Andreas_Kontogouris"
+      }, {
+        "label" : "Anagnostis Petimezas",
+        "uri" : "http://dbpedia.org/resource/Anagnostis_Petimezas"
+      }, {
+        "label" : "Anastasios Christopoulos",
+        "uri" : "http://dbpedia.org/resource/Anastasios_Christopoulos"
+      }, {
+        "label" : "Asimakis Fotilas",
+        "uri" : "http://dbpedia.org/resource/Asimakis_Fotilas"
+      }, {
+        "label" : "Chrysanthos Sisinis (died 1845)",
+        "uri" : "http://dbpedia.org/resource/Chrysanthos_Sisinis_(died_1845)"
+      }, {
+        "label" : "Dionysis Diakos",
+        "uri" : "http://dbpedia.org/resource/Dionysis_Diakos"
+      }, {
+        "label" : "Georgios Mitzou",
+        "uri" : "http://dbpedia.org/resource/Georgios_Mitzou"
+      }, {
+        "label" : "Georgios Sisinis",
+        "uri" : "http://dbpedia.org/resource/Georgios_Sisinis"
+      }, {
+        "label" : "Giorgos Giannias",
+        "uri" : "http://dbpedia.org/resource/Giorgos_Giannias"
+      }, {
+        "label" : "Ioannis Diakos",
+        "uri" : "http://dbpedia.org/resource/Ioannis_Diakos"
+      }, {
+        "label" : "Ioannis Krestenitis (elder)",
+        "uri" : "http://dbpedia.org/resource/Ioannis_Krestenitis_(elder)"
+      }, {
+        "label" : "Ioannis Papadiamantopoulos (elder)",
+        "uri" : "http://dbpedia.org/resource/Ioannis_Papadiamantopoulos_(elder)"
+      }, {
+        "label" : "Konstantinos Petimezas",
+        "uri" : "http://dbpedia.org/resource/Konstantinos_Petimezas"
+      }, {
+        "label" : "Nikolaos Petimezas",
+        "uri" : "http://dbpedia.org/resource/Nikolaos_Petimezas"
+      }, {
+        "label" : "Panagiotakis Fotilas",
+        "uri" : "http://dbpedia.org/resource/Panagiotakis_Fotilas"
+      }, {
+        "label" : "Petros Mitzou",
+        "uri" : "http://dbpedia.org/resource/Petros_Mitzou"
+      }, {
+        "label" : "Stamatis Krestenitis",
+        "uri" : "http://dbpedia.org/resource/Stamatis_Krestenitis"
+      }, {
+        "label" : "Thallis Theodoridis (elder)",
+        "uri" : "http://dbpedia.org/resource/Thallis_Theodoridis_(elder)"
+      }, {
+        "label" : "Walter Scheler",
+        "uri" : "http://dbpedia.org/resource/Walter_Scheler"
+      }, {
+        "label" : "Rajdeep Sardesai",
+        "uri" : "http://dbpedia.org/resource/Rajdeep_Sardesai"
+      }, {
+        "label" : "Jenna Wortham",
+        "uri" : "http://dbpedia.org/resource/Jenna_Wortham"
+      }, {
+        "label" : "Rachel Kaadzi Ghansah",
+        "uri" : "http://dbpedia.org/resource/Rachel_Kaadzi_Ghansah"
+      }, {
+        "label" : "Gerhard Thyben",
+        "uri" : "http://dbpedia.org/resource/Gerhard_Thyben"
+      }, {
+        "label" : "Louis-Nicolas Davout",
+        "uri" : "http://dbpedia.org/resource/Louis-Nicolas_Davout"
+      }, {
+        "label" : "Rebecca Greer",
+        "uri" : "http://dbpedia.org/resource/Rebecca_Greer"
+      } ]
     },
     "combination" : true
   }, {
@@ -6518,11 +6817,11 @@
     "bindingType" : "THING",
     "returnType" : "THING",
     "frameType" : "IPP",
-    "sentences" : [ "When was the a Belgian golfer belonged?", "When was the Belgian golfers belonged?", "When was the a Belgian golfer belongs?", "When was the Belgian golfers belongs?", "When were the a Belgian golfer belonged?", "When were the Belgian golfers belonged?", "When were the a Belgian golfer belongs?", "When were the Belgian golfers belongs?", "Which species was the a Belgian golfer belonged?", "Which species was the Belgian golfers belonged?", "Which species was the a Belgian golfer belongs?", "Which species was the Belgian golfers belongs?", "Which species were the a Belgian golfer belonged?", "Which species were the Belgian golfers belonged?", "Which species were the a Belgian golfer belongs?", "Which species were the Belgian golfers belongs?" ],
+    "sentences" : [ "When was the a Belgian human built?", "When was the Belgian humans built?", "When were the a Belgian human built?", "When were the Belgian humans built?", "Which date was the a Belgian human built?", "Which date was the Belgian humans built?", "Which date were the a Belgian human built?", "Which date were the Belgian humans built?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/Animal> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q13156709>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/date> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q5>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "subjOfProp",
+    "returnVariable" : "objOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6532,67 +6831,12 @@
     "id" : "234",
     "language" : "EN",
     "type" : "SENTENCE",
-    "bindingType" : "PERSON",
-    "returnType" : "THING",
-    "frameType" : "IPP",
-    "sentences" : [ "When was the the birth date of $x built?", "When were the the birth date of $x built?", "Which date was the the birth date of $x built?", "Which date were the the birth date of $x built?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/beginningDate> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/birthDate> ?subjOfProp)\n)\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfPropx"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "235",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "PERSON",
-    "returnType" : "THING",
-    "frameType" : "IPP",
-    "sentences" : [ "When was the the occupation of $x built?", "When were the the occupation of $x built?", "Which date was the the occupation of $x built?", "Which date were the the occupation of $x built?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/beginningDate> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/occupation> ?subjOfProp)\n)\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfPropx"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "236",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "IPP",
-    "sentences" : [ "When was the a Belgian human built?", "When was the Belgian humans built?", "When were the a Belgian human built?", "When were the Belgian humans built?", "Which date was the a Belgian human built?", "Which date was the Belgian humans built?", "Which date were the a Belgian human built?", "Which date were the Belgian humans built?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/beginningDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q5>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "237",
-    "language" : "EN",
-    "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
     "frameType" : "IPP",
     "sentences" : [ "When was the a Belgian golfer built?", "When was the Belgian golfers built?", "When were the a Belgian golfer built?", "When were the Belgian golfers built?", "Which date was the a Belgian golfer built?", "Which date was the Belgian golfers built?", "Which date were the a Belgian golfer built?", "Which date were the Belgian golfers built?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/beginningDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q13156709>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/date> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q13156709>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
     "returnVariable" : "objOfProp",
     "sentenceBindings" : {

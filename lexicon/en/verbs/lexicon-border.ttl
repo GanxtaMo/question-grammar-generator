@@ -43,8 +43,8 @@
   lemon:condition   :border_condition .
 
 :border_condition a    lemon:condition ;
-  lemon:propertyDomain <NIL> ;
-  lemon:propertyRange  <NIL> .
+  lemon:propertyDomain <http://dbpedia.org/ontology/PopulatedPlace> ;
+  lemon:propertyRange  <http://dbpedia.org/ontology/PopulatedPlace> .
 
 :border_obj lemon:marker :by .
 
