@@ -17,7 +17,7 @@
     lemon:canonicalForm  :form_build ;
     lemon:otherForm      :form_builds ;
     lemon:otherForm      :form_built ;
-    lemon:synBehavior    :build_frame ;
+    lemon:synBehavior    :build_frame_transitive, :build_frame_intransitive ;
     lemon:sense          :build_ontomap .
 
 :form_build
@@ -38,8 +38,13 @@
     lexinfo:tense    lexinfo:past .
 
 
-:build_frame
+:build_frame_intransitive
     a                            lexinfo:IntransitivePPFrame ;
+    lexinfo:subject              :build_subj ;
+    lexinfo:prepositionalAdjunct :build_obj .
+
+:build_frame_transitive
+    a                            lexinfo:TransitivePPFrame ;
     lexinfo:subject              :build_subj ;
     lexinfo:prepositionalAdjunct :build_obj .
 

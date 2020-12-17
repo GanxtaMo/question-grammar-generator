@@ -3851,6 +3851,1264 @@
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian amateur boxers?", "Which is a Australian amateur boxer?", "Which was a Australian amateur boxer?", "Which were Australian amateur boxers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/AmateurBoxer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "15",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian amateur boxer", "Australian amateur boxers" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/AmateurBoxer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "16",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian agents?", "Which is a Australian agent?", "Which was a Australian agent?", "Which were Australian agents?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "17",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian agent", "Australian agents" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "18",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian artists?", "Which is a Australian artist?", "Which was a Australian artist?", "Which were Australian artists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "19",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian artist", "Australian artists" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "20",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian motorcycle riders?", "Which is a Australian motorcycle rider?", "Which was a Australian motorcycle rider?", "Which were Australian motorcycle riders?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "21",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian motorcycle rider", "Australian motorcycle riders" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "22",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian scientists?", "Which is a Australian scientist?", "Which was a Australian scientist?", "Which were Australian scientists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "23",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian scientist", "Australian scientists" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "24",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian volleyball players?", "Which is a Australian volleyball player?", "Which was a Australian volleyball player?", "Which were Australian volleyball players?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "25",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian volleyball player", "Australian volleyball players" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "26",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian comedians?", "Which is a Australian comedian?", "Which was a Australian comedian?", "Which were Australian comedians?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Comedian>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "27",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian comedian", "Australian comedians" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Comedian>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "28",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian basketball players?", "Which is a Australian basketball player?", "Which was a Australian basketball player?", "Which were Australian basketball players?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/BasketballPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "29",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian basketball player", "Australian basketball players" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/BasketballPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "30",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian stadiums?", "Which is a Australian stadium?", "Which was a Australian stadium?", "Which were Australian stadiums?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Stadium>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "31",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian stadium", "Australian stadiums" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Stadium>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "32",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian speedway riders?", "Which is a Australian speedway rider?", "Which was a Australian speedway rider?", "Which were Australian speedway riders?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SpeedwayRider>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "33",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian speedway rider", "Australian speedway riders" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SpeedwayRider>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "34",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian models?", "Which is a Australian model?", "Which was a Australian model?", "Which were Australian models?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Model>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "35",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian model", "Australian models" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Model>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "36",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "ORGANISATION",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian companies?", "Which is a Australian company?", "Which was a Australian company?", "Which were Australian companies?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Company>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "37",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "ORGANISATION",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian company", "Australian companies" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Company>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "38",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian judges?", "Which is a Australian judge?", "Which was a Australian judge?", "Which were Australian judges?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Judge>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "39",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian judge", "Australian judges" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Judge>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "40",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian motorsport racers?", "Which is a Australian motorsport racer?", "Which was a Australian motorsport racer?", "Which were Australian motorsport racers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "41",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian motorsport racer", "Australian motorsport racers" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "42",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian humans?", "Which is a Australian human?", "Which was a Australian human?", "Which were Australian humans?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q5>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "43",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian human", "Australian humans" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q5>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "44",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian ice hockey players?", "Which is a Australian ice hockey player?", "Which was a Australian ice hockey player?", "Which were Australian ice hockey players?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/IceHockeyPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "45",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian ice hockey player", "Australian ice hockey players" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/IceHockeyPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "46",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian golfers?", "Which is a Australian golfer?", "Which was a Australian golfer?", "Which were Australian golfers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q13156709>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "47",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian golfer", "Australian golfers" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.wikidata.org/entity/Q13156709>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "48",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian member of parliaments?", "Which is a Australian member of parliament?", "Which was a Australian member of parliament?", "Which were Australian member of parliaments?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MemberOfParliament>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "49",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian member of parliament", "Australian member of parliaments" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MemberOfParliament>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "50",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian clerics?", "Which is a Australian cleric?", "Which was a Australian cleric?", "Which were Australian clerics?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "51",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian cleric", "Australian clerics" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "52",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian boxers?", "Which is a Australian boxer?", "Which was a Australian boxer?", "Which were Australian boxers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Boxer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "53",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian boxer", "Australian boxers" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Boxer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "54",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian cyclists?", "Which is a Australian cyclist?", "Which was a Australian cyclist?", "Which were Australian cyclists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cyclist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "55",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian cyclist", "Australian cyclists" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cyclist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "56",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian office holders?", "Which is a Australian office holder?", "Which was a Australian office holder?", "Which were Australian office holders?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "57",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian office holder", "Australian office holders" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "58",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian economists?", "Which is a Australian economist?", "Which was a Australian economist?", "Which were Australian economists?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "59",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian economist", "Australian economists" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "60",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian athletes?", "Which is a Australian athlete?", "Which was a Australian athlete?", "Which were Australian athletes?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "61",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian athlete", "Australian athletes" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "62",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian racing drivers?", "Which is a Australian racing driver?", "Which was a Australian racing driver?", "Which were Australian racing drivers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "63",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian racing driver", "Australian racing drivers" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "64",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian golf players?", "Which is a Australian golf player?", "Which was a Australian golf player?", "Which were Australian golf players?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "65",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian golf player", "Australian golf players" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "66",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian politicians?", "Which is a Australian politician?", "Which was a Australian politician?", "Which were Australian politicians?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "67",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian politician", "Australian politicians" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "68",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian swimmers?", "Which is a Australian swimmer?", "Which was a Australian swimmer?", "Which were Australian swimmers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "69",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian swimmer", "Australian swimmers" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "70",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "WORK",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian singles?", "Which is a Australian single?", "Which was a Australian single?", "Which were Australian singles?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Single>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "71",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "WORK",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian single", "Australian singles" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Single>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "72",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian persons?", "Which is a Australian person?", "Which was a Australian person?", "Which were Australian persons?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "73",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian person", "Australian persons" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "74",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian Christian Bishops?", "Which is a Australian Christian Bishop?", "Which was a Australian Christian Bishop?", "Which were Australian Christian Bishops?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ChristianBishop>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "75",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian Christian Bishop", "Australian Christian Bishops" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ChristianBishop>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "76",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian figure skaters?", "Which is a Australian figure skater?", "Which was a Australian figure skater?", "Which were Australian figure skaters?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FigureSkater>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "77",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian figure skater", "Australian figure skaters" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FigureSkater>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "78",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian sports events?", "Which is a Australian sports event?", "Which was a Australian sports event?", "Which were Australian sports events?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SportsEvent>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "79",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian sports event", "Australian sports events" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SportsEvent>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "80",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian governors?", "Which is a Australian governor?", "Which was a Australian governor?", "Which were Australian governors?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Governor>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "81",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian governor", "Australian governors" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Governor>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "82",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian writers?", "Which is a Australian writer?", "Which was a Australian writer?", "Which were Australian writers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "83",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian writer", "Australian writers" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "84",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian soccer players?", "Which is a Australian soccer player?", "Which was a Australian soccer player?", "Which were Australian soccer players?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SoccerPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "85",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian soccer player", "Australian soccer players" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SoccerPlayer>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "86",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "Which are Australian horse riders?", "Which is a Australian horse rider?", "Which was a Australian horse rider?", "Which were Australian horse riders?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/HorseRider>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "87",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "AA",
+    "sentences" : [ "a Australian horse rider", "Australian horse riders" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?isA <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?isA <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/HorseRider>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "isA",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "88",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
     "returnType" : "PERSON",
     "frameType" : "AA",
     "sentences" : [ "Which are Belgian clerics?", "Which is a Belgian cleric?", "Which was a Belgian cleric?", "Which were Belgian clerics?" ],
@@ -3864,7 +5122,7 @@
     },
     "combination" : false
   }, {
-    "id" : "15",
+    "id" : "89",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -3881,7 +5139,7 @@
     },
     "combination" : false
   }, {
-    "id" : "16",
+    "id" : "90",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -3898,7 +5156,7 @@
     },
     "combination" : false
   }, {
-    "id" : "17",
+    "id" : "91",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -3915,7 +5173,7 @@
     },
     "combination" : false
   }, {
-    "id" : "18",
+    "id" : "92",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -3932,7 +5190,7 @@
     },
     "combination" : false
   }, {
-    "id" : "19",
+    "id" : "93",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -3949,7 +5207,7 @@
     },
     "combination" : false
   }, {
-    "id" : "20",
+    "id" : "94",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -3966,7 +5224,7 @@
     },
     "combination" : false
   }, {
-    "id" : "21",
+    "id" : "95",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -3983,7 +5241,7 @@
     },
     "combination" : false
   }, {
-    "id" : "22",
+    "id" : "96",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4000,7 +5258,7 @@
     },
     "combination" : false
   }, {
-    "id" : "23",
+    "id" : "97",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4017,7 +5275,7 @@
     },
     "combination" : false
   }, {
-    "id" : "24",
+    "id" : "98",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4034,7 +5292,7 @@
     },
     "combination" : false
   }, {
-    "id" : "25",
+    "id" : "99",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4051,7 +5309,7 @@
     },
     "combination" : false
   }, {
-    "id" : "26",
+    "id" : "100",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4068,7 +5326,7 @@
     },
     "combination" : false
   }, {
-    "id" : "27",
+    "id" : "101",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4085,7 +5343,7 @@
     },
     "combination" : false
   }, {
-    "id" : "28",
+    "id" : "102",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4102,7 +5360,7 @@
     },
     "combination" : false
   }, {
-    "id" : "29",
+    "id" : "103",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4119,7 +5377,7 @@
     },
     "combination" : false
   }, {
-    "id" : "30",
+    "id" : "104",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4136,7 +5394,7 @@
     },
     "combination" : false
   }, {
-    "id" : "31",
+    "id" : "105",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4153,7 +5411,7 @@
     },
     "combination" : false
   }, {
-    "id" : "32",
+    "id" : "106",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4170,7 +5428,7 @@
     },
     "combination" : false
   }, {
-    "id" : "33",
+    "id" : "107",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4187,7 +5445,7 @@
     },
     "combination" : false
   }, {
-    "id" : "34",
+    "id" : "108",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4204,7 +5462,7 @@
     },
     "combination" : false
   }, {
-    "id" : "35",
+    "id" : "109",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4221,7 +5479,7 @@
     },
     "combination" : false
   }, {
-    "id" : "36",
+    "id" : "110",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4238,7 +5496,7 @@
     },
     "combination" : false
   }, {
-    "id" : "37",
+    "id" : "111",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4255,7 +5513,7 @@
     },
     "combination" : false
   }, {
-    "id" : "38",
+    "id" : "112",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4272,7 +5530,7 @@
     },
     "combination" : false
   }, {
-    "id" : "39",
+    "id" : "113",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4289,7 +5547,7 @@
     },
     "combination" : false
   }, {
-    "id" : "40",
+    "id" : "114",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4306,7 +5564,7 @@
     },
     "combination" : false
   }, {
-    "id" : "41",
+    "id" : "115",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4323,7 +5581,7 @@
     },
     "combination" : false
   }, {
-    "id" : "42",
+    "id" : "116",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4340,7 +5598,7 @@
     },
     "combination" : false
   }, {
-    "id" : "43",
+    "id" : "117",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4357,7 +5615,7 @@
     },
     "combination" : false
   }, {
-    "id" : "44",
+    "id" : "118",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4374,7 +5632,7 @@
     },
     "combination" : false
   }, {
-    "id" : "45",
+    "id" : "119",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4391,7 +5649,7 @@
     },
     "combination" : false
   }, {
-    "id" : "46",
+    "id" : "120",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4408,7 +5666,7 @@
     },
     "combination" : false
   }, {
-    "id" : "47",
+    "id" : "121",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4425,7 +5683,7 @@
     },
     "combination" : false
   }, {
-    "id" : "48",
+    "id" : "122",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4442,7 +5700,7 @@
     },
     "combination" : false
   }, {
-    "id" : "49",
+    "id" : "123",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4459,7 +5717,7 @@
     },
     "combination" : false
   }, {
-    "id" : "50",
+    "id" : "124",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4476,7 +5734,7 @@
     },
     "combination" : false
   }, {
-    "id" : "51",
+    "id" : "125",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4493,7 +5751,7 @@
     },
     "combination" : false
   }, {
-    "id" : "52",
+    "id" : "126",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4510,7 +5768,7 @@
     },
     "combination" : false
   }, {
-    "id" : "53",
+    "id" : "127",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4527,7 +5785,7 @@
     },
     "combination" : false
   }, {
-    "id" : "54",
+    "id" : "128",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4544,7 +5802,7 @@
     },
     "combination" : false
   }, {
-    "id" : "55",
+    "id" : "129",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4561,7 +5819,7 @@
     },
     "combination" : false
   }, {
-    "id" : "56",
+    "id" : "130",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4578,7 +5836,7 @@
     },
     "combination" : false
   }, {
-    "id" : "57",
+    "id" : "131",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4595,7 +5853,7 @@
     },
     "combination" : false
   }, {
-    "id" : "58",
+    "id" : "132",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4914,7 +6172,7 @@
     },
     "combination" : false
   }, {
-    "id" : "59",
+    "id" : "133",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5233,7 +6491,7 @@
     },
     "combination" : false
   }, {
-    "id" : "60",
+    "id" : "134",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5552,7 +6810,7 @@
     },
     "combination" : false
   }, {
-    "id" : "61",
+    "id" : "135",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5871,7 +7129,7 @@
     },
     "combination" : false
   }, {
-    "id" : "62",
+    "id" : "136",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
