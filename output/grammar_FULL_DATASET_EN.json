@@ -6,7 +6,7 @@
     "bindingType" : "PERSON",
     "returnType" : "SCHOOL",
     "frameType" : "NPP",
-    "sentences" : [ "Give me the Alma Mater of ($x | PERSON_NP)?", "Tell me the Alma Mater of ($x | PERSON_NP)?", "What is the Alma Mater of ($x | PERSON_NP)?", "What was the Alma Mater of ($x | PERSON_NP)?", "Which university is the Alma Mater of ($x | PERSON_NP)?", "Which university was the Alma Mater of ($x | PERSON_NP)?" ],
+    "sentences" : [ "Give me the Alma Mater of ($x | PERSON_NP)?", "Tell me the Alma Mater of ($x | PERSON_NP)?", "What is the Alma Mater of ($x | PERSON_NP)?", "What was the Alma Mater of ($x | PERSON_NP)?", "Which educational institution is the Alma Mater of ($x | PERSON_NP)?", "Which educational institution was the Alma Mater of ($x | PERSON_NP)?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/almaMater> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
@@ -3194,9 +3194,9 @@
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
-    "returnType" : "LOCATION",
+    "returnType" : "THING",
     "frameType" : "VP",
-    "sentences" : [ "What bordered ($x | LOCATION_NP)?", "What borders ($x | LOCATION_NP)?", "Which populated place bordered ($x | LOCATION_NP)?", "Which populated place borders ($x | LOCATION_NP)?" ],
+    "sentences" : [ "What bordered ($x | LOCATION_NP)?", "What borders ($x | LOCATION_NP)?", "Which state bordered ($x | LOCATION_NP)?", "Which state borders ($x | LOCATION_NP)?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/State> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
@@ -3215,7 +3215,7 @@
     "bindingType" : "PERSON",
     "returnType" : "THING",
     "frameType" : "VP",
-    "sentences" : [ "What born ($x | PERSON_NP)?", "Which date born ($x | PERSON_NP)?" ],
+    "sentences" : [ "What bears ($x | PERSON_NP)?", "What born ($x | PERSON_NP)?", "Which date bears ($x | PERSON_NP)?", "Which date born ($x | PERSON_NP)?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
@@ -4598,856 +4598,6 @@
     "id" : "58",
     "language" : "EN",
     "type" : "SENTENCE",
-    "bindingType" : "PERSON",
-    "returnType" : "FILM",
-    "frameType" : "APP",
-    "sentences" : [ "What is directed by ($x | PERSON_NP)?", "What was directed by ($x | PERSON_NP)?", "Which movie is directed by ($x | PERSON_NP)?", "Which movie was directed by ($x | PERSON_NP)?", "Which movies are directed by ($x | PERSON_NP)?", "Which movies were directed by ($x | PERSON_NP)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/director> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "objOfProp"
-    },
-    "returnVariable" : "subjOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ {
-        "label" : "Al Pacino",
-        "uri" : "http://dbpedia.org/resource/Al_Pacino"
-      }, {
-        "label" : "Alan Rickman",
-        "uri" : "http://dbpedia.org/resource/Alan_Rickman"
-      }, {
-        "label" : "Albert Finney",
-        "uri" : "http://dbpedia.org/resource/Albert_Finney"
-      }, {
-        "label" : "Alex Cox",
-        "uri" : "http://dbpedia.org/resource/Alex_Cox"
-      }, {
-        "label" : "Andrzej Wajda",
-        "uri" : "http://dbpedia.org/resource/Andrzej_Wajda"
-      }, {
-        "label" : "Andrzej Żuławski",
-        "uri" : "http://dbpedia.org/resource/Andrzej_Żuławski"
-      }, {
-        "label" : "André Malraux",
-        "uri" : "http://dbpedia.org/resource/André_Malraux"
-      }, {
-        "label" : "Anthony Quinn",
-        "uri" : "http://dbpedia.org/resource/Anthony_Quinn"
-      }, {
-        "label" : "Antonio Banderas",
-        "uri" : "http://dbpedia.org/resource/Antonio_Banderas"
-      }, {
-        "label" : "Ashley Judd",
-        "uri" : "http://dbpedia.org/resource/Ashley_Judd"
-      }, {
-        "label" : "Ben Elton",
-        "uri" : "http://dbpedia.org/resource/Ben_Elton"
-      }, {
-        "label" : "Bernardo Bertolucci",
-        "uri" : "http://dbpedia.org/resource/Bernardo_Bertolucci"
-      }, {
-        "label" : "Bill Hicks",
-        "uri" : "http://dbpedia.org/resource/Bill_Hicks"
-      }, {
-        "label" : "Billy Wilder",
-        "uri" : "http://dbpedia.org/resource/Billy_Wilder"
-      }, {
-        "label" : "Blake Edwards",
-        "uri" : "http://dbpedia.org/resource/Blake_Edwards"
-      }, {
-        "label" : "Bruce Lee",
-        "uri" : "http://dbpedia.org/resource/Bruce_Lee"
-      }, {
-        "label" : "Buster Keaton",
-        "uri" : "http://dbpedia.org/resource/Buster_Keaton"
-      }, {
-        "label" : "Cesare Zavattini",
-        "uri" : "http://dbpedia.org/resource/Cesare_Zavattini"
-      }, {
-        "label" : "Charlton Heston",
-        "uri" : "http://dbpedia.org/resource/Charlton_Heston"
-      }, {
-        "label" : "Clint Eastwood",
-        "uri" : "http://dbpedia.org/resource/Clint_Eastwood"
-      }, {
-        "label" : "Dan Aykroyd",
-        "uri" : "http://dbpedia.org/resource/Dan_Aykroyd"
-      }, {
-        "label" : "Don Siegel",
-        "uri" : "http://dbpedia.org/resource/Don_Siegel"
-      }, {
-        "label" : "Dustin Hoffman",
-        "uri" : "http://dbpedia.org/resource/Dustin_Hoffman"
-      }, {
-        "label" : "Elia Kazan",
-        "uri" : "http://dbpedia.org/resource/Elia_Kazan"
-      }, {
-        "label" : "Engineer",
-        "uri" : "http://dbpedia.org/resource/Engineer"
-      }, {
-        "label" : "Eric Idle",
-        "uri" : "http://dbpedia.org/resource/Eric_Idle"
-      }, {
-        "label" : "Franco Zeffirelli",
-        "uri" : "http://dbpedia.org/resource/Franco_Zeffirelli"
-      }, {
-        "label" : "George Marshall",
-        "uri" : "http://dbpedia.org/resource/George_Marshall"
-      }, {
-        "label" : "Georges Perec",
-        "uri" : "http://dbpedia.org/resource/Georges_Perec"
-      }, {
-        "label" : "Gillian Anderson",
-        "uri" : "http://dbpedia.org/resource/Gillian_Anderson"
-      }, {
-        "label" : "Godfrey Reggio",
-        "uri" : "http://dbpedia.org/resource/Godfrey_Reggio"
-      }, {
-        "label" : "Gérard Depardieu",
-        "uri" : "http://dbpedia.org/resource/Gérard_Depardieu"
-      }, {
-        "label" : "Hans Richter (artist)",
-        "uri" : "http://dbpedia.org/resource/Hans_Richter_(artist)"
-      }, {
-        "label" : "Harry Enfield",
-        "uri" : "http://dbpedia.org/resource/Harry_Enfield"
-      }, {
-        "label" : "Harry Houdini",
-        "uri" : "http://dbpedia.org/resource/Harry_Houdini"
-      }, {
-        "label" : "Helen Hunt",
-        "uri" : "http://dbpedia.org/resource/Helen_Hunt"
-      }, {
-        "label" : "Jennifer Aniston",
-        "uri" : "http://dbpedia.org/resource/Jennifer_Aniston"
-      }, {
-        "label" : "John Carmack",
-        "uri" : "http://dbpedia.org/resource/John_Carmack"
-      }, {
-        "label" : "John Carpenter",
-        "uri" : "http://dbpedia.org/resource/John_Carpenter"
-      }, {
-        "label" : "John Huston",
-        "uri" : "http://dbpedia.org/resource/John_Huston"
-      }, {
-        "label" : "Laetitia Casta",
-        "uri" : "http://dbpedia.org/resource/Laetitia_Casta"
-      }, {
-        "label" : "Larry Gelbart",
-        "uri" : "http://dbpedia.org/resource/Larry_Gelbart"
-      }, {
-        "label" : "Laurence Olivier",
-        "uri" : "http://dbpedia.org/resource/Laurence_Olivier"
-      }, {
-        "label" : "Leonard Nimoy",
-        "uri" : "http://dbpedia.org/resource/Leonard_Nimoy"
-      }, {
-        "label" : "Les Claypool",
-        "uri" : "http://dbpedia.org/resource/Les_Claypool"
-      }, {
-        "label" : "Luc Besson",
-        "uri" : "http://dbpedia.org/resource/Luc_Besson"
-      }, {
-        "label" : "Luchino Visconti",
-        "uri" : "http://dbpedia.org/resource/Luchino_Visconti"
-      }, {
-        "label" : "Mai Zetterling",
-        "uri" : "http://dbpedia.org/resource/Mai_Zetterling"
-      }, {
-        "label" : "Marc Connelly",
-        "uri" : "http://dbpedia.org/resource/Marc_Connelly"
-      }, {
-        "label" : "Marty Feldman",
-        "uri" : "http://dbpedia.org/resource/Marty_Feldman"
-      }, {
-        "label" : "Max Reinhardt",
-        "uri" : "http://dbpedia.org/resource/Max_Reinhardt"
-      }, {
-        "label" : "Meg Ryan",
-        "uri" : "http://dbpedia.org/resource/Meg_Ryan"
-      }, {
-        "label" : "Mel Gibson",
-        "uri" : "http://dbpedia.org/resource/Mel_Gibson"
-      }, {
-        "label" : "Michelangelo Antonioni",
-        "uri" : "http://dbpedia.org/resource/Michelangelo_Antonioni"
-      }, {
-        "label" : "Micky Dolenz",
-        "uri" : "http://dbpedia.org/resource/Micky_Dolenz"
-      }, {
-        "label" : "Miloš Forman",
-        "uri" : "http://dbpedia.org/resource/Miloš_Forman"
-      }, {
-        "label" : "Moustapha Akkad",
-        "uri" : "http://dbpedia.org/resource/Moustapha_Akkad"
-      }, {
-        "label" : "Natalie Portman",
-        "uri" : "http://dbpedia.org/resource/Natalie_Portman"
-      }, {
-        "label" : "Norman Cook",
-        "uri" : "http://dbpedia.org/resource/Norman_Cook"
-      }, {
-        "label" : "Otto Preminger",
-        "uri" : "http://dbpedia.org/resource/Otto_Preminger"
-      }, {
-        "label" : "Paul Newman",
-        "uri" : "http://dbpedia.org/resource/Paul_Newman"
-      }, {
-        "label" : "Peter Bogdanovich",
-        "uri" : "http://dbpedia.org/resource/Peter_Bogdanovich"
-      }, {
-        "label" : "Peter Greenaway",
-        "uri" : "http://dbpedia.org/resource/Peter_Greenaway"
-      }, {
-        "label" : "Peter Weir",
-        "uri" : "http://dbpedia.org/resource/Peter_Weir"
-      }, {
-        "label" : "Prince (musician)",
-        "uri" : "http://dbpedia.org/resource/Prince_(musician)"
-      }, {
-        "label" : "R. Kelly",
-        "uri" : "http://dbpedia.org/resource/R._Kelly"
-      }, {
-        "label" : "Ray Milland",
-        "uri" : "http://dbpedia.org/resource/Ray_Milland"
-      }, {
-        "label" : "Rebecca De Mornay",
-        "uri" : "http://dbpedia.org/resource/Rebecca_De_Mornay"
-      }, {
-        "label" : "René Goscinny",
-        "uri" : "http://dbpedia.org/resource/René_Goscinny"
-      }, {
-        "label" : "Richard Burton",
-        "uri" : "http://dbpedia.org/resource/Richard_Burton"
-      }, {
-        "label" : "Robert Altman",
-        "uri" : "http://dbpedia.org/resource/Robert_Altman"
-      }, {
-        "label" : "Roberto Benigni",
-        "uri" : "http://dbpedia.org/resource/Roberto_Benigni"
-      }, {
-        "label" : "Roberto Rossellini",
-        "uri" : "http://dbpedia.org/resource/Roberto_Rossellini"
-      }, {
-        "label" : "Sam Raimi",
-        "uri" : "http://dbpedia.org/resource/Sam_Raimi"
-      }, {
-        "label" : "Sandra Bullock",
-        "uri" : "http://dbpedia.org/resource/Sandra_Bullock"
-      }, {
-        "label" : "Sergio Leone",
-        "uri" : "http://dbpedia.org/resource/Sergio_Leone"
-      }, {
-        "label" : "Sergio Tofano",
-        "uri" : "http://dbpedia.org/resource/Sergio_Tofano"
-      }, {
-        "label" : "Sophie Marceau",
-        "uri" : "http://dbpedia.org/resource/Sophie_Marceau"
-      }, {
-        "label" : "Ted Demme",
-        "uri" : "http://dbpedia.org/resource/Ted_Demme"
-      }, {
-        "label" : "Terence Hill",
-        "uri" : "http://dbpedia.org/resource/Terence_Hill"
-      }, {
-        "label" : "Terry Gilliam",
-        "uri" : "http://dbpedia.org/resource/Terry_Gilliam"
-      }, {
-        "label" : "Terry Jones",
-        "uri" : "http://dbpedia.org/resource/Terry_Jones"
-      }, {
-        "label" : "The Beatles",
-        "uri" : "http://dbpedia.org/resource/The_Beatles"
-      }, {
-        "label" : "The Residents",
-        "uri" : "http://dbpedia.org/resource/The_Residents"
-      }, {
-        "label" : "The Wachowskis",
-        "uri" : "http://dbpedia.org/resource/The_Wachowskis"
-      }, {
-        "label" : "Thomas Edison",
-        "uri" : "http://dbpedia.org/resource/Thomas_Edison"
-      }, {
-        "label" : "Thomas Vinterberg",
-        "uri" : "http://dbpedia.org/resource/Thomas_Vinterberg"
-      }, {
-        "label" : "Thor Heyerdahl",
-        "uri" : "http://dbpedia.org/resource/Thor_Heyerdahl"
-      }, {
-        "label" : "Tim Burton",
-        "uri" : "http://dbpedia.org/resource/Tim_Burton"
-      }, {
-        "label" : "Tod Browning",
-        "uri" : "http://dbpedia.org/resource/Tod_Browning"
-      }, {
-        "label" : "Tom Hanks",
-        "uri" : "http://dbpedia.org/resource/Tom_Hanks"
-      }, {
-        "label" : "Tom Stoppard",
-        "uri" : "http://dbpedia.org/resource/Tom_Stoppard"
-      }, {
-        "label" : "Tony Richardson",
-        "uri" : "http://dbpedia.org/resource/Tony_Richardson"
-      }, {
-        "label" : "Tracey Ullman",
-        "uri" : "http://dbpedia.org/resource/Tracey_Ullman"
-      }, {
-        "label" : "Ub Iwerks",
-        "uri" : "http://dbpedia.org/resource/Ub_Iwerks"
-      }, {
-        "label" : "Vincent Ward (director)",
-        "uri" : "http://dbpedia.org/resource/Vincent_Ward_(director)"
-      }, {
-        "label" : "Vittorio De Sica",
-        "uri" : "http://dbpedia.org/resource/Vittorio_De_Sica"
-      }, {
-        "label" : "Vittorio Gassman",
-        "uri" : "http://dbpedia.org/resource/Vittorio_Gassman"
-      }, {
-        "label" : "Werner Herzog",
-        "uri" : "http://dbpedia.org/resource/Werner_Herzog"
-      }, {
-        "label" : "William Kennedy Dickson",
-        "uri" : "http://dbpedia.org/resource/William_Kennedy_Dickson"
-      } ]
-    },
-    "combination" : false
-  }, {
-    "id" : "59",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "PERSON",
-    "returnType" : "FILM",
-    "frameType" : "APP",
-    "sentences" : [ "movies directed by $x" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/director> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "objOfProp"
-    },
-    "returnVariable" : "subjOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ {
-        "label" : "Al Pacino",
-        "uri" : "http://dbpedia.org/resource/Al_Pacino"
-      }, {
-        "label" : "Alan Rickman",
-        "uri" : "http://dbpedia.org/resource/Alan_Rickman"
-      }, {
-        "label" : "Albert Finney",
-        "uri" : "http://dbpedia.org/resource/Albert_Finney"
-      }, {
-        "label" : "Alex Cox",
-        "uri" : "http://dbpedia.org/resource/Alex_Cox"
-      }, {
-        "label" : "Andrzej Wajda",
-        "uri" : "http://dbpedia.org/resource/Andrzej_Wajda"
-      }, {
-        "label" : "Andrzej Żuławski",
-        "uri" : "http://dbpedia.org/resource/Andrzej_Żuławski"
-      }, {
-        "label" : "André Malraux",
-        "uri" : "http://dbpedia.org/resource/André_Malraux"
-      }, {
-        "label" : "Anthony Quinn",
-        "uri" : "http://dbpedia.org/resource/Anthony_Quinn"
-      }, {
-        "label" : "Antonio Banderas",
-        "uri" : "http://dbpedia.org/resource/Antonio_Banderas"
-      }, {
-        "label" : "Ashley Judd",
-        "uri" : "http://dbpedia.org/resource/Ashley_Judd"
-      }, {
-        "label" : "Ben Elton",
-        "uri" : "http://dbpedia.org/resource/Ben_Elton"
-      }, {
-        "label" : "Bernardo Bertolucci",
-        "uri" : "http://dbpedia.org/resource/Bernardo_Bertolucci"
-      }, {
-        "label" : "Bill Hicks",
-        "uri" : "http://dbpedia.org/resource/Bill_Hicks"
-      }, {
-        "label" : "Billy Wilder",
-        "uri" : "http://dbpedia.org/resource/Billy_Wilder"
-      }, {
-        "label" : "Blake Edwards",
-        "uri" : "http://dbpedia.org/resource/Blake_Edwards"
-      }, {
-        "label" : "Bruce Lee",
-        "uri" : "http://dbpedia.org/resource/Bruce_Lee"
-      }, {
-        "label" : "Buster Keaton",
-        "uri" : "http://dbpedia.org/resource/Buster_Keaton"
-      }, {
-        "label" : "Cesare Zavattini",
-        "uri" : "http://dbpedia.org/resource/Cesare_Zavattini"
-      }, {
-        "label" : "Charlton Heston",
-        "uri" : "http://dbpedia.org/resource/Charlton_Heston"
-      }, {
-        "label" : "Clint Eastwood",
-        "uri" : "http://dbpedia.org/resource/Clint_Eastwood"
-      }, {
-        "label" : "Dan Aykroyd",
-        "uri" : "http://dbpedia.org/resource/Dan_Aykroyd"
-      }, {
-        "label" : "Don Siegel",
-        "uri" : "http://dbpedia.org/resource/Don_Siegel"
-      }, {
-        "label" : "Dustin Hoffman",
-        "uri" : "http://dbpedia.org/resource/Dustin_Hoffman"
-      }, {
-        "label" : "Elia Kazan",
-        "uri" : "http://dbpedia.org/resource/Elia_Kazan"
-      }, {
-        "label" : "Engineer",
-        "uri" : "http://dbpedia.org/resource/Engineer"
-      }, {
-        "label" : "Eric Idle",
-        "uri" : "http://dbpedia.org/resource/Eric_Idle"
-      }, {
-        "label" : "Franco Zeffirelli",
-        "uri" : "http://dbpedia.org/resource/Franco_Zeffirelli"
-      }, {
-        "label" : "George Marshall",
-        "uri" : "http://dbpedia.org/resource/George_Marshall"
-      }, {
-        "label" : "Georges Perec",
-        "uri" : "http://dbpedia.org/resource/Georges_Perec"
-      }, {
-        "label" : "Gillian Anderson",
-        "uri" : "http://dbpedia.org/resource/Gillian_Anderson"
-      }, {
-        "label" : "Godfrey Reggio",
-        "uri" : "http://dbpedia.org/resource/Godfrey_Reggio"
-      }, {
-        "label" : "Gérard Depardieu",
-        "uri" : "http://dbpedia.org/resource/Gérard_Depardieu"
-      }, {
-        "label" : "Hans Richter (artist)",
-        "uri" : "http://dbpedia.org/resource/Hans_Richter_(artist)"
-      }, {
-        "label" : "Harry Enfield",
-        "uri" : "http://dbpedia.org/resource/Harry_Enfield"
-      }, {
-        "label" : "Harry Houdini",
-        "uri" : "http://dbpedia.org/resource/Harry_Houdini"
-      }, {
-        "label" : "Helen Hunt",
-        "uri" : "http://dbpedia.org/resource/Helen_Hunt"
-      }, {
-        "label" : "Jennifer Aniston",
-        "uri" : "http://dbpedia.org/resource/Jennifer_Aniston"
-      }, {
-        "label" : "John Carmack",
-        "uri" : "http://dbpedia.org/resource/John_Carmack"
-      }, {
-        "label" : "John Carpenter",
-        "uri" : "http://dbpedia.org/resource/John_Carpenter"
-      }, {
-        "label" : "John Huston",
-        "uri" : "http://dbpedia.org/resource/John_Huston"
-      }, {
-        "label" : "Laetitia Casta",
-        "uri" : "http://dbpedia.org/resource/Laetitia_Casta"
-      }, {
-        "label" : "Larry Gelbart",
-        "uri" : "http://dbpedia.org/resource/Larry_Gelbart"
-      }, {
-        "label" : "Laurence Olivier",
-        "uri" : "http://dbpedia.org/resource/Laurence_Olivier"
-      }, {
-        "label" : "Leonard Nimoy",
-        "uri" : "http://dbpedia.org/resource/Leonard_Nimoy"
-      }, {
-        "label" : "Les Claypool",
-        "uri" : "http://dbpedia.org/resource/Les_Claypool"
-      }, {
-        "label" : "Luc Besson",
-        "uri" : "http://dbpedia.org/resource/Luc_Besson"
-      }, {
-        "label" : "Luchino Visconti",
-        "uri" : "http://dbpedia.org/resource/Luchino_Visconti"
-      }, {
-        "label" : "Mai Zetterling",
-        "uri" : "http://dbpedia.org/resource/Mai_Zetterling"
-      }, {
-        "label" : "Marc Connelly",
-        "uri" : "http://dbpedia.org/resource/Marc_Connelly"
-      }, {
-        "label" : "Marty Feldman",
-        "uri" : "http://dbpedia.org/resource/Marty_Feldman"
-      }, {
-        "label" : "Max Reinhardt",
-        "uri" : "http://dbpedia.org/resource/Max_Reinhardt"
-      }, {
-        "label" : "Meg Ryan",
-        "uri" : "http://dbpedia.org/resource/Meg_Ryan"
-      }, {
-        "label" : "Mel Gibson",
-        "uri" : "http://dbpedia.org/resource/Mel_Gibson"
-      }, {
-        "label" : "Michelangelo Antonioni",
-        "uri" : "http://dbpedia.org/resource/Michelangelo_Antonioni"
-      }, {
-        "label" : "Micky Dolenz",
-        "uri" : "http://dbpedia.org/resource/Micky_Dolenz"
-      }, {
-        "label" : "Miloš Forman",
-        "uri" : "http://dbpedia.org/resource/Miloš_Forman"
-      }, {
-        "label" : "Moustapha Akkad",
-        "uri" : "http://dbpedia.org/resource/Moustapha_Akkad"
-      }, {
-        "label" : "Natalie Portman",
-        "uri" : "http://dbpedia.org/resource/Natalie_Portman"
-      }, {
-        "label" : "Norman Cook",
-        "uri" : "http://dbpedia.org/resource/Norman_Cook"
-      }, {
-        "label" : "Otto Preminger",
-        "uri" : "http://dbpedia.org/resource/Otto_Preminger"
-      }, {
-        "label" : "Paul Newman",
-        "uri" : "http://dbpedia.org/resource/Paul_Newman"
-      }, {
-        "label" : "Peter Bogdanovich",
-        "uri" : "http://dbpedia.org/resource/Peter_Bogdanovich"
-      }, {
-        "label" : "Peter Greenaway",
-        "uri" : "http://dbpedia.org/resource/Peter_Greenaway"
-      }, {
-        "label" : "Peter Weir",
-        "uri" : "http://dbpedia.org/resource/Peter_Weir"
-      }, {
-        "label" : "Prince (musician)",
-        "uri" : "http://dbpedia.org/resource/Prince_(musician)"
-      }, {
-        "label" : "R. Kelly",
-        "uri" : "http://dbpedia.org/resource/R._Kelly"
-      }, {
-        "label" : "Ray Milland",
-        "uri" : "http://dbpedia.org/resource/Ray_Milland"
-      }, {
-        "label" : "Rebecca De Mornay",
-        "uri" : "http://dbpedia.org/resource/Rebecca_De_Mornay"
-      }, {
-        "label" : "René Goscinny",
-        "uri" : "http://dbpedia.org/resource/René_Goscinny"
-      }, {
-        "label" : "Richard Burton",
-        "uri" : "http://dbpedia.org/resource/Richard_Burton"
-      }, {
-        "label" : "Robert Altman",
-        "uri" : "http://dbpedia.org/resource/Robert_Altman"
-      }, {
-        "label" : "Roberto Benigni",
-        "uri" : "http://dbpedia.org/resource/Roberto_Benigni"
-      }, {
-        "label" : "Roberto Rossellini",
-        "uri" : "http://dbpedia.org/resource/Roberto_Rossellini"
-      }, {
-        "label" : "Sam Raimi",
-        "uri" : "http://dbpedia.org/resource/Sam_Raimi"
-      }, {
-        "label" : "Sandra Bullock",
-        "uri" : "http://dbpedia.org/resource/Sandra_Bullock"
-      }, {
-        "label" : "Sergio Leone",
-        "uri" : "http://dbpedia.org/resource/Sergio_Leone"
-      }, {
-        "label" : "Sergio Tofano",
-        "uri" : "http://dbpedia.org/resource/Sergio_Tofano"
-      }, {
-        "label" : "Sophie Marceau",
-        "uri" : "http://dbpedia.org/resource/Sophie_Marceau"
-      }, {
-        "label" : "Ted Demme",
-        "uri" : "http://dbpedia.org/resource/Ted_Demme"
-      }, {
-        "label" : "Terence Hill",
-        "uri" : "http://dbpedia.org/resource/Terence_Hill"
-      }, {
-        "label" : "Terry Gilliam",
-        "uri" : "http://dbpedia.org/resource/Terry_Gilliam"
-      }, {
-        "label" : "Terry Jones",
-        "uri" : "http://dbpedia.org/resource/Terry_Jones"
-      }, {
-        "label" : "The Beatles",
-        "uri" : "http://dbpedia.org/resource/The_Beatles"
-      }, {
-        "label" : "The Residents",
-        "uri" : "http://dbpedia.org/resource/The_Residents"
-      }, {
-        "label" : "The Wachowskis",
-        "uri" : "http://dbpedia.org/resource/The_Wachowskis"
-      }, {
-        "label" : "Thomas Edison",
-        "uri" : "http://dbpedia.org/resource/Thomas_Edison"
-      }, {
-        "label" : "Thomas Vinterberg",
-        "uri" : "http://dbpedia.org/resource/Thomas_Vinterberg"
-      }, {
-        "label" : "Thor Heyerdahl",
-        "uri" : "http://dbpedia.org/resource/Thor_Heyerdahl"
-      }, {
-        "label" : "Tim Burton",
-        "uri" : "http://dbpedia.org/resource/Tim_Burton"
-      }, {
-        "label" : "Tod Browning",
-        "uri" : "http://dbpedia.org/resource/Tod_Browning"
-      }, {
-        "label" : "Tom Hanks",
-        "uri" : "http://dbpedia.org/resource/Tom_Hanks"
-      }, {
-        "label" : "Tom Stoppard",
-        "uri" : "http://dbpedia.org/resource/Tom_Stoppard"
-      }, {
-        "label" : "Tony Richardson",
-        "uri" : "http://dbpedia.org/resource/Tony_Richardson"
-      }, {
-        "label" : "Tracey Ullman",
-        "uri" : "http://dbpedia.org/resource/Tracey_Ullman"
-      }, {
-        "label" : "Ub Iwerks",
-        "uri" : "http://dbpedia.org/resource/Ub_Iwerks"
-      }, {
-        "label" : "Vincent Ward (director)",
-        "uri" : "http://dbpedia.org/resource/Vincent_Ward_(director)"
-      }, {
-        "label" : "Vittorio De Sica",
-        "uri" : "http://dbpedia.org/resource/Vittorio_De_Sica"
-      }, {
-        "label" : "Vittorio Gassman",
-        "uri" : "http://dbpedia.org/resource/Vittorio_Gassman"
-      }, {
-        "label" : "Werner Herzog",
-        "uri" : "http://dbpedia.org/resource/Werner_Herzog"
-      }, {
-        "label" : "William Kennedy Dickson",
-        "uri" : "http://dbpedia.org/resource/William_Kennedy_Dickson"
-      } ]
-    },
-    "combination" : false
-  }, {
-    "id" : "60",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "APP",
-    "sentences" : [ "What is born by ($x | THING_NP)?", "What was born by ($x | THING_NP)?", "Which person is born by ($x | THING_NP)?", "Which person was born by ($x | THING_NP)?", "Which persons are born by ($x | THING_NP)?", "Which persons were born by ($x | THING_NP)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "objOfProp"
-    },
-    "returnVariable" : "subjOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ {
-        "label" : "1969-12-17",
-        "uri" : "1969-12-17"
-      }, {
-        "label" : "1936-11-30",
-        "uri" : "1936-11-30"
-      }, {
-        "label" : "1990-10-30",
-        "uri" : "1990-10-30"
-      }, {
-        "label" : "1976-11-12",
-        "uri" : "1976-11-12"
-      }, {
-        "label" : "1989-11-29",
-        "uri" : "1989-11-29"
-      }, {
-        "label" : "1943-12-29",
-        "uri" : "1943-12-29"
-      }, {
-        "label" : "1918-12-30",
-        "uri" : "1918-12-30"
-      }, {
-        "label" : "1975-10-13",
-        "uri" : "1975-10-13"
-      }, {
-        "label" : "1896-09-01",
-        "uri" : "1896-09-01"
-      }, {
-        "label" : "1756-02-06",
-        "uri" : "1756-02-06"
-      }, {
-        "label" : "1900-11-14",
-        "uri" : "1900-11-14"
-      }, {
-        "label" : "1918-10-06",
-        "uri" : "1918-10-06"
-      }, {
-        "label" : "1667-05-26",
-        "uri" : "1667-05-26"
-      }, {
-        "label" : "1779-11-14",
-        "uri" : "1779-11-14"
-      }, {
-        "label" : "1937-01-01",
-        "uri" : "1937-01-01"
-      }, {
-        "label" : "1952-07-06",
-        "uri" : "1952-07-06"
-      }, {
-        "label" : "1900-02-05",
-        "uri" : "1900-02-05"
-      }, {
-        "label" : "1870-12-10",
-        "uri" : "1870-12-10"
-      }, {
-        "label" : "1752-09-18",
-        "uri" : "1752-09-18"
-      }, {
-        "label" : "1929-05-16",
-        "uri" : "1929-05-16"
-      }, {
-        "label" : "1955-02-13",
-        "uri" : "1955-02-13"
-      }, {
-        "label" : "1940-04-25",
-        "uri" : "1940-04-25"
-      }, {
-        "label" : "1946-02-21",
-        "uri" : "1946-02-21"
-      }, {
-        "label" : "1970-08-13",
-        "uri" : "1970-08-13"
-      }, {
-        "label" : "1863-12-08",
-        "uri" : "1863-12-08"
-      }, {
-        "label" : "1936-05-09",
-        "uri" : "1936-05-09"
-      }, {
-        "label" : "1414-11-09",
-        "uri" : "1414-11-09"
-      }, {
-        "label" : "1931-05-03",
-        "uri" : "1931-05-03"
-      }, {
-        "label" : "1950-01-09",
-        "uri" : "1950-01-09"
-      } ]
-    },
-    "combination" : false
-  }, {
-    "id" : "61",
-    "language" : "EN",
-    "type" : "NP",
-    "bindingType" : "THING",
-    "returnType" : "PERSON",
-    "frameType" : "APP",
-    "sentences" : [ "persons born by $x" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "objOfProp"
-    },
-    "returnVariable" : "subjOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ {
-        "label" : "1969-12-17",
-        "uri" : "1969-12-17"
-      }, {
-        "label" : "1936-11-30",
-        "uri" : "1936-11-30"
-      }, {
-        "label" : "1990-10-30",
-        "uri" : "1990-10-30"
-      }, {
-        "label" : "1976-11-12",
-        "uri" : "1976-11-12"
-      }, {
-        "label" : "1989-11-29",
-        "uri" : "1989-11-29"
-      }, {
-        "label" : "1943-12-29",
-        "uri" : "1943-12-29"
-      }, {
-        "label" : "1918-12-30",
-        "uri" : "1918-12-30"
-      }, {
-        "label" : "1975-10-13",
-        "uri" : "1975-10-13"
-      }, {
-        "label" : "1896-09-01",
-        "uri" : "1896-09-01"
-      }, {
-        "label" : "1756-02-06",
-        "uri" : "1756-02-06"
-      }, {
-        "label" : "1900-11-14",
-        "uri" : "1900-11-14"
-      }, {
-        "label" : "1918-10-06",
-        "uri" : "1918-10-06"
-      }, {
-        "label" : "1667-05-26",
-        "uri" : "1667-05-26"
-      }, {
-        "label" : "1779-11-14",
-        "uri" : "1779-11-14"
-      }, {
-        "label" : "1937-01-01",
-        "uri" : "1937-01-01"
-      }, {
-        "label" : "1952-07-06",
-        "uri" : "1952-07-06"
-      }, {
-        "label" : "1900-02-05",
-        "uri" : "1900-02-05"
-      }, {
-        "label" : "1870-12-10",
-        "uri" : "1870-12-10"
-      }, {
-        "label" : "1752-09-18",
-        "uri" : "1752-09-18"
-      }, {
-        "label" : "1929-05-16",
-        "uri" : "1929-05-16"
-      }, {
-        "label" : "1955-02-13",
-        "uri" : "1955-02-13"
-      }, {
-        "label" : "1940-04-25",
-        "uri" : "1940-04-25"
-      }, {
-        "label" : "1946-02-21",
-        "uri" : "1946-02-21"
-      }, {
-        "label" : "1970-08-13",
-        "uri" : "1970-08-13"
-      }, {
-        "label" : "1863-12-08",
-        "uri" : "1863-12-08"
-      }, {
-        "label" : "1936-05-09",
-        "uri" : "1936-05-09"
-      }, {
-        "label" : "1414-11-09",
-        "uri" : "1414-11-09"
-      }, {
-        "label" : "1931-05-03",
-        "uri" : "1931-05-03"
-      }, {
-        "label" : "1950-01-09",
-        "uri" : "1950-01-09"
-      } ]
-    },
-    "combination" : false
-  }, {
-    "id" : "62",
-    "language" : "EN",
-    "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
     "frameType" : "IPP",
@@ -5764,7 +4914,7 @@
     },
     "combination" : false
   }, {
-    "id" : "63",
+    "id" : "59",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5783,38 +4933,14 @@
         "label" : "Albus Dumbledore",
         "uri" : "http://dbpedia.org/resource/Albus_Dumbledore"
       }, {
-        "label" : "Beefalo",
-        "uri" : "http://dbpedia.org/resource/Beefalo"
-      }, {
-        "label" : "Black rat",
-        "uri" : "http://dbpedia.org/resource/Black_rat"
-      }, {
         "label" : "Bugs Bunny",
         "uri" : "http://dbpedia.org/resource/Bugs_Bunny"
       }, {
         "label" : "Cabbage",
         "uri" : "http://dbpedia.org/resource/Cabbage"
       }, {
-        "label" : "Chicken",
-        "uri" : "http://dbpedia.org/resource/Chicken"
-      }, {
-        "label" : "Daffy Duck",
-        "uri" : "http://dbpedia.org/resource/Daffy_Duck"
-      }, {
         "label" : "Darth Vader",
         "uri" : "http://dbpedia.org/resource/Darth_Vader"
-      }, {
-        "label" : "Donkey",
-        "uri" : "http://dbpedia.org/resource/Donkey"
-      }, {
-        "label" : "Fafhrd and the Gray Mouser",
-        "uri" : "http://dbpedia.org/resource/Fafhrd_and_the_Gray_Mouser"
-      }, {
-        "label" : "Hello Kitty",
-        "uri" : "http://dbpedia.org/resource/Hello_Kitty"
-      }, {
-        "label" : "Jar Jar Binks",
-        "uri" : "http://dbpedia.org/resource/Jar_Jar_Binks"
       }, {
         "label" : "Lando Calrissian",
         "uri" : "http://dbpedia.org/resource/Lando_Calrissian"
@@ -5825,32 +4951,11 @@
         "label" : "Mule",
         "uri" : "http://dbpedia.org/resource/Mule"
       }, {
-        "label" : "Obi-Wan Kenobi",
-        "uri" : "http://dbpedia.org/resource/Obi-Wan_Kenobi"
-      }, {
         "label" : "Porky Pig",
         "uri" : "http://dbpedia.org/resource/Porky_Pig"
       }, {
-        "label" : "Princess Leia",
-        "uri" : "http://dbpedia.org/resource/Princess_Leia"
-      }, {
         "label" : "Przewalski's horse",
         "uri" : "http://dbpedia.org/resource/Przewalski's_horse"
-      }, {
-        "label" : "Pseudotsuga menziesii var. glauca",
-        "uri" : "http://dbpedia.org/resource/Pseudotsuga_menziesii_var._glauca"
-      }, {
-        "label" : "Scrooge McDuck",
-        "uri" : "http://dbpedia.org/resource/Scrooge_McDuck"
-      }, {
-        "label" : "Sugar beet",
-        "uri" : "http://dbpedia.org/resource/Sugar_beet"
-      }, {
-        "label" : "Turnip",
-        "uri" : "http://dbpedia.org/resource/Turnip"
-      }, {
-        "label" : "Wedge Antilles",
-        "uri" : "http://dbpedia.org/resource/Wedge_Antilles"
       }, {
         "label" : "Dukhat",
         "uri" : "http://dbpedia.org/resource/Dukhat"
@@ -5861,44 +4966,14 @@
         "label" : "Human foamy virus",
         "uri" : "http://dbpedia.org/resource/Human_foamy_virus"
       }, {
-        "label" : "Leoben Conoy",
-        "uri" : "http://dbpedia.org/resource/Leoben_Conoy"
-      }, {
-        "label" : "Selous' zebra",
-        "uri" : "http://dbpedia.org/resource/Selous'_zebra"
-      }, {
         "label" : "Simba",
         "uri" : "http://dbpedia.org/resource/Simba"
-      }, {
-        "label" : "Toto (Oz)",
-        "uri" : "http://dbpedia.org/resource/Toto_(Oz)"
-      }, {
-        "label" : "Armenian cucumber",
-        "uri" : "http://dbpedia.org/resource/Armenian_cucumber"
       }, {
         "label" : "Bat Boy (character)",
         "uri" : "http://dbpedia.org/resource/Bat_Boy_(character)"
       }, {
-        "label" : "Bok choy",
-        "uri" : "http://dbpedia.org/resource/Bok_choy"
-      }, {
-        "label" : "Celebrity tomato",
-        "uri" : "http://dbpedia.org/resource/Celebrity_tomato"
-      }, {
-        "label" : "Count Iblis",
-        "uri" : "http://dbpedia.org/resource/Count_Iblis"
-      }, {
-        "label" : "Don Orville",
-        "uri" : "http://dbpedia.org/resource/Don_Orville"
-      }, {
         "label" : "Dr. Octagon",
         "uri" : "http://dbpedia.org/resource/Dr._Octagon"
-      }, {
-        "label" : "Fartman (Howard Stern)",
-        "uri" : "http://dbpedia.org/resource/Fartman_(Howard_Stern)"
-      }, {
-        "label" : "Favorita (grape)",
-        "uri" : "http://dbpedia.org/resource/Favorita_(grape)"
       }, {
         "label" : "Flying Spaghetti Monster",
         "uri" : "http://dbpedia.org/resource/Flying_Spaghetti_Monster"
@@ -5912,17 +4987,8 @@
         "label" : "Grandpa (The Munsters)",
         "uri" : "http://dbpedia.org/resource/Grandpa_(The_Munsters)"
       }, {
-        "label" : "Huckleberry Hound",
-        "uri" : "http://dbpedia.org/resource/Huckleberry_Hound"
-      }, {
         "label" : "Humphrey the Bear",
         "uri" : "http://dbpedia.org/resource/Humphrey_the_Bear"
-      }, {
-        "label" : "Iago (Disney character)",
-        "uri" : "http://dbpedia.org/resource/Iago_(Disney_character)"
-      }, {
-        "label" : "Jango Fett",
-        "uri" : "http://dbpedia.org/resource/Jango_Fett"
       }, {
         "label" : "Jason Stackhouse",
         "uri" : "http://dbpedia.org/resource/Jason_Stackhouse"
@@ -5930,41 +4996,17 @@
         "label" : "Kaa",
         "uri" : "http://dbpedia.org/resource/Kaa"
       }, {
-        "label" : "Kermode bear",
-        "uri" : "http://dbpedia.org/resource/Kermode_bear"
-      }, {
         "label" : "Londo Mollari",
         "uri" : "http://dbpedia.org/resource/Londo_Mollari"
       }, {
-        "label" : "Mater (Cars)",
-        "uri" : "http://dbpedia.org/resource/Mater_(Cars)"
-      }, {
         "label" : "Piggy (Merrie Melodies)",
         "uri" : "http://dbpedia.org/resource/Piggy_(Merrie_Melodies)"
-      }, {
-        "label" : "Portnoy (comics)",
-        "uri" : "http://dbpedia.org/resource/Portnoy_(comics)"
-      }, {
-        "label" : "Sherman Klump",
-        "uri" : "http://dbpedia.org/resource/Sherman_Klump"
-      }, {
-        "label" : "Shoshone pupfish",
-        "uri" : "http://dbpedia.org/resource/Shoshone_pupfish"
       }, {
         "label" : "Snowball (Animal Farm)",
         "uri" : "http://dbpedia.org/resource/Snowball_(Animal_Farm)"
       }, {
         "label" : "Sookie Stackhouse",
         "uri" : "http://dbpedia.org/resource/Sookie_Stackhouse"
-      }, {
-        "label" : "Tabasco pepper",
-        "uri" : "http://dbpedia.org/resource/Tabasco_pepper"
-      }, {
-        "label" : "The Crusher (Looney Tunes)",
-        "uri" : "http://dbpedia.org/resource/The_Crusher_(Looney_Tunes)"
-      }, {
-        "label" : "Chewbacca",
-        "uri" : "http://dbpedia.org/resource/Chewbacca"
       }, {
         "label" : "Padmé Amidala",
         "uri" : "http://dbpedia.org/resource/Padmé_Amidala"
@@ -5975,17 +5017,8 @@
         "label" : "Eastern Canary Islands chiffchaff",
         "uri" : "http://dbpedia.org/resource/Eastern_Canary_Islands_chiffchaff"
       }, {
-        "label" : "Kumlien's gull",
-        "uri" : "http://dbpedia.org/resource/Kumlien's_gull"
-      }, {
-        "label" : "Labib (mascot)",
-        "uri" : "http://dbpedia.org/resource/Labib_(mascot)"
-      }, {
         "label" : "Marcus Cole",
         "uri" : "http://dbpedia.org/resource/Marcus_Cole"
-      }, {
-        "label" : "Piri piri",
-        "uri" : "http://dbpedia.org/resource/Piri_piri"
       }, {
         "label" : "Western Canary Islands chiffchaff",
         "uri" : "http://dbpedia.org/resource/Western_Canary_Islands_chiffchaff"
@@ -5993,83 +5026,23 @@
         "label" : "Delenn",
         "uri" : "http://dbpedia.org/resource/Delenn"
       }, {
-        "label" : "G'Kar",
-        "uri" : "http://dbpedia.org/resource/G'Kar"
-      }, {
-        "label" : "Grenache",
-        "uri" : "http://dbpedia.org/resource/Grenache"
-      }, {
-        "label" : "Grignolino",
-        "uri" : "http://dbpedia.org/resource/Grignolino"
-      }, {
         "label" : "Morgan Clark",
         "uri" : "http://dbpedia.org/resource/Morgan_Clark"
       }, {
         "label" : "Rana temporaria temporaria",
         "uri" : "http://dbpedia.org/resource/Rana_temporaria_temporaria"
       }, {
-        "label" : "Sangiovese",
-        "uri" : "http://dbpedia.org/resource/Sangiovese"
-      }, {
-        "label" : "Teal'c",
-        "uri" : "http://dbpedia.org/resource/Teal'c"
-      }, {
         "label" : "Tik-Tok (Oz)",
         "uri" : "http://dbpedia.org/resource/Tik-Tok_(Oz)"
-      }, {
-        "label" : "Viognier",
-        "uri" : "http://dbpedia.org/resource/Viognier"
-      }, {
-        "label" : "Chapman's zebra",
-        "uri" : "http://dbpedia.org/resource/Chapman's_zebra"
-      }, {
-        "label" : "Himalayan wolf",
-        "uri" : "http://dbpedia.org/resource/Himalayan_wolf"
-      }, {
-        "label" : "Arabian red fox",
-        "uri" : "http://dbpedia.org/resource/Arabian_red_fox"
       }, {
         "label" : "Congo lion",
         "uri" : "http://dbpedia.org/resource/Congo_lion"
       }, {
-        "label" : "Oxalis luteola",
-        "uri" : "http://dbpedia.org/resource/Oxalis_luteola"
-      }, {
-        "label" : "Taxus × media",
-        "uri" : "http://dbpedia.org/resource/Taxus_×_media"
-      }, {
-        "label" : "Carex magellanica subsp. irrigua",
-        "uri" : "http://dbpedia.org/resource/Carex_magellanica_subsp._irrigua"
-      }, {
         "label" : "Indochinese leopard",
         "uri" : "http://dbpedia.org/resource/Indochinese_leopard"
       }, {
-        "label" : "Bourret's box turtle",
-        "uri" : "http://dbpedia.org/resource/Bourret's_box_turtle"
-      }, {
-        "label" : "Cyclura cychlura figginsi",
-        "uri" : "http://dbpedia.org/resource/Cyclura_cychlura_figginsi"
-      }, {
         "label" : "Mexican grizzly bear",
         "uri" : "http://dbpedia.org/resource/Mexican_grizzly_bear"
-      }, {
-        "label" : "South American great horned owl",
-        "uri" : "http://dbpedia.org/resource/South_American_great_horned_owl"
-      }, {
-        "label" : "Yellow-cheeked becard",
-        "uri" : "http://dbpedia.org/resource/Yellow-cheeked_becard"
-      }, {
-        "label" : "Banksia spinulosa var. cunninghamii",
-        "uri" : "http://dbpedia.org/resource/Banksia_spinulosa_var._cunninghamii"
-      }, {
-        "label" : "Banksia spinulosa var. spinulosa",
-        "uri" : "http://dbpedia.org/resource/Banksia_spinulosa_var._spinulosa"
-      }, {
-        "label" : "Brown-throated wren",
-        "uri" : "http://dbpedia.org/resource/Brown-throated_wren"
-      }, {
-        "label" : "Bukettraube",
-        "uri" : "http://dbpedia.org/resource/Bukettraube"
       }, {
         "label" : "Carcharocles angustidens",
         "uri" : "http://dbpedia.org/resource/Carcharocles_angustidens"
@@ -6077,19 +5050,196 @@
         "label" : "Conospermum stoechadis subsp. sclerophyllum",
         "uri" : "http://dbpedia.org/resource/Conospermum_stoechadis_subsp._sclerophyllum"
       }, {
-        "label" : "Crotalus mitchellii angelensis",
-        "uri" : "http://dbpedia.org/resource/Crotalus_mitchellii_angelensis"
+        "label" : "Crotalus oreganus caliginis",
+        "uri" : "http://dbpedia.org/resource/Crotalus_oreganus_caliginis"
+      }, {
+        "label" : "Cyclura carinata bartschi",
+        "uri" : "http://dbpedia.org/resource/Cyclura_carinata_bartschi"
+      }, {
+        "label" : "Dionaea muscipula 'Bohemian Garnet'",
+        "uri" : "http://dbpedia.org/resource/Dionaea_muscipula_'Bohemian_Garnet'"
+      }, {
+        "label" : "General Robert Lefcourt",
+        "uri" : "http://dbpedia.org/resource/General_Robert_Lefcourt"
+      }, {
+        "label" : "Glossy crayfish snake",
+        "uri" : "http://dbpedia.org/resource/Glossy_crayfish_snake"
+      }, {
+        "label" : "Gulf crayfish snake",
+        "uri" : "http://dbpedia.org/resource/Gulf_crayfish_snake"
+      }, {
+        "label" : "King Kong grosbeak",
+        "uri" : "http://dbpedia.org/resource/King_Kong_grosbeak"
+      }, {
+        "label" : "List of characters in The Lion King",
+        "uri" : "http://dbpedia.org/resource/List_of_characters_in_The_Lion_King"
+      }, {
+        "label" : "Morelia spilota metcalfei",
+        "uri" : "http://dbpedia.org/resource/Morelia_spilota_metcalfei"
+      }, {
+        "label" : "Morelia spilota spilota",
+        "uri" : "http://dbpedia.org/resource/Morelia_spilota_spilota"
+      }, {
+        "label" : "Tyto gigantea",
+        "uri" : "http://dbpedia.org/resource/Tyto_gigantea"
+      }, {
+        "label" : "Tyto robusta",
+        "uri" : "http://dbpedia.org/resource/Tyto_robusta"
+      }, {
+        "label" : "Cowardly Lion",
+        "uri" : "http://dbpedia.org/resource/Cowardly_Lion"
+      }, {
+        "label" : "Alaskan tundra wolf",
+        "uri" : "http://dbpedia.org/resource/Alaskan_tundra_wolf"
+      }, {
+        "label" : "Baffin Island wolf",
+        "uri" : "http://dbpedia.org/resource/Baffin_Island_wolf"
+      }, {
+        "label" : "Bernard's wolf",
+        "uri" : "http://dbpedia.org/resource/Bernard's_wolf"
+      }, {
+        "label" : "British Columbia wolf",
+        "uri" : "http://dbpedia.org/resource/British_Columbia_wolf"
+      }, {
+        "label" : "Cascade mountain wolf",
+        "uri" : "http://dbpedia.org/resource/Cascade_mountain_wolf"
+      }, {
+        "label" : "Cyrestis camillus elegans",
+        "uri" : "http://dbpedia.org/resource/Cyrestis_camillus_elegans"
+      }, {
+        "label" : "Elmer the Great Dane",
+        "uri" : "http://dbpedia.org/resource/Elmer_the_Great_Dane"
+      }, {
+        "label" : "Gallotia goliath",
+        "uri" : "http://dbpedia.org/resource/Gallotia_goliath"
+      }, {
+        "label" : "Greenland wolf",
+        "uri" : "http://dbpedia.org/resource/Greenland_wolf"
+      }, {
+        "label" : "Gregory's wolf",
+        "uri" : "http://dbpedia.org/resource/Gregory's_wolf"
+      }, {
+        "label" : "Hudson Bay wolf",
+        "uri" : "http://dbpedia.org/resource/Hudson_Bay_wolf"
+      }, {
+        "label" : "Kunzea 'Badja Carpet'",
+        "uri" : "http://dbpedia.org/resource/Kunzea_'Badja_Carpet'"
+      }, {
+        "label" : "Labrador wolf",
+        "uri" : "http://dbpedia.org/resource/Labrador_wolf"
+      }, {
+        "label" : "Mackenzie River wolf",
+        "uri" : "http://dbpedia.org/resource/Mackenzie_River_wolf"
+      }, {
+        "label" : "Manitoba wolf",
+        "uri" : "http://dbpedia.org/resource/Manitoba_wolf"
+      }, {
+        "label" : "Mogollon mountain wolf",
+        "uri" : "http://dbpedia.org/resource/Mogollon_mountain_wolf"
+      }, {
+        "label" : "Northern Rocky Mountain wolf",
+        "uri" : "http://dbpedia.org/resource/Northern_Rocky_Mountain_wolf"
+      }, {
+        "label" : "Southern Rocky Mountain wolf",
+        "uri" : "http://dbpedia.org/resource/Southern_Rocky_Mountain_wolf"
+      }, {
+        "label" : "Southwest African lion",
+        "uri" : "http://dbpedia.org/resource/Southwest_African_lion"
+      }, {
+        "label" : "Subspecies of Galápagos tortoise",
+        "uri" : "http://dbpedia.org/resource/Subspecies_of_Galápagos_tortoise"
+      }, {
+        "label" : "Texas wolf",
+        "uri" : "http://dbpedia.org/resource/Texas_wolf"
+      }, {
+        "label" : "Hobbes (Calvin and Hobbes)",
+        "uri" : "http://dbpedia.org/resource/Hobbes_(Calvin_and_Hobbes)"
+      }, {
+        "label" : "List of Care Bear characters",
+        "uri" : "http://dbpedia.org/resource/List_of_Care_Bear_characters"
+      }, {
+        "label" : "Azathoth",
+        "uri" : "http://dbpedia.org/resource/Azathoth"
+      }, {
+        "label" : "Cauliflower",
+        "uri" : "http://dbpedia.org/resource/Cauliflower"
+      }, {
+        "label" : "Daikon",
+        "uri" : "http://dbpedia.org/resource/Daikon"
+      }, {
+        "label" : "Mulato pepper",
+        "uri" : "http://dbpedia.org/resource/Mulato_pepper"
+      }, {
+        "label" : "Proailurus",
+        "uri" : "http://dbpedia.org/resource/Proailurus"
+      }, {
+        "label" : "SpongeBob SquarePants (character)",
+        "uri" : "http://dbpedia.org/resource/SpongeBob_SquarePants_(character)"
+      }, {
+        "label" : "Sam Eagle",
+        "uri" : "http://dbpedia.org/resource/Sam_Eagle"
+      }, {
+        "label" : "Antono Refa",
+        "uri" : "http://dbpedia.org/resource/Antono_Refa"
+      }, {
+        "label" : "Cecil Turtle",
+        "uri" : "http://dbpedia.org/resource/Cecil_Turtle"
+      }, {
+        "label" : "Gai lan",
+        "uri" : "http://dbpedia.org/resource/Gai_lan"
+      }, {
+        "label" : "Jerry Mouse",
+        "uri" : "http://dbpedia.org/resource/Jerry_Mouse"
+      }, {
+        "label" : "Leopon",
+        "uri" : "http://dbpedia.org/resource/Leopon"
+      }, {
+        "label" : "Terminator (character)",
+        "uri" : "http://dbpedia.org/resource/Terminator_(character)"
+      }, {
+        "label" : "Ulkesh",
+        "uri" : "http://dbpedia.org/resource/Ulkesh"
+      }, {
+        "label" : "Barbary leopard",
+        "uri" : "http://dbpedia.org/resource/Barbary_leopard"
+      }, {
+        "label" : "Choy sum",
+        "uri" : "http://dbpedia.org/resource/Choy_sum"
+      }, {
+        "label" : "Foaly",
+        "uri" : "http://dbpedia.org/resource/Foaly"
+      }, {
+        "label" : "Zack Allan",
+        "uri" : "http://dbpedia.org/resource/Zack_Allan"
+      }, {
+        "label" : "Starkiller",
+        "uri" : "http://dbpedia.org/resource/Starkiller"
+      }, {
+        "label" : "Big Giant Head",
+        "uri" : "http://dbpedia.org/resource/Big_Giant_Head"
+      }, {
+        "label" : "Atriplex paludosa subsp. baudinii",
+        "uri" : "http://dbpedia.org/resource/Atriplex_paludosa_subsp._baudinii"
+      }, {
+        "label" : "Atriplex vesicaria subsp. variabilis",
+        "uri" : "http://dbpedia.org/resource/Atriplex_vesicaria_subsp._variabilis"
+      }, {
+        "label" : "Cereopsis novaehollandiae grisea",
+        "uri" : "http://dbpedia.org/resource/Cereopsis_novaehollandiae_grisea"
+      }, {
+        "label" : "Friggitello",
+        "uri" : "http://dbpedia.org/resource/Friggitello"
       } ]
     },
     "combination" : false
   }, {
-    "id" : "64",
+    "id" : "60",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
     "frameType" : "IPP",
-    "sentences" : [ "When was the ($x | THING_NP) built?", "When were the ($x | THING_NP) built?", "Which date was the ($x | THING_NP) built?", "Which date were the ($x | THING_NP) built?" ],
+    "sentences" : [ "When was the ($x | THING_NP) builds?", "When was the ($x | THING_NP) built?", "When were the ($x | THING_NP) builds?", "When were the ($x | THING_NP) built?", "Which date was the ($x | THING_NP) builds?", "Which date was the ($x | THING_NP) built?", "Which date were the ($x | THING_NP) builds?", "Which date were the ($x | THING_NP) built?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/date> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
@@ -6402,13 +5552,13 @@
     },
     "combination" : false
   }, {
-    "id" : "65",
+    "id" : "61",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
     "frameType" : "IPP",
-    "sentences" : [ "What was built by $x?", "What were built by $x?", "Which historic place was built by $x?", "Which historic places were built by $x?" ],
+    "sentences" : [ "What was builds by $x?", "What was built by $x?", "What were builds by $x?", "What were built by $x?", "Which historic place was builds by $x?", "Which historic place was built by $x?", "Which historic places were builds by $x?", "Which historic places were built by $x?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/date> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
@@ -6418,310 +5568,310 @@
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
       "bindingList" : [ {
-        "label" : "1905-01-22",
-        "uri" : "1905-01-22"
+        "label" : "0001-03-31",
+        "uri" : "0001-03-31"
       }, {
-        "label" : "1948-05-15",
-        "uri" : "1948-05-15"
+        "label" : "0001-04-22",
+        "uri" : "0001-04-22"
       }, {
-        "label" : "1949-07-20",
-        "uri" : "1949-07-20"
+        "label" : "0002-10-01",
+        "uri" : "0002-10-01"
       }, {
-        "label" : "1966-07-30",
-        "uri" : "1966-07-30"
+        "label" : "0002-11-02",
+        "uri" : "0002-11-02"
       }, {
-        "label" : "1940-10-31",
-        "uri" : "1940-10-31"
+        "label" : "0005-08-03",
+        "uri" : "0005-08-03"
       }, {
-        "label" : "1265-08-04",
-        "uri" : "1265-08-04"
+        "label" : "0005-09-11",
+        "uri" : "0005-09-11"
       }, {
-        "label" : "1943-07-05",
-        "uri" : "1943-07-05"
+        "label" : "0006-01-19",
+        "uri" : "0006-01-19"
       }, {
-        "label" : "1943-07-12",
-        "uri" : "1943-07-12"
+        "label" : "0006-05-31",
+        "uri" : "0006-05-31"
       }, {
-        "label" : "1943-07-16",
-        "uri" : "1943-07-16"
+        "label" : "0006-11-06",
+        "uri" : "0006-11-06"
       }, {
-        "label" : "1943-08-23",
-        "uri" : "1943-08-23"
+        "label" : "0008-05-04",
+        "uri" : "0008-05-04"
       }, {
-        "label" : "0955-08-10",
-        "uri" : "0955-08-10"
+        "label" : "0009-02-09",
+        "uri" : "0009-02-09"
       }, {
-        "label" : "1708-09-28",
-        "uri" : "1708-09-28"
+        "label" : "0010-07-09",
+        "uri" : "0010-07-09"
       }, {
-        "label" : "1708-09-29",
-        "uri" : "1708-09-29"
+        "label" : "0011-05-09",
+        "uri" : "0011-05-09"
       }, {
-        "label" : "1708-10-09",
-        "uri" : "1708-10-09"
+        "label" : "0013-07-01",
+        "uri" : "0013-07-01"
       }, {
-        "label" : "1939-09-03",
-        "uri" : "1939-09-03"
+        "label" : "0015-08-18",
+        "uri" : "0015-08-18"
       }, {
-        "label" : "1944-12-16",
-        "uri" : "1944-12-16"
+        "label" : "0019-05-12",
+        "uri" : "0019-05-12"
       }, {
-        "label" : "1945-01-25",
-        "uri" : "1945-01-25"
+        "label" : "0019-06-12",
+        "uri" : "0019-06-12"
       }, {
-        "label" : "1927-08-01",
-        "uri" : "1927-08-01"
+        "label" : "0021-03-20",
+        "uri" : "0021-03-20"
       }, {
-        "label" : "1946-03-31",
-        "uri" : "1946-03-31"
+        "label" : "0021-12-20",
+        "uri" : "0021-12-20"
       }, {
-        "label" : "1856-03-30",
-        "uri" : "1856-03-30"
+        "label" : "0024-04-23",
+        "uri" : "0024-04-23"
       }, {
-        "label" : "1969-07-18",
-        "uri" : "1969-07-18"
+        "label" : "0024-05-09",
+        "uri" : "0024-05-09"
       }, {
-        "label" : "1870-07-19",
-        "uri" : "1870-07-19"
+        "label" : "0024-06-21",
+        "uri" : "0024-06-21"
       }, {
-        "label" : "1871-05-10",
-        "uri" : "1871-05-10"
+        "label" : "0027-07-01",
+        "uri" : "0027-07-01"
       }, {
-        "label" : "1934-10-16",
-        "uri" : "1934-10-16"
+        "label" : "0027-12-26",
+        "uri" : "0027-12-26"
       }, {
-        "label" : "1937-12-13",
-        "uri" : "1937-12-13"
+        "label" : "0029-01-28",
+        "uri" : "0029-01-28"
       }, {
-        "label" : "1381-05-30",
-        "uri" : "1381-05-30"
+        "label" : "0029-02-28",
+        "uri" : "0029-02-28"
       }, {
-        "label" : "1985-11-17",
-        "uri" : "1985-11-17"
+        "label" : "0115-12-13",
+        "uri" : "0115-12-13"
       }, {
-        "label" : "1808-01-26",
-        "uri" : "1808-01-26"
+        "label" : "0197-02-19",
+        "uri" : "0197-02-19"
       }, {
-        "label" : "1904-02-08",
-        "uri" : "1904-02-08"
+        "label" : "0204-09-13",
+        "uri" : "0204-09-13"
       }, {
-        "label" : "1905-09-05",
-        "uri" : "1905-09-05"
+        "label" : "0218-06-08",
+        "uri" : "0218-06-08"
       }, {
-        "label" : "1845-08-28",
-        "uri" : "1845-08-28"
+        "label" : "0224-04-28",
+        "uri" : "0224-04-28"
       }, {
-        "label" : "1899-10-11",
-        "uri" : "1899-10-11"
+        "label" : "0238-09-29",
+        "uri" : "0238-09-29"
       }, {
-        "label" : "1902-05-31",
-        "uri" : "1902-05-31"
+        "label" : "0255-09-25",
+        "uri" : "0255-09-25"
       }, {
-        "label" : "1962-11-21",
-        "uri" : "1962-11-21"
+        "label" : "0280-03-15",
+        "uri" : "0280-03-15"
       }, {
-        "label" : "1956-10-29",
-        "uri" : "1956-10-29"
+        "label" : "0312-10-28",
+        "uri" : "0312-10-28"
       }, {
-        "label" : "1835-10-02",
-        "uri" : "1835-10-02"
+        "label" : "0313-04-30",
+        "uri" : "0313-04-30"
       }, {
-        "label" : "1618-05-23",
-        "uri" : "1618-05-23"
+        "label" : "0314-10-08",
+        "uri" : "0314-10-08"
       }, {
-        "label" : "1812-06-18",
-        "uri" : "1812-06-18"
+        "label" : "0324-07-03",
+        "uri" : "0324-07-03"
       }, {
-        "label" : "1815-02-18",
-        "uri" : "1815-02-18"
-      }, {
-        "label" : "1740-12-16",
-        "uri" : "1740-12-16"
-      }, {
-        "label" : "1702-07-09",
-        "uri" : "1702-07-09"
-      }, {
-        "label" : "1914-08-04",
-        "uri" : "1914-08-04"
-      }, {
-        "label" : "1918-11-11",
-        "uri" : "1918-11-11"
-      }, {
-        "label" : "1939-11-30",
-        "uri" : "1939-11-30"
-      }, {
-        "label" : "1942-04-09",
-        "uri" : "1942-04-09"
-      }, {
-        "label" : "1933-05-31",
-        "uri" : "1933-05-31"
-      }, {
-        "label" : "1642-11-12",
-        "uri" : "1642-11-12"
-      }, {
-        "label" : "1912-11-21",
-        "uri" : "1912-11-21"
-      }, {
-        "label" : "1809-04-21",
-        "uri" : "1809-04-21"
-      }, {
-        "label" : "1997-09-16",
-        "uri" : "1997-09-16"
-      }, {
-        "label" : "1977-05-26",
-        "uri" : "1977-05-26"
-      }, {
-        "label" : "1945-08-09",
-        "uri" : "1945-08-09"
-      }, {
-        "label" : "1227-07-28",
-        "uri" : "1227-07-28"
-      }, {
-        "label" : "1915-11-06",
-        "uri" : "1915-11-06"
-      }, {
-        "label" : "1809-06-18",
-        "uri" : "1809-06-18"
-      }, {
-        "label" : "1866-07-16",
-        "uri" : "1866-07-16"
-      }, {
-        "label" : "1813-12-07",
-        "uri" : "1813-12-07"
-      }, {
-        "label" : "1620-10-07",
-        "uri" : "1620-10-07"
-      }, {
-        "label" : "1922-08-30",
-        "uri" : "1922-08-30"
-      }, {
-        "label" : "1410-07-15",
-        "uri" : "1410-07-15"
-      }, {
-        "label" : "1974-04-02",
-        "uri" : "1974-04-02"
-      }, {
-        "label" : "1864-07-03",
-        "uri" : "1864-07-03"
-      }, {
-        "label" : "1801-03-13",
-        "uri" : "1801-03-13"
-      }, {
-        "label" : "1814-03-15",
-        "uri" : "1814-03-15"
-      }, {
-        "label" : "1510-12-02",
-        "uri" : "1510-12-02"
-      }, {
-        "label" : "1943-08-04",
-        "uri" : "1943-08-04"
+        "label" : "0324-09-18",
+        "uri" : "0324-09-18"
       }, {
         "label" : "0351-09-28",
         "uri" : "0351-09-28"
       }, {
-        "label" : "1837-11-23",
-        "uri" : "1837-11-23"
+        "label" : "0363-04-29",
+        "uri" : "0363-04-29"
       }, {
-        "label" : "1217-08-24",
-        "uri" : "1217-08-24"
+        "label" : "0363-05-29",
+        "uri" : "0363-05-29"
       }, {
-        "label" : "1691-08-19",
-        "uri" : "1691-08-19"
+        "label" : "0365-07-21",
+        "uri" : "0365-07-21"
       }, {
-        "label" : "1242-07-21",
-        "uri" : "1242-07-21"
+        "label" : "0378-08-09",
+        "uri" : "0378-08-09"
       }, {
-        "label" : "1941-04-12",
-        "uri" : "1941-04-12"
+        "label" : "0394-09-05",
+        "uri" : "0394-09-05"
       }, {
-        "label" : "1991-02-20",
-        "uri" : "1991-02-20"
+        "label" : "0395-12-08",
+        "uri" : "0395-12-08"
       }, {
-        "label" : "1657-07-08",
-        "uri" : "1657-07-08"
+        "label" : "0402-04-06",
+        "uri" : "0402-04-06"
       }, {
-        "label" : "1925-08-03",
-        "uri" : "1925-08-03"
+        "label" : "0410-08-24",
+        "uri" : "0410-08-24"
+      }, {
+        "label" : "0451-05-26",
+        "uri" : "0451-05-26"
+      }, {
+        "label" : "0451-06-20",
+        "uri" : "0451-06-20"
+      }, {
+        "label" : "0452-07-18",
+        "uri" : "0452-07-18"
+      }, {
+        "label" : "0455-06-16",
+        "uri" : "0455-06-16"
+      }, {
+        "label" : "0476-09-02",
+        "uri" : "0476-09-02"
+      }, {
+        "label" : "0489-08-28",
+        "uri" : "0489-08-28"
+      }, {
+        "label" : "0524-06-25",
+        "uri" : "0524-06-25"
+      }, {
+        "label" : "0526-05-29",
+        "uri" : "0526-05-29"
+      }, {
+        "label" : "0531-04-19",
+        "uri" : "0531-04-19"
+      }, {
+        "label" : "0533-09-13",
+        "uri" : "0533-09-13"
+      }, {
+        "label" : "0533-12-15",
+        "uri" : "0533-12-15"
+      }, {
+        "label" : "0551-07-09",
+        "uri" : "0551-07-09"
+      }, {
+        "label" : "0557-12-14",
+        "uri" : "0557-12-14"
+      }, {
+        "label" : "0617-09-08",
+        "uri" : "0617-09-08"
+      }, {
+        "label" : "0618-10-06",
+        "uri" : "0618-10-06"
+      }, {
+        "label" : "0618-11-29",
+        "uri" : "0618-11-29"
+      }, {
+        "label" : "0621-05-28",
+        "uri" : "0621-05-28"
+      }, {
+        "label" : "0624-03-13",
+        "uri" : "0624-03-13"
+      }, {
+        "label" : "0625-03-23",
+        "uri" : "0625-03-23"
+      }, {
+        "label" : "0625-03-24",
+        "uri" : "0625-03-24"
+      }, {
+        "label" : "0627-12-12",
+        "uri" : "0627-12-12"
+      }, {
+        "label" : "0629-04-27",
+        "uri" : "0629-04-27"
+      }, {
+        "label" : "0630-01-11",
+        "uri" : "0630-01-11"
+      }, {
+        "label" : "0633-10-12",
+        "uri" : "0633-10-12"
+      }, {
+        "label" : "0634-07-30",
+        "uri" : "0634-07-30"
+      }, {
+        "label" : "0634-08-19",
+        "uri" : "0634-08-19"
+      }, {
+        "label" : "0634-09-19",
+        "uri" : "0634-09-19"
+      }, {
+        "label" : "0636-08-20",
+        "uri" : "0636-08-20"
       }, {
         "label" : "0636-11-19",
         "uri" : "0636-11-19"
       }, {
-        "label" : "1855-09-08",
-        "uri" : "1855-09-08"
+        "label" : "0637-06-24",
+        "uri" : "0637-06-24"
       }, {
-        "label" : "1916-09-20",
-        "uri" : "1916-09-20"
+        "label" : "0640-07-06",
+        "uri" : "0640-07-06"
       }, {
-        "label" : "1854-10-25",
-        "uri" : "1854-10-25"
+        "label" : "0641-08-05",
+        "uri" : "0641-08-05"
       }, {
-        "label" : "1914-08-03",
-        "uri" : "1914-08-03"
+        "label" : "0649-01-19",
+        "uri" : "0649-01-19"
       }, {
-        "label" : "1940-06-10",
-        "uri" : "1940-06-10"
+        "label" : "0655-11-15",
+        "uri" : "0655-11-15"
       }, {
-        "label" : "2004-04-15",
-        "uri" : "2004-04-15"
+        "label" : "0656-11-07",
+        "uri" : "0656-11-07"
       }, {
-        "label" : "2008-02-07",
-        "uri" : "2008-02-07"
+        "label" : "0657-07-28",
+        "uri" : "0657-07-28"
       }, {
-        "label" : "1627-03-03",
-        "uri" : "1627-03-03"
+        "label" : "0660-07-09",
+        "uri" : "0660-07-09"
       }, {
-        "label" : "1953-10-07",
-        "uri" : "1953-10-07"
+        "label" : "0663-08-28",
+        "uri" : "0663-08-28"
       }, {
-        "label" : "1795-07-21",
-        "uri" : "1795-07-21"
+        "label" : "0675-09-29",
+        "uri" : "0675-09-29"
       }, {
-        "label" : "1872-07-06",
-        "uri" : "1872-07-06"
+        "label" : "0680-10-10",
+        "uri" : "0680-10-10"
       }, {
-        "label" : "2006-05-25",
-        "uri" : "2006-05-25"
+        "label" : "0684-08-18",
+        "uri" : "0684-08-18"
       }, {
-        "label" : "2008-12-08",
-        "uri" : "2008-12-08"
+        "label" : "0685-05-20",
+        "uri" : "0685-05-20"
       }, {
-        "label" : "2005-04-12",
-        "uri" : "2005-04-12"
+        "label" : "0718-08-15",
+        "uri" : "0718-08-15"
       }, {
-        "label" : "1918-04-05",
-        "uri" : "1918-04-05"
+        "label" : "0721-06-09",
+        "uri" : "0721-06-09"
       }, {
-        "label" : "1995-09-15",
-        "uri" : "1995-09-15"
+        "label" : "0730-12-09",
+        "uri" : "0730-12-09"
       }, {
-        "label" : "1987-10-25",
-        "uri" : "1987-10-25"
+        "label" : "0732-10-10",
+        "uri" : "0732-10-10"
       }, {
-        "label" : "2006-11-26",
-        "uri" : "2006-11-26"
+        "label" : "0737-09-30",
+        "uri" : "0737-09-30"
       }, {
-        "label" : "1962-04-30",
-        "uri" : "1962-04-30"
+        "label" : "0746-06-09",
+        "uri" : "0746-06-09"
       }, {
-        "label" : "2015-01-01",
-        "uri" : "2015-01-01"
+        "label" : "0749-01-18",
+        "uri" : "0749-01-18"
       }, {
-        "label" : "1835-09-20",
-        "uri" : "1835-09-20"
+        "label" : "0750-01-25",
+        "uri" : "0750-01-25"
       }, {
-        "label" : "1845-03-01",
-        "uri" : "1845-03-01"
+        "label" : "0755-12-16",
+        "uri" : "0755-12-16"
       }, {
-        "label" : "1813-09-28",
-        "uri" : "1813-09-28"
-      }, {
-        "label" : "2009-05-24",
-        "uri" : "2009-05-24"
+        "label" : "0763-06-30",
+        "uri" : "0763-06-30"
       } ]
     },
     "combination" : false
   }, {
-    "id" : "66",
+    "id" : "62",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
