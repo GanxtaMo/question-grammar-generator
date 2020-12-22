@@ -40,7 +40,7 @@
 :border_frame_transitive
     a                    lexinfo:TransitiveFrame ;
     lexinfo:subject      :border_subj ;
-    lexinfo:borderObject :border_obj .
+    lexinfo:directObject :border_obj .
 
 :border_ontomap
     a                 lemon:OntoMap, lemon:LexicalSense ;
