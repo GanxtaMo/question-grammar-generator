@@ -65,7 +65,6 @@ public class SentenceBuilderCopulativePP extends SentenceBuilderImpl {
                 )).name(),
                 SentenceType.NP.toString()
         );
-
         // We already know, which sentence tokens to expect, so we search for them to find out where to put our expected AnnotatedWords and Strings
         Optional<SentenceToken> questionWordToken = getQuestionWordToken(sentenceTokens); // interrogativeDeterminer/-Pronoun
         Optional<SentenceToken> questionWordNounToken = getConditionNounToken(sentenceTokens); // noun(condition:copulativeArg)

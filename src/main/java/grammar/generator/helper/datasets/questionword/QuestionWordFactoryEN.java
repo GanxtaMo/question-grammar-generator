@@ -54,5 +54,12 @@ class QuestionWordFactoryEN implements Factory<QuestionWordRepository> {
         new AnnotatedInterrogativeDeterminer("When", "singular", "commonGender", language)
       )
     );
+      questionWordRepository.add(
+              new QuestionWord(
+                      language,
+                      SubjectType.TEST_SUBJECT_TYPE,
+                      new AnnotatedInterrogativeDeterminer("Does", "singular", "commonGender", language)
+              )
+      );
   }
 }

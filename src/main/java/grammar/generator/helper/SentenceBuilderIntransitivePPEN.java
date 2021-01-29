@@ -126,6 +126,7 @@ public class SentenceBuilderIntransitivePPEN implements SentenceBuilder {
                             preposition,
                             binding
                     );
+                    System.out.println(sentence);
                     generatedSentences.add(sentence);
                 }
 

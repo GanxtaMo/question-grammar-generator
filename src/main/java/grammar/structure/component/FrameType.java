@@ -1,12 +1,7 @@
 package grammar.structure.component;
 
 import eu.monnetproject.lemon.model.SynArg;
-import grammar.generator.APPGrammarRuleGenerator;
-import grammar.generator.AdjAttrGrammarRuleGenerator;
-import grammar.generator.GrammarRuleGeneratorRootImpl;
-import grammar.generator.IntransitivePPGrammarRuleGenerator;
-import grammar.generator.NPPGrammarRuleGenerator;
-import grammar.generator.TransitiveVPGrammarRuleGenerator;
+import grammar.generator.*;
 import net.lexinfo.LexInfo;
 
 public enum FrameType {
@@ -15,8 +10,8 @@ public enum FrameType {
   AA("AdjectiveAttributiveFrame", new LexInfo().getSynArg("attributiveArg"), AdjAttrGrammarRuleGenerator.class),
   APP("AdjectivePPFrame", new LexInfo().getSynArg("copulativeSubject"), APPGrammarRuleGenerator.class),
   IPP("IntransitivePPFrame", new LexInfo().getSynArg("subject"), IntransitivePPGrammarRuleGenerator.class),
-  FULL_DATASET("FULL_DATASET", null, GrammarRuleGeneratorRootImpl.class);
-
+  FULL_DATASET("FULL_DATASET", null, GrammarRuleGeneratorRootImpl.class),
+  TEST_FRAME("TestFrame",new LexInfo().getSynArg("subject"), SentenceTemplateTestGrammarRuleGenerator.class);
   private final String name;
   private final SynArg selectVariableSynArg;
   private final Class<?> implementingClass;
