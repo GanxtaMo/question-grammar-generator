@@ -31,12 +31,10 @@ public class SentenceTemplateTestGrammarRuleGenerator extends GrammarRuleGenerat
     ) throws QueGGMissingFactoryClassException {
         List<String> generatedSentences = new ArrayList<>();
 
-        SubjectType subjectType = lexicalEntryUtil.getSubjectType(lexicalEntryUtil.getSelectVariable(), DomainOrRangeType.PERSON);
         String qWord = lexicalEntryUtil.getSubjectBySubjectType(SubjectType.TEST_SUBJECT_TYPE, Language.EN, null);
 
         List<AnnotatedVerb> annotatedVerbs = lexicalEntryUtil.parseLexicalEntryToAnnotatedVerbs();
         for (AnnotatedVerb annotatedVerb : annotatedVerbs) {
-            System.out.println(annotatedVerb.getWrittenRepValue());
             SentenceTemplateTest sentenceBuilder = new SentenceTemplateTest(
                     qWord,
                     /*String.format(
@@ -48,17 +46,19 @@ public class SentenceTemplateTestGrammarRuleGenerator extends GrammarRuleGenerat
                             SentenceType.NP
                     )*/"Neymar",
                     annotatedVerb.getWrittenRepValue(),
+                    lexicalEntryUtil.getPreposition() == null ? "" : lexicalEntryUtil.getPreposition(),
                     String.format(
                             BINDING_TOKEN_TEMPLATE,
                             getBindingVariable(),
                             DomainOrRangeType.getMatchingType(lexicalEntryUtil.getConditionUriBySelectVariable(
                                     LexicalEntryUtil.getOppositeSelectVariable(lexicalEntryUtil.getSelectVariable())
                             )).name(),
-                            SentenceType.NP
+                            SentenceType.VP
                     )
 
             );
             String sentence = sentenceBuilder.getSentence();
+            System.out.println(sentence);
             generatedSentences.add(sentence);
         }
 

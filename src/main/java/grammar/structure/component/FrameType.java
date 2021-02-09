@@ -10,8 +10,8 @@ public enum FrameType {
   AA("AdjectiveAttributiveFrame", new LexInfo().getSynArg("attributiveArg"), AdjAttrGrammarRuleGenerator.class),
   APP("AdjectivePPFrame", new LexInfo().getSynArg("copulativeSubject"), APPGrammarRuleGenerator.class),
   IPP("IntransitivePPFrame", new LexInfo().getSynArg("subject"), IntransitivePPGrammarRuleGenerator.class),
-  FULL_DATASET("FULL_DATASET", null, GrammarRuleGeneratorRootImpl.class),
-  TEST_FRAME("TestFrame",new LexInfo().getSynArg("subject"), SentenceTemplateTestGrammarRuleGenerator.class);
+  FULL_DATASET("FULL_DATASET", null, GrammarRuleGeneratorRootImpl.class);
+  //TEST_FRAME("TestFrame",new LexInfo().getSynArg("subject"), SentenceTemplateTestGrammarRuleGenerator.class);
   private final String name;
   private final SynArg selectVariableSynArg;
   private final Class<?> implementingClass;

@@ -9,4 +9,5 @@ public interface SentenceBuilder {
   List<String> generateFullSentences(String bindingVar, LexicalEntryUtil lexicalEntryUtil) throws QueGGMissingFactoryClassException;
 
   List<String> generateNP(String bindingVar, String[] argument, LexicalEntryUtil lexicalEntryUtil) throws QueGGMissingFactoryClassException;
+
 }

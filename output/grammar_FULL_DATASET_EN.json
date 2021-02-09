@@ -3196,7 +3196,7 @@
     "bindingType" : "LOCATION",
     "returnType" : "THING",
     "frameType" : "VP",
-    "sentences" : [ "What bordered ($x | LOCATION_NP)?", "What borders ($x | LOCATION_NP)?", "Which state bordered ($x | LOCATION_NP)?", "Which state borders ($x | LOCATION_NP)?" ],
+    "sentences" : [ "Does THING border for ($x | LOCATION_VP)?", "What border ($x | LOCATION_NP)?", "What bordered ($x | LOCATION_NP)?", "What borders ($x | LOCATION_NP)?", "Which state border ($x | LOCATION_NP)?", "Which state bordered ($x | LOCATION_NP)?", "Which state borders ($x | LOCATION_NP)?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/State> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
@@ -3212,10 +3212,29 @@
     "id" : "12",
     "language" : "EN",
     "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "PERSON",
+    "frameType" : "VP",
+    "sentences" : [ "Does PERSON play for ($x | THING_VP)?", "What play ($x | THING_NP)?", "What played ($x | THING_NP)?", "What plays ($x | THING_NP)?", "Which person play ($x | THING_NP)?", "Which person played ($x | THING_NP)?", "Which person plays ($x | THING_NP)?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/SoccerPlayer> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "subjOfProp"
+    },
+    "returnVariable" : "objOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ ]
+    },
+    "combination" : false
+  }, {
+    "id" : "13",
+    "language" : "EN",
+    "type" : "SENTENCE",
     "bindingType" : "PERSON",
     "returnType" : "THING",
     "frameType" : "VP",
-    "sentences" : [ "What bears ($x | PERSON_NP)?", "What born ($x | PERSON_NP)?", "Which date bears ($x | PERSON_NP)?", "Which date born ($x | PERSON_NP)?" ],
+    "sentences" : [ "Does THING bear for ($x | PERSON_VP)?", "What bear ($x | PERSON_NP)?", "What bears ($x | PERSON_NP)?", "What born ($x | PERSON_NP)?", "Which date bear ($x | PERSON_NP)?", "Which date bears ($x | PERSON_NP)?", "Which date born ($x | PERSON_NP)?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
@@ -3528,13 +3547,13 @@
     },
     "combination" : false
   }, {
-    "id" : "13",
+    "id" : "14",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "FILM",
     "returnType" : "PERSON",
     "frameType" : "VP",
-    "sentences" : [ "What directed ($x | FILM_NP)?", "What directs ($x | FILM_NP)?", "Which person directed ($x | FILM_NP)?", "Which person directs ($x | FILM_NP)?" ],
+    "sentences" : [ "Does PERSON direct for ($x | FILM_VP)?", "What direct ($x | FILM_NP)?", "What directed ($x | FILM_NP)?", "What directs ($x | FILM_NP)?", "Which person direct ($x | FILM_NP)?", "Which person directed ($x | FILM_NP)?", "Which person directs ($x | FILM_NP)?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/director> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
@@ -3847,7 +3866,7 @@
     },
     "combination" : false
   }, {
-    "id" : "14",
+    "id" : "15",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -3864,7 +3883,7 @@
     },
     "combination" : false
   }, {
-    "id" : "15",
+    "id" : "16",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -3881,7 +3900,7 @@
     },
     "combination" : false
   }, {
-    "id" : "16",
+    "id" : "17",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -3898,7 +3917,7 @@
     },
     "combination" : false
   }, {
-    "id" : "17",
+    "id" : "18",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -3915,7 +3934,7 @@
     },
     "combination" : false
   }, {
-    "id" : "18",
+    "id" : "19",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -3932,7 +3951,7 @@
     },
     "combination" : false
   }, {
-    "id" : "19",
+    "id" : "20",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -3949,7 +3968,7 @@
     },
     "combination" : false
   }, {
-    "id" : "20",
+    "id" : "21",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -3966,7 +3985,7 @@
     },
     "combination" : false
   }, {
-    "id" : "21",
+    "id" : "22",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -3983,7 +4002,7 @@
     },
     "combination" : false
   }, {
-    "id" : "22",
+    "id" : "23",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4000,7 +4019,7 @@
     },
     "combination" : false
   }, {
-    "id" : "23",
+    "id" : "24",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4017,7 +4036,7 @@
     },
     "combination" : false
   }, {
-    "id" : "24",
+    "id" : "25",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4034,7 +4053,7 @@
     },
     "combination" : false
   }, {
-    "id" : "25",
+    "id" : "26",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4051,7 +4070,7 @@
     },
     "combination" : false
   }, {
-    "id" : "26",
+    "id" : "27",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4068,7 +4087,7 @@
     },
     "combination" : false
   }, {
-    "id" : "27",
+    "id" : "28",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4085,7 +4104,7 @@
     },
     "combination" : false
   }, {
-    "id" : "28",
+    "id" : "29",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4102,7 +4121,7 @@
     },
     "combination" : false
   }, {
-    "id" : "29",
+    "id" : "30",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4119,7 +4138,7 @@
     },
     "combination" : false
   }, {
-    "id" : "30",
+    "id" : "31",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4136,7 +4155,7 @@
     },
     "combination" : false
   }, {
-    "id" : "31",
+    "id" : "32",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4153,7 +4172,7 @@
     },
     "combination" : false
   }, {
-    "id" : "32",
+    "id" : "33",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4170,7 +4189,7 @@
     },
     "combination" : false
   }, {
-    "id" : "33",
+    "id" : "34",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4187,7 +4206,7 @@
     },
     "combination" : false
   }, {
-    "id" : "34",
+    "id" : "35",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4204,7 +4223,7 @@
     },
     "combination" : false
   }, {
-    "id" : "35",
+    "id" : "36",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4221,7 +4240,7 @@
     },
     "combination" : false
   }, {
-    "id" : "36",
+    "id" : "37",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4238,7 +4257,7 @@
     },
     "combination" : false
   }, {
-    "id" : "37",
+    "id" : "38",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4255,7 +4274,7 @@
     },
     "combination" : false
   }, {
-    "id" : "38",
+    "id" : "39",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4272,7 +4291,7 @@
     },
     "combination" : false
   }, {
-    "id" : "39",
+    "id" : "40",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4289,7 +4308,7 @@
     },
     "combination" : false
   }, {
-    "id" : "40",
+    "id" : "41",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4306,7 +4325,7 @@
     },
     "combination" : false
   }, {
-    "id" : "41",
+    "id" : "42",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4323,7 +4342,7 @@
     },
     "combination" : false
   }, {
-    "id" : "42",
+    "id" : "43",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4340,7 +4359,7 @@
     },
     "combination" : false
   }, {
-    "id" : "43",
+    "id" : "44",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4357,7 +4376,7 @@
     },
     "combination" : false
   }, {
-    "id" : "44",
+    "id" : "45",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4374,7 +4393,7 @@
     },
     "combination" : false
   }, {
-    "id" : "45",
+    "id" : "46",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4391,7 +4410,7 @@
     },
     "combination" : false
   }, {
-    "id" : "46",
+    "id" : "47",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4408,7 +4427,7 @@
     },
     "combination" : false
   }, {
-    "id" : "47",
+    "id" : "48",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4425,7 +4444,7 @@
     },
     "combination" : false
   }, {
-    "id" : "48",
+    "id" : "49",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4442,7 +4461,7 @@
     },
     "combination" : false
   }, {
-    "id" : "49",
+    "id" : "50",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4459,7 +4478,7 @@
     },
     "combination" : false
   }, {
-    "id" : "50",
+    "id" : "51",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4476,7 +4495,7 @@
     },
     "combination" : false
   }, {
-    "id" : "51",
+    "id" : "52",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4493,7 +4512,7 @@
     },
     "combination" : false
   }, {
-    "id" : "52",
+    "id" : "53",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4510,7 +4529,7 @@
     },
     "combination" : false
   }, {
-    "id" : "53",
+    "id" : "54",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4527,7 +4546,7 @@
     },
     "combination" : false
   }, {
-    "id" : "54",
+    "id" : "55",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4544,7 +4563,7 @@
     },
     "combination" : false
   }, {
-    "id" : "55",
+    "id" : "56",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4561,7 +4580,7 @@
     },
     "combination" : false
   }, {
-    "id" : "56",
+    "id" : "57",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4578,7 +4597,7 @@
     },
     "combination" : false
   }, {
-    "id" : "57",
+    "id" : "58",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4595,7 +4614,7 @@
     },
     "combination" : false
   }, {
-    "id" : "58",
+    "id" : "59",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4612,7 +4631,7 @@
     },
     "combination" : false
   }, {
-    "id" : "59",
+    "id" : "60",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4629,7 +4648,7 @@
     },
     "combination" : false
   }, {
-    "id" : "60",
+    "id" : "61",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4646,7 +4665,7 @@
     },
     "combination" : false
   }, {
-    "id" : "61",
+    "id" : "62",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4663,7 +4682,7 @@
     },
     "combination" : false
   }, {
-    "id" : "62",
+    "id" : "63",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4680,7 +4699,7 @@
     },
     "combination" : false
   }, {
-    "id" : "63",
+    "id" : "64",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4697,7 +4716,7 @@
     },
     "combination" : false
   }, {
-    "id" : "64",
+    "id" : "65",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4714,7 +4733,7 @@
     },
     "combination" : false
   }, {
-    "id" : "65",
+    "id" : "66",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4731,7 +4750,7 @@
     },
     "combination" : false
   }, {
-    "id" : "66",
+    "id" : "67",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4748,7 +4767,7 @@
     },
     "combination" : false
   }, {
-    "id" : "67",
+    "id" : "68",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4765,7 +4784,7 @@
     },
     "combination" : false
   }, {
-    "id" : "68",
+    "id" : "69",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4782,7 +4801,7 @@
     },
     "combination" : false
   }, {
-    "id" : "69",
+    "id" : "70",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4799,7 +4818,7 @@
     },
     "combination" : false
   }, {
-    "id" : "70",
+    "id" : "71",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4816,7 +4835,7 @@
     },
     "combination" : false
   }, {
-    "id" : "71",
+    "id" : "72",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4833,7 +4852,7 @@
     },
     "combination" : false
   }, {
-    "id" : "72",
+    "id" : "73",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4850,7 +4869,7 @@
     },
     "combination" : false
   }, {
-    "id" : "73",
+    "id" : "74",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4867,7 +4886,7 @@
     },
     "combination" : false
   }, {
-    "id" : "74",
+    "id" : "75",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4884,7 +4903,7 @@
     },
     "combination" : false
   }, {
-    "id" : "75",
+    "id" : "76",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4901,7 +4920,7 @@
     },
     "combination" : false
   }, {
-    "id" : "76",
+    "id" : "77",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4918,7 +4937,7 @@
     },
     "combination" : false
   }, {
-    "id" : "77",
+    "id" : "78",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4935,7 +4954,7 @@
     },
     "combination" : false
   }, {
-    "id" : "78",
+    "id" : "79",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4952,7 +4971,7 @@
     },
     "combination" : false
   }, {
-    "id" : "79",
+    "id" : "80",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -4969,7 +4988,7 @@
     },
     "combination" : false
   }, {
-    "id" : "80",
+    "id" : "81",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -4986,7 +5005,7 @@
     },
     "combination" : false
   }, {
-    "id" : "81",
+    "id" : "82",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5003,7 +5022,7 @@
     },
     "combination" : false
   }, {
-    "id" : "82",
+    "id" : "83",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5020,7 +5039,7 @@
     },
     "combination" : false
   }, {
-    "id" : "83",
+    "id" : "84",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5037,7 +5056,7 @@
     },
     "combination" : false
   }, {
-    "id" : "84",
+    "id" : "85",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5054,7 +5073,7 @@
     },
     "combination" : false
   }, {
-    "id" : "85",
+    "id" : "86",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5071,7 +5090,7 @@
     },
     "combination" : false
   }, {
-    "id" : "86",
+    "id" : "87",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5088,7 +5107,7 @@
     },
     "combination" : false
   }, {
-    "id" : "87",
+    "id" : "88",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5105,7 +5124,7 @@
     },
     "combination" : false
   }, {
-    "id" : "88",
+    "id" : "89",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5122,7 +5141,7 @@
     },
     "combination" : false
   }, {
-    "id" : "89",
+    "id" : "90",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5139,7 +5158,7 @@
     },
     "combination" : false
   }, {
-    "id" : "90",
+    "id" : "91",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5156,7 +5175,7 @@
     },
     "combination" : false
   }, {
-    "id" : "91",
+    "id" : "92",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5173,7 +5192,7 @@
     },
     "combination" : false
   }, {
-    "id" : "92",
+    "id" : "93",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5190,7 +5209,7 @@
     },
     "combination" : false
   }, {
-    "id" : "93",
+    "id" : "94",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5207,7 +5226,7 @@
     },
     "combination" : false
   }, {
-    "id" : "94",
+    "id" : "95",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5224,7 +5243,7 @@
     },
     "combination" : false
   }, {
-    "id" : "95",
+    "id" : "96",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5241,7 +5260,7 @@
     },
     "combination" : false
   }, {
-    "id" : "96",
+    "id" : "97",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5258,7 +5277,7 @@
     },
     "combination" : false
   }, {
-    "id" : "97",
+    "id" : "98",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5275,7 +5294,7 @@
     },
     "combination" : false
   }, {
-    "id" : "98",
+    "id" : "99",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5292,7 +5311,7 @@
     },
     "combination" : false
   }, {
-    "id" : "99",
+    "id" : "100",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5309,7 +5328,7 @@
     },
     "combination" : false
   }, {
-    "id" : "100",
+    "id" : "101",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5326,7 +5345,7 @@
     },
     "combination" : false
   }, {
-    "id" : "101",
+    "id" : "102",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5343,7 +5362,7 @@
     },
     "combination" : false
   }, {
-    "id" : "102",
+    "id" : "103",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5360,7 +5379,7 @@
     },
     "combination" : false
   }, {
-    "id" : "103",
+    "id" : "104",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5377,7 +5396,7 @@
     },
     "combination" : false
   }, {
-    "id" : "104",
+    "id" : "105",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5394,7 +5413,7 @@
     },
     "combination" : false
   }, {
-    "id" : "105",
+    "id" : "106",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5411,7 +5430,7 @@
     },
     "combination" : false
   }, {
-    "id" : "106",
+    "id" : "107",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5428,7 +5447,7 @@
     },
     "combination" : false
   }, {
-    "id" : "107",
+    "id" : "108",
     "language" : "EN",
     "type" : "NP",
     "bindingType" : "THING",
@@ -5445,7 +5464,645 @@
     },
     "combination" : false
   }, {
-    "id" : "108",
+    "id" : "109",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "PERSON",
+    "returnType" : "THING",
+    "frameType" : "APP",
+    "sentences" : [ "What is played for ($x | PERSON_NP)?", "What was played for ($x | PERSON_NP)?", "Which is played for ($x | PERSON_NP)?", "Which s are played for ($x | PERSON_NP)?", "Which s were played for ($x | PERSON_NP)?", "Which was played for ($x | PERSON_NP)?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "objOfProp"
+    },
+    "returnVariable" : "subjOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Alun Armstrong (actor)",
+        "uri" : "http://dbpedia.org/resource/Alun_Armstrong_(actor)"
+      }, {
+        "label" : "Luca Zingaretti",
+        "uri" : "http://dbpedia.org/resource/Luca_Zingaretti"
+      }, {
+        "label" : "Lucas Black",
+        "uri" : "http://dbpedia.org/resource/Lucas_Black"
+      }, {
+        "label" : "Lucas Grabeel",
+        "uri" : "http://dbpedia.org/resource/Lucas_Grabeel"
+      }, {
+        "label" : "Lucas Jade Zumann",
+        "uri" : "http://dbpedia.org/resource/Lucas_Jade_Zumann"
+      }, {
+        "label" : "Lucas Steele",
+        "uri" : "http://dbpedia.org/resource/Lucas_Steele"
+      }, {
+        "label" : "Lucas Till",
+        "uri" : "http://dbpedia.org/resource/Lucas_Till"
+      }, {
+        "label" : "Lucian Msamati",
+        "uri" : "http://dbpedia.org/resource/Lucian_Msamati"
+      }, {
+        "label" : "Luciana Carro",
+        "uri" : "http://dbpedia.org/resource/Luciana_Carro"
+      }, {
+        "label" : "Luciano Cáceres",
+        "uri" : "http://dbpedia.org/resource/Luciano_Cáceres"
+      }, {
+        "label" : "Lucien Laviscount",
+        "uri" : "http://dbpedia.org/resource/Lucien_Laviscount"
+      }, {
+        "label" : "Lucille Ball",
+        "uri" : "http://dbpedia.org/resource/Lucille_Ball"
+      }, {
+        "label" : "Lucille Wall",
+        "uri" : "http://dbpedia.org/resource/Lucille_Wall"
+      }, {
+        "label" : "Lucinda Dryzek",
+        "uri" : "http://dbpedia.org/resource/Lucinda_Dryzek"
+      }, {
+        "label" : "Lucy-Jo Hudson",
+        "uri" : "http://dbpedia.org/resource/Lucy-Jo_Hudson"
+      }, {
+        "label" : "Lucy Benjamin",
+        "uri" : "http://dbpedia.org/resource/Lucy_Benjamin"
+      }, {
+        "label" : "Lucy Brown",
+        "uri" : "http://dbpedia.org/resource/Lucy_Brown"
+      }, {
+        "label" : "Lucy Davis",
+        "uri" : "http://dbpedia.org/resource/Lucy_Davis"
+      }, {
+        "label" : "Lucy DeCoutere",
+        "uri" : "http://dbpedia.org/resource/Lucy_DeCoutere"
+      }, {
+        "label" : "Lucy Deakins",
+        "uri" : "http://dbpedia.org/resource/Lucy_Deakins"
+      }, {
+        "label" : "Lucy Dixon",
+        "uri" : "http://dbpedia.org/resource/Lucy_Dixon"
+      }, {
+        "label" : "Lucy Durack",
+        "uri" : "http://dbpedia.org/resource/Lucy_Durack"
+      }, {
+        "label" : "Lucy Evans",
+        "uri" : "http://dbpedia.org/resource/Lucy_Evans"
+      }, {
+        "label" : "Lucy Fallon",
+        "uri" : "http://dbpedia.org/resource/Lucy_Fallon"
+      }, {
+        "label" : "Lucy Gaskell",
+        "uri" : "http://dbpedia.org/resource/Lucy_Gaskell"
+      }, {
+        "label" : "Lucy Griffiths (actress, born 1986)",
+        "uri" : "http://dbpedia.org/resource/Lucy_Griffiths_(actress,_born_1986)"
+      }, {
+        "label" : "Lucy Hale",
+        "uri" : "http://dbpedia.org/resource/Lucy_Hale"
+      }, {
+        "label" : "Lucy Lawless",
+        "uri" : "http://dbpedia.org/resource/Lucy_Lawless"
+      }, {
+        "label" : "Lucy Liu",
+        "uri" : "http://dbpedia.org/resource/Lucy_Liu"
+      }, {
+        "label" : "Lucy Pargeter",
+        "uri" : "http://dbpedia.org/resource/Lucy_Pargeter"
+      }, {
+        "label" : "Lucy Speed",
+        "uri" : "http://dbpedia.org/resource/Lucy_Speed"
+      }, {
+        "label" : "Ludi Lin",
+        "uri" : "http://dbpedia.org/resource/Ludi_Lin"
+      }, {
+        "label" : "Ludivine Sagnier",
+        "uri" : "http://dbpedia.org/resource/Ludivine_Sagnier"
+      }, {
+        "label" : "Luisa Bradshaw-White",
+        "uri" : "http://dbpedia.org/resource/Luisa_Bradshaw-White"
+      }, {
+        "label" : "Luke Bracey",
+        "uri" : "http://dbpedia.org/resource/Luke_Bracey"
+      }, {
+        "label" : "Luke Evans",
+        "uri" : "http://dbpedia.org/resource/Luke_Evans"
+      }, {
+        "label" : "Luke Jacobz",
+        "uri" : "http://dbpedia.org/resource/Luke_Jacobz"
+      }, {
+        "label" : "Luke Jerdy",
+        "uri" : "http://dbpedia.org/resource/Luke_Jerdy"
+      }, {
+        "label" : "Luke Kleintank",
+        "uri" : "http://dbpedia.org/resource/Luke_Kleintank"
+      }, {
+        "label" : "Luke Macfarlane",
+        "uri" : "http://dbpedia.org/resource/Luke_Macfarlane"
+      }, {
+        "label" : "Luke Mitchell",
+        "uri" : "http://dbpedia.org/resource/Luke_Mitchell"
+      }, {
+        "label" : "Luke Pasqualino",
+        "uri" : "http://dbpedia.org/resource/Luke_Pasqualino"
+      }, {
+        "label" : "Luke Pegler",
+        "uri" : "http://dbpedia.org/resource/Luke_Pegler"
+      }, {
+        "label" : "Luke Perry",
+        "uri" : "http://dbpedia.org/resource/Luke_Perry"
+      }, {
+        "label" : "Luke Roberts (actor)",
+        "uri" : "http://dbpedia.org/resource/Luke_Roberts_(actor)"
+      }, {
+        "label" : "Luke Roskell",
+        "uri" : "http://dbpedia.org/resource/Luke_Roskell"
+      }, {
+        "label" : "Luke Tarsitano",
+        "uri" : "http://dbpedia.org/resource/Luke_Tarsitano"
+      }, {
+        "label" : "Luke Tittensor",
+        "uri" : "http://dbpedia.org/resource/Luke_Tittensor"
+      }, {
+        "label" : "Luke Youngblood",
+        "uri" : "http://dbpedia.org/resource/Luke_Youngblood"
+      }, {
+        "label" : "Lulu (singer)",
+        "uri" : "http://dbpedia.org/resource/Lulu_(singer)"
+      }, {
+        "label" : "Lupita Nyong'o",
+        "uri" : "http://dbpedia.org/resource/Lupita_Nyong'o"
+      }, {
+        "label" : "Lydia Lloyd-Henry",
+        "uri" : "http://dbpedia.org/resource/Lydia_Lloyd-Henry"
+      }, {
+        "label" : "Lydia Wilson",
+        "uri" : "http://dbpedia.org/resource/Lydia_Wilson"
+      }, {
+        "label" : "Lyn Collingwood",
+        "uri" : "http://dbpedia.org/resource/Lyn_Collingwood"
+      }, {
+        "label" : "Lyn Paul",
+        "uri" : "http://dbpedia.org/resource/Lyn_Paul"
+      }, {
+        "label" : "Lynda Baron",
+        "uri" : "http://dbpedia.org/resource/Lynda_Baron"
+      }, {
+        "label" : "Lyndon Ogbourne",
+        "uri" : "http://dbpedia.org/resource/Lyndon_Ogbourne"
+      }, {
+        "label" : "Lyndsy Fonseca",
+        "uri" : "http://dbpedia.org/resource/Lyndsy_Fonseca"
+      }, {
+        "label" : "Lynn Dalby",
+        "uri" : "http://dbpedia.org/resource/Lynn_Dalby"
+      }, {
+        "label" : "Lynn Farleigh",
+        "uri" : "http://dbpedia.org/resource/Lynn_Farleigh"
+      }, {
+        "label" : "Lynn Herring",
+        "uri" : "http://dbpedia.org/resource/Lynn_Herring"
+      }, {
+        "label" : "Lynn Redgrave",
+        "uri" : "http://dbpedia.org/resource/Lynn_Redgrave"
+      }, {
+        "label" : "Lynne Carol",
+        "uri" : "http://dbpedia.org/resource/Lynne_Carol"
+      }, {
+        "label" : "Lynne McGranger",
+        "uri" : "http://dbpedia.org/resource/Lynne_McGranger"
+      }, {
+        "label" : "Lynne Miller",
+        "uri" : "http://dbpedia.org/resource/Lynne_Miller"
+      }, {
+        "label" : "Lynne Perrie",
+        "uri" : "http://dbpedia.org/resource/Lynne_Perrie"
+      }, {
+        "label" : "Lynnie Greene",
+        "uri" : "http://dbpedia.org/resource/Lynnie_Greene"
+      }, {
+        "label" : "Lynsey Bartilson",
+        "uri" : "http://dbpedia.org/resource/Lynsey_Bartilson"
+      }, {
+        "label" : "Lysette Anthony",
+        "uri" : "http://dbpedia.org/resource/Lysette_Anthony"
+      }, {
+        "label" : "M'fundo Morrison",
+        "uri" : "http://dbpedia.org/resource/M'fundo_Morrison"
+      }, {
+        "label" : "M*A*S*H (TV series)",
+        "uri" : "http://dbpedia.org/resource/M*A*S*H_(TV_series)"
+      }, {
+        "label" : "M. C. Gainey",
+        "uri" : "http://dbpedia.org/resource/M._C._Gainey"
+      }, {
+        "label" : "M. Pokora",
+        "uri" : "http://dbpedia.org/resource/M._Pokora"
+      }, {
+        "label" : "MASH (film)",
+        "uri" : "http://dbpedia.org/resource/MASH_(film)"
+      }, {
+        "label" : "Mabel Ballin",
+        "uri" : "http://dbpedia.org/resource/Mabel_Ballin"
+      }, {
+        "label" : "Mabel King",
+        "uri" : "http://dbpedia.org/resource/Mabel_King"
+      }, {
+        "label" : "MacDonald Carey",
+        "uri" : "http://dbpedia.org/resource/MacDonald_Carey"
+      }, {
+        "label" : "MacKenzie Mauzy",
+        "uri" : "http://dbpedia.org/resource/MacKenzie_Mauzy"
+      }, {
+        "label" : "Macdonald Carey",
+        "uri" : "http://dbpedia.org/resource/Macdonald_Carey"
+      }, {
+        "label" : "Machiko Soga",
+        "uri" : "http://dbpedia.org/resource/Machiko_Soga"
+      }, {
+        "label" : "Mackenyu",
+        "uri" : "http://dbpedia.org/resource/Mackenyu"
+      }, {
+        "label" : "Mackenzie Astin",
+        "uri" : "http://dbpedia.org/resource/Mackenzie_Astin"
+      }, {
+        "label" : "Mackenzie Crook",
+        "uri" : "http://dbpedia.org/resource/Mackenzie_Crook"
+      }, {
+        "label" : "Mad Max 2",
+        "uri" : "http://dbpedia.org/resource/Mad_Max_2"
+      }, {
+        "label" : "Mad Max Beyond Thunderdome",
+        "uri" : "http://dbpedia.org/resource/Mad_Max_Beyond_Thunderdome"
+      }, {
+        "label" : "Maddison Brown",
+        "uri" : "http://dbpedia.org/resource/Maddison_Brown"
+      }, {
+        "label" : "Maddy Hill",
+        "uri" : "http://dbpedia.org/resource/Maddy_Hill"
+      }, {
+        "label" : "Madelaine Petsch",
+        "uri" : "http://dbpedia.org/resource/Madelaine_Petsch"
+      }, {
+        "label" : "Madeleine Howard",
+        "uri" : "http://dbpedia.org/resource/Madeleine_Howard"
+      }, {
+        "label" : "Madeleine West",
+        "uri" : "http://dbpedia.org/resource/Madeleine_West"
+      }, {
+        "label" : "Madeline Duggan",
+        "uri" : "http://dbpedia.org/resource/Madeline_Duggan"
+      }, {
+        "label" : "Madeline Kahn",
+        "uri" : "http://dbpedia.org/resource/Madeline_Kahn"
+      }, {
+        "label" : "Madge Hindle",
+        "uri" : "http://dbpedia.org/resource/Madge_Hindle"
+      }, {
+        "label" : "Madge Kennedy",
+        "uri" : "http://dbpedia.org/resource/Madge_Kennedy"
+      }, {
+        "label" : "Madhuri Dixit",
+        "uri" : "http://dbpedia.org/resource/Madhuri_Dixit"
+      }, {
+        "label" : "Madison Davenport",
+        "uri" : "http://dbpedia.org/resource/Madison_Davenport"
+      }, {
+        "label" : "Madison Lintz",
+        "uri" : "http://dbpedia.org/resource/Madison_Lintz"
+      }, {
+        "label" : "Madison Square Garden",
+        "uri" : "http://dbpedia.org/resource/Madison_Square_Garden"
+      }, {
+        "label" : "Mads Mikkelsen",
+        "uri" : "http://dbpedia.org/resource/Mads_Mikkelsen"
+      }, {
+        "label" : "Mae Clarke",
+        "uri" : "http://dbpedia.org/resource/Mae_Clarke"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "110",
+    "language" : "EN",
+    "type" : "NP",
+    "bindingType" : "PERSON",
+    "returnType" : "THING",
+    "frameType" : "APP",
+    "sentences" : [ "s played for $x" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp))\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "objOfProp"
+    },
+    "returnVariable" : "subjOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Alun Armstrong (actor)",
+        "uri" : "http://dbpedia.org/resource/Alun_Armstrong_(actor)"
+      }, {
+        "label" : "Luca Zingaretti",
+        "uri" : "http://dbpedia.org/resource/Luca_Zingaretti"
+      }, {
+        "label" : "Lucas Black",
+        "uri" : "http://dbpedia.org/resource/Lucas_Black"
+      }, {
+        "label" : "Lucas Grabeel",
+        "uri" : "http://dbpedia.org/resource/Lucas_Grabeel"
+      }, {
+        "label" : "Lucas Jade Zumann",
+        "uri" : "http://dbpedia.org/resource/Lucas_Jade_Zumann"
+      }, {
+        "label" : "Lucas Steele",
+        "uri" : "http://dbpedia.org/resource/Lucas_Steele"
+      }, {
+        "label" : "Lucas Till",
+        "uri" : "http://dbpedia.org/resource/Lucas_Till"
+      }, {
+        "label" : "Lucian Msamati",
+        "uri" : "http://dbpedia.org/resource/Lucian_Msamati"
+      }, {
+        "label" : "Luciana Carro",
+        "uri" : "http://dbpedia.org/resource/Luciana_Carro"
+      }, {
+        "label" : "Luciano Cáceres",
+        "uri" : "http://dbpedia.org/resource/Luciano_Cáceres"
+      }, {
+        "label" : "Lucien Laviscount",
+        "uri" : "http://dbpedia.org/resource/Lucien_Laviscount"
+      }, {
+        "label" : "Lucille Ball",
+        "uri" : "http://dbpedia.org/resource/Lucille_Ball"
+      }, {
+        "label" : "Lucille Wall",
+        "uri" : "http://dbpedia.org/resource/Lucille_Wall"
+      }, {
+        "label" : "Lucinda Dryzek",
+        "uri" : "http://dbpedia.org/resource/Lucinda_Dryzek"
+      }, {
+        "label" : "Lucy-Jo Hudson",
+        "uri" : "http://dbpedia.org/resource/Lucy-Jo_Hudson"
+      }, {
+        "label" : "Lucy Benjamin",
+        "uri" : "http://dbpedia.org/resource/Lucy_Benjamin"
+      }, {
+        "label" : "Lucy Brown",
+        "uri" : "http://dbpedia.org/resource/Lucy_Brown"
+      }, {
+        "label" : "Lucy Davis",
+        "uri" : "http://dbpedia.org/resource/Lucy_Davis"
+      }, {
+        "label" : "Lucy DeCoutere",
+        "uri" : "http://dbpedia.org/resource/Lucy_DeCoutere"
+      }, {
+        "label" : "Lucy Deakins",
+        "uri" : "http://dbpedia.org/resource/Lucy_Deakins"
+      }, {
+        "label" : "Lucy Dixon",
+        "uri" : "http://dbpedia.org/resource/Lucy_Dixon"
+      }, {
+        "label" : "Lucy Durack",
+        "uri" : "http://dbpedia.org/resource/Lucy_Durack"
+      }, {
+        "label" : "Lucy Evans",
+        "uri" : "http://dbpedia.org/resource/Lucy_Evans"
+      }, {
+        "label" : "Lucy Fallon",
+        "uri" : "http://dbpedia.org/resource/Lucy_Fallon"
+      }, {
+        "label" : "Lucy Gaskell",
+        "uri" : "http://dbpedia.org/resource/Lucy_Gaskell"
+      }, {
+        "label" : "Lucy Griffiths (actress, born 1986)",
+        "uri" : "http://dbpedia.org/resource/Lucy_Griffiths_(actress,_born_1986)"
+      }, {
+        "label" : "Lucy Hale",
+        "uri" : "http://dbpedia.org/resource/Lucy_Hale"
+      }, {
+        "label" : "Lucy Lawless",
+        "uri" : "http://dbpedia.org/resource/Lucy_Lawless"
+      }, {
+        "label" : "Lucy Liu",
+        "uri" : "http://dbpedia.org/resource/Lucy_Liu"
+      }, {
+        "label" : "Lucy Pargeter",
+        "uri" : "http://dbpedia.org/resource/Lucy_Pargeter"
+      }, {
+        "label" : "Lucy Speed",
+        "uri" : "http://dbpedia.org/resource/Lucy_Speed"
+      }, {
+        "label" : "Ludi Lin",
+        "uri" : "http://dbpedia.org/resource/Ludi_Lin"
+      }, {
+        "label" : "Ludivine Sagnier",
+        "uri" : "http://dbpedia.org/resource/Ludivine_Sagnier"
+      }, {
+        "label" : "Luisa Bradshaw-White",
+        "uri" : "http://dbpedia.org/resource/Luisa_Bradshaw-White"
+      }, {
+        "label" : "Luke Bracey",
+        "uri" : "http://dbpedia.org/resource/Luke_Bracey"
+      }, {
+        "label" : "Luke Evans",
+        "uri" : "http://dbpedia.org/resource/Luke_Evans"
+      }, {
+        "label" : "Luke Jacobz",
+        "uri" : "http://dbpedia.org/resource/Luke_Jacobz"
+      }, {
+        "label" : "Luke Jerdy",
+        "uri" : "http://dbpedia.org/resource/Luke_Jerdy"
+      }, {
+        "label" : "Luke Kleintank",
+        "uri" : "http://dbpedia.org/resource/Luke_Kleintank"
+      }, {
+        "label" : "Luke Macfarlane",
+        "uri" : "http://dbpedia.org/resource/Luke_Macfarlane"
+      }, {
+        "label" : "Luke Mitchell",
+        "uri" : "http://dbpedia.org/resource/Luke_Mitchell"
+      }, {
+        "label" : "Luke Pasqualino",
+        "uri" : "http://dbpedia.org/resource/Luke_Pasqualino"
+      }, {
+        "label" : "Luke Pegler",
+        "uri" : "http://dbpedia.org/resource/Luke_Pegler"
+      }, {
+        "label" : "Luke Perry",
+        "uri" : "http://dbpedia.org/resource/Luke_Perry"
+      }, {
+        "label" : "Luke Roberts (actor)",
+        "uri" : "http://dbpedia.org/resource/Luke_Roberts_(actor)"
+      }, {
+        "label" : "Luke Roskell",
+        "uri" : "http://dbpedia.org/resource/Luke_Roskell"
+      }, {
+        "label" : "Luke Tarsitano",
+        "uri" : "http://dbpedia.org/resource/Luke_Tarsitano"
+      }, {
+        "label" : "Luke Tittensor",
+        "uri" : "http://dbpedia.org/resource/Luke_Tittensor"
+      }, {
+        "label" : "Luke Youngblood",
+        "uri" : "http://dbpedia.org/resource/Luke_Youngblood"
+      }, {
+        "label" : "Lulu (singer)",
+        "uri" : "http://dbpedia.org/resource/Lulu_(singer)"
+      }, {
+        "label" : "Lupita Nyong'o",
+        "uri" : "http://dbpedia.org/resource/Lupita_Nyong'o"
+      }, {
+        "label" : "Lydia Lloyd-Henry",
+        "uri" : "http://dbpedia.org/resource/Lydia_Lloyd-Henry"
+      }, {
+        "label" : "Lydia Wilson",
+        "uri" : "http://dbpedia.org/resource/Lydia_Wilson"
+      }, {
+        "label" : "Lyn Collingwood",
+        "uri" : "http://dbpedia.org/resource/Lyn_Collingwood"
+      }, {
+        "label" : "Lyn Paul",
+        "uri" : "http://dbpedia.org/resource/Lyn_Paul"
+      }, {
+        "label" : "Lynda Baron",
+        "uri" : "http://dbpedia.org/resource/Lynda_Baron"
+      }, {
+        "label" : "Lyndon Ogbourne",
+        "uri" : "http://dbpedia.org/resource/Lyndon_Ogbourne"
+      }, {
+        "label" : "Lyndsy Fonseca",
+        "uri" : "http://dbpedia.org/resource/Lyndsy_Fonseca"
+      }, {
+        "label" : "Lynn Dalby",
+        "uri" : "http://dbpedia.org/resource/Lynn_Dalby"
+      }, {
+        "label" : "Lynn Farleigh",
+        "uri" : "http://dbpedia.org/resource/Lynn_Farleigh"
+      }, {
+        "label" : "Lynn Herring",
+        "uri" : "http://dbpedia.org/resource/Lynn_Herring"
+      }, {
+        "label" : "Lynn Redgrave",
+        "uri" : "http://dbpedia.org/resource/Lynn_Redgrave"
+      }, {
+        "label" : "Lynne Carol",
+        "uri" : "http://dbpedia.org/resource/Lynne_Carol"
+      }, {
+        "label" : "Lynne McGranger",
+        "uri" : "http://dbpedia.org/resource/Lynne_McGranger"
+      }, {
+        "label" : "Lynne Miller",
+        "uri" : "http://dbpedia.org/resource/Lynne_Miller"
+      }, {
+        "label" : "Lynne Perrie",
+        "uri" : "http://dbpedia.org/resource/Lynne_Perrie"
+      }, {
+        "label" : "Lynnie Greene",
+        "uri" : "http://dbpedia.org/resource/Lynnie_Greene"
+      }, {
+        "label" : "Lynsey Bartilson",
+        "uri" : "http://dbpedia.org/resource/Lynsey_Bartilson"
+      }, {
+        "label" : "Lysette Anthony",
+        "uri" : "http://dbpedia.org/resource/Lysette_Anthony"
+      }, {
+        "label" : "M'fundo Morrison",
+        "uri" : "http://dbpedia.org/resource/M'fundo_Morrison"
+      }, {
+        "label" : "M*A*S*H (TV series)",
+        "uri" : "http://dbpedia.org/resource/M*A*S*H_(TV_series)"
+      }, {
+        "label" : "M. C. Gainey",
+        "uri" : "http://dbpedia.org/resource/M._C._Gainey"
+      }, {
+        "label" : "M. Pokora",
+        "uri" : "http://dbpedia.org/resource/M._Pokora"
+      }, {
+        "label" : "MASH (film)",
+        "uri" : "http://dbpedia.org/resource/MASH_(film)"
+      }, {
+        "label" : "Mabel Ballin",
+        "uri" : "http://dbpedia.org/resource/Mabel_Ballin"
+      }, {
+        "label" : "Mabel King",
+        "uri" : "http://dbpedia.org/resource/Mabel_King"
+      }, {
+        "label" : "MacDonald Carey",
+        "uri" : "http://dbpedia.org/resource/MacDonald_Carey"
+      }, {
+        "label" : "MacKenzie Mauzy",
+        "uri" : "http://dbpedia.org/resource/MacKenzie_Mauzy"
+      }, {
+        "label" : "Macdonald Carey",
+        "uri" : "http://dbpedia.org/resource/Macdonald_Carey"
+      }, {
+        "label" : "Machiko Soga",
+        "uri" : "http://dbpedia.org/resource/Machiko_Soga"
+      }, {
+        "label" : "Mackenyu",
+        "uri" : "http://dbpedia.org/resource/Mackenyu"
+      }, {
+        "label" : "Mackenzie Astin",
+        "uri" : "http://dbpedia.org/resource/Mackenzie_Astin"
+      }, {
+        "label" : "Mackenzie Crook",
+        "uri" : "http://dbpedia.org/resource/Mackenzie_Crook"
+      }, {
+        "label" : "Mad Max 2",
+        "uri" : "http://dbpedia.org/resource/Mad_Max_2"
+      }, {
+        "label" : "Mad Max Beyond Thunderdome",
+        "uri" : "http://dbpedia.org/resource/Mad_Max_Beyond_Thunderdome"
+      }, {
+        "label" : "Maddison Brown",
+        "uri" : "http://dbpedia.org/resource/Maddison_Brown"
+      }, {
+        "label" : "Maddy Hill",
+        "uri" : "http://dbpedia.org/resource/Maddy_Hill"
+      }, {
+        "label" : "Madelaine Petsch",
+        "uri" : "http://dbpedia.org/resource/Madelaine_Petsch"
+      }, {
+        "label" : "Madeleine Howard",
+        "uri" : "http://dbpedia.org/resource/Madeleine_Howard"
+      }, {
+        "label" : "Madeleine West",
+        "uri" : "http://dbpedia.org/resource/Madeleine_West"
+      }, {
+        "label" : "Madeline Duggan",
+        "uri" : "http://dbpedia.org/resource/Madeline_Duggan"
+      }, {
+        "label" : "Madeline Kahn",
+        "uri" : "http://dbpedia.org/resource/Madeline_Kahn"
+      }, {
+        "label" : "Madge Hindle",
+        "uri" : "http://dbpedia.org/resource/Madge_Hindle"
+      }, {
+        "label" : "Madge Kennedy",
+        "uri" : "http://dbpedia.org/resource/Madge_Kennedy"
+      }, {
+        "label" : "Madhuri Dixit",
+        "uri" : "http://dbpedia.org/resource/Madhuri_Dixit"
+      }, {
+        "label" : "Madison Davenport",
+        "uri" : "http://dbpedia.org/resource/Madison_Davenport"
+      }, {
+        "label" : "Madison Lintz",
+        "uri" : "http://dbpedia.org/resource/Madison_Lintz"
+      }, {
+        "label" : "Madison Square Garden",
+        "uri" : "http://dbpedia.org/resource/Madison_Square_Garden"
+      }, {
+        "label" : "Mads Mikkelsen",
+        "uri" : "http://dbpedia.org/resource/Mads_Mikkelsen"
+      }, {
+        "label" : "Mae Clarke",
+        "uri" : "http://dbpedia.org/resource/Mae_Clarke"
+      } ]
+    },
+    "combination" : false
+  }, {
+    "id" : "111",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -5764,7 +6421,7 @@
     },
     "combination" : false
   }, {
-    "id" : "109",
+    "id" : "112",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -6083,7 +6740,7 @@
     },
     "combination" : false
   }, {
-    "id" : "110",
+    "id" : "113",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -6402,7 +7059,7 @@
     },
     "combination" : false
   }, {
-    "id" : "111",
+    "id" : "114",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -6721,7 +7378,7 @@
     },
     "combination" : false
   }, {
-    "id" : "112",
+    "id" : "115",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "LOCATION",
@@ -7036,663 +7693,6 @@
       }, {
         "label" : "Diekirch",
         "uri" : "http://dbpedia.org/resource/Diekirch"
-      } ]
-    },
-    "combination" : false
-  }, {
-    "id" : "113",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "LOCATION",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar border ($x | LOCATION_NP)?", "Does Neymar borders ($x | LOCATION_NP)?", "Does Neymar bordered ($x | LOCATION_NP)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/State> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ ]
-    },
-    "combination" : false
-  }, {
-    "id" : "114",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "PERSON",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear ($x | PERSON_NP)?", "Does Neymar bears ($x | PERSON_NP)?", "Does Neymar born ($x | PERSON_NP)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ {
-        "label" : "2013 Hialeah shooting",
-        "uri" : "http://dbpedia.org/resource/2013_Hialeah_shooting"
-      }, {
-        "label" : "2013 Santa Monica shooting",
-        "uri" : "http://dbpedia.org/resource/2013_Santa_Monica_shooting"
-      }, {
-        "label" : "2014 Colchester murders",
-        "uri" : "http://dbpedia.org/resource/2014_Colchester_murders"
-      }, {
-        "label" : "2014 Fort Hood shooting",
-        "uri" : "http://dbpedia.org/resource/2014_Fort_Hood_shooting"
-      }, {
-        "label" : "2014 Isla Vista killings",
-        "uri" : "http://dbpedia.org/resource/2014_Isla_Vista_killings"
-      }, {
-        "label" : "2014 Las Vegas shootings",
-        "uri" : "http://dbpedia.org/resource/2014_Las_Vegas_shootings"
-      }, {
-        "label" : "2014 killings of NYPD officers",
-        "uri" : "http://dbpedia.org/resource/2014_killings_of_NYPD_officers"
-      }, {
-        "label" : "2014 shootings at Parliament Hill, Ottawa",
-        "uri" : "http://dbpedia.org/resource/2014_shootings_at_Parliament_Hill,_Ottawa"
-      }, {
-        "label" : "2015 Chattanooga shootings",
-        "uri" : "http://dbpedia.org/resource/2015_Chattanooga_shootings"
-      }, {
-        "label" : "2015 Lafayette shooting",
-        "uri" : "http://dbpedia.org/resource/2015_Lafayette_shooting"
-      }, {
-        "label" : "2015 Parramatta shooting",
-        "uri" : "http://dbpedia.org/resource/2015_Parramatta_shooting"
-      }, {
-        "label" : "2015 Sousse attacks",
-        "uri" : "http://dbpedia.org/resource/2015_Sousse_attacks"
-      }, {
-        "label" : "2016 Berlin truck attack",
-        "uri" : "http://dbpedia.org/resource/2016_Berlin_truck_attack"
-      }, {
-        "label" : "2016 Kalamazoo shootings",
-        "uri" : "http://dbpedia.org/resource/2016_Kalamazoo_shootings"
-      }, {
-        "label" : "2016 Munich shooting",
-        "uri" : "http://dbpedia.org/resource/2016_Munich_shooting"
-      }, {
-        "label" : "2016 New York and New Jersey bombings",
-        "uri" : "http://dbpedia.org/resource/2016_New_York_and_New_Jersey_bombings"
-      }, {
-        "label" : "2016 UCLA shooting",
-        "uri" : "http://dbpedia.org/resource/2016_UCLA_shooting"
-      }, {
-        "label" : "2016 shooting of Almaty police officers",
-        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Almaty_police_officers"
-      }, {
-        "label" : "2016 shooting of Baton Rouge police officers",
-        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Baton_Rouge_police_officers"
-      }, {
-        "label" : "2016 shooting of Dallas police officers",
-        "uri" : "http://dbpedia.org/resource/2016_shooting_of_Dallas_police_officers"
-      }, {
-        "label" : "2017 Fresno shooting spree",
-        "uri" : "http://dbpedia.org/resource/2017_Fresno_shooting_spree"
-      }, {
-        "label" : "2017 New York City truck attack",
-        "uri" : "http://dbpedia.org/resource/2017_New_York_City_truck_attack"
-      }, {
-        "label" : "2017 Resorts World Manila attack",
-        "uri" : "http://dbpedia.org/resource/2017_Resorts_World_Manila_attack"
-      }, {
-        "label" : "A.Chal",
-        "uri" : "http://dbpedia.org/resource/A.Chal"
-      }, {
-        "label" : "A.D.M. Cooper",
-        "uri" : "http://dbpedia.org/resource/A.D.M._Cooper"
-      }, {
-        "label" : "A.E. Hanson",
-        "uri" : "http://dbpedia.org/resource/A.E._Hanson"
-      }, {
-        "label" : "A.M. Parkin",
-        "uri" : "http://dbpedia.org/resource/A.M._Parkin"
-      }, {
-        "label" : "A.N.M. Ehsanul Hoque Milan",
-        "uri" : "http://dbpedia.org/resource/A.N.M._Ehsanul_Hoque_Milan"
-      }, {
-        "label" : "A. A. Englander",
-        "uri" : "http://dbpedia.org/resource/A._A._Englander"
-      }, {
-        "label" : "A. Aslam Basha",
-        "uri" : "http://dbpedia.org/resource/A._Aslam_Basha"
-      }, {
-        "label" : "A. B. Colton",
-        "uri" : "http://dbpedia.org/resource/A._B._Colton"
-      }, {
-        "label" : "A. B. Creeke",
-        "uri" : "http://dbpedia.org/resource/A._B._Creeke"
-      }, {
-        "label" : "A. B. Guthrie Jr.",
-        "uri" : "http://dbpedia.org/resource/A._B._Guthrie_Jr."
-      }, {
-        "label" : "A. Bernard Ackerman",
-        "uri" : "http://dbpedia.org/resource/A._Bernard_Ackerman"
-      }, {
-        "label" : "A. Brown Moore",
-        "uri" : "http://dbpedia.org/resource/A._Brown_Moore"
-      }, {
-        "label" : "A. C. Lyons",
-        "uri" : "http://dbpedia.org/resource/A._C._Lyons"
-      }, {
-        "label" : "A. Clifford Jones",
-        "uri" : "http://dbpedia.org/resource/A._Clifford_Jones"
-      }, {
-        "label" : "A. D. Patel",
-        "uri" : "http://dbpedia.org/resource/A._D._Patel"
-      }, {
-        "label" : "A. F. K. Organski",
-        "uri" : "http://dbpedia.org/resource/A._F._K._Organski"
-      }, {
-        "label" : "A. F. N. Everett",
-        "uri" : "http://dbpedia.org/resource/A._F._N._Everett"
-      }, {
-        "label" : "A. Fredric Leopold",
-        "uri" : "http://dbpedia.org/resource/A._Fredric_Leopold"
-      }, {
-        "label" : "A. G. Harbaugh",
-        "uri" : "http://dbpedia.org/resource/A._G._Harbaugh"
-      }, {
-        "label" : "A. Gordon Wetmore",
-        "uri" : "http://dbpedia.org/resource/A._Gordon_Wetmore"
-      }, {
-        "label" : "A. H. Hornby",
-        "uri" : "http://dbpedia.org/resource/A._H._Hornby"
-      }, {
-        "label" : "A. J. Healy",
-        "uri" : "http://dbpedia.org/resource/A._J._Healy"
-      }, {
-        "label" : "A. J. S. Lakshmi Shree",
-        "uri" : "http://dbpedia.org/resource/A._J._S._Lakshmi_Shree"
-      }, {
-        "label" : "A. Johnkumar",
-        "uri" : "http://dbpedia.org/resource/A._Johnkumar"
-      }, {
-        "label" : "A. K. M. Bahauddin",
-        "uri" : "http://dbpedia.org/resource/A._K._M._Bahauddin"
-      }, {
-        "label" : "A. K. M. Rezaul Karim Tansen",
-        "uri" : "http://dbpedia.org/resource/A._K._M._Rezaul_Karim_Tansen"
-      }, {
-        "label" : "A. K. Mozumdar",
-        "uri" : "http://dbpedia.org/resource/A._K._Mozumdar"
-      }, {
-        "label" : "A. K. Patel",
-        "uri" : "http://dbpedia.org/resource/A._K._Patel"
-      }, {
-        "label" : "A. Lakshmanaswami Mudaliar",
-        "uri" : "http://dbpedia.org/resource/A._Lakshmanaswami_Mudaliar"
-      }, {
-        "label" : "A. M. Mathai",
-        "uri" : "http://dbpedia.org/resource/A._M._Mathai"
-      }, {
-        "label" : "A. M. Secrest",
-        "uri" : "http://dbpedia.org/resource/A._M._Secrest"
-      }, {
-        "label" : "A. Mangalam",
-        "uri" : "http://dbpedia.org/resource/A._Mangalam"
-      }, {
-        "label" : "A. Nafeesath Beevi",
-        "uri" : "http://dbpedia.org/resource/A._Nafeesath_Beevi"
-      }, {
-        "label" : "A. Oveta Fuller",
-        "uri" : "http://dbpedia.org/resource/A._Oveta_Fuller"
-      }, {
-        "label" : "A. P. Mda",
-        "uri" : "http://dbpedia.org/resource/A._P._Mda"
-      }, {
-        "label" : "A. Palanisamy",
-        "uri" : "http://dbpedia.org/resource/A._Palanisamy"
-      }, {
-        "label" : "A. Pradeepkumar",
-        "uri" : "http://dbpedia.org/resource/A._Pradeepkumar"
-      }, {
-        "label" : "A. R. Taylor",
-        "uri" : "http://dbpedia.org/resource/A._R._Taylor"
-      }, {
-        "label" : "A. Ranganadha Rao",
-        "uri" : "http://dbpedia.org/resource/A._Ranganadha_Rao"
-      }, {
-        "label" : "A. Roberto Frisancho",
-        "uri" : "http://dbpedia.org/resource/A._Roberto_Frisancho"
-      }, {
-        "label" : "A. S. Arya",
-        "uri" : "http://dbpedia.org/resource/A._S._Arya"
-      }, {
-        "label" : "A. S. Baylinson",
-        "uri" : "http://dbpedia.org/resource/A._S._Baylinson"
-      }, {
-        "label" : "A. S. Rao",
-        "uri" : "http://dbpedia.org/resource/A._S._Rao"
-      }, {
-        "label" : "A. S. W. Rosenbach",
-        "uri" : "http://dbpedia.org/resource/A._S._W._Rosenbach"
-      }, {
-        "label" : "A. Subbarayalu Reddiar",
-        "uri" : "http://dbpedia.org/resource/A._Subbarayalu_Reddiar"
-      }, {
-        "label" : "A. T. George",
-        "uri" : "http://dbpedia.org/resource/A._T._George"
-      }, {
-        "label" : "A. T. Hill",
-        "uri" : "http://dbpedia.org/resource/A._T._Hill"
-      }, {
-        "label" : "A. T. M. Abdul Wahab",
-        "uri" : "http://dbpedia.org/resource/A._T._M._Abdul_Wahab"
-      }, {
-        "label" : "A. T. M. Shamsul Huda",
-        "uri" : "http://dbpedia.org/resource/A._T._M._Shamsul_Huda"
-      }, {
-        "label" : "A. T. Pannirselvam",
-        "uri" : "http://dbpedia.org/resource/A._T._Pannirselvam"
-      }, {
-        "label" : "A. Thomas Doyle",
-        "uri" : "http://dbpedia.org/resource/A._Thomas_Doyle"
-      }, {
-        "label" : "A. V. Kuttimalu Amma",
-        "uri" : "http://dbpedia.org/resource/A._V._Kuttimalu_Amma"
-      }, {
-        "label" : "A. V. Rama Rao",
-        "uri" : "http://dbpedia.org/resource/A._V._Rama_Rao"
-      }, {
-        "label" : "A. Vinod Bharathi",
-        "uri" : "http://dbpedia.org/resource/A._Vinod_Bharathi"
-      }, {
-        "label" : "A. W. Baskcomb",
-        "uri" : "http://dbpedia.org/resource/A._W._Baskcomb"
-      }, {
-        "label" : "A. Wess Mitchell",
-        "uri" : "http://dbpedia.org/resource/A._Wess_Mitchell"
-      }, {
-        "label" : "A. Y. G. Campbell",
-        "uri" : "http://dbpedia.org/resource/A._Y._G._Campbell"
-      }, {
-        "label" : "ABM Sohel Rashid",
-        "uri" : "http://dbpedia.org/resource/ABM_Sohel_Rashid"
-      }, {
-        "label" : "AD Singh",
-        "uri" : "http://dbpedia.org/resource/AD_Singh"
-      }, {
-        "label" : "AFM Solaiman Chowdhury",
-        "uri" : "http://dbpedia.org/resource/AFM_Solaiman_Chowdhury"
-      }, {
-        "label" : "Alva Noto",
-        "uri" : "http://dbpedia.org/resource/Alva_Noto"
-      }, {
-        "label" : "LoveRance",
-        "uri" : "http://dbpedia.org/resource/LoveRance"
-      }, {
-        "label" : "Love (Ai Otsuka)",
-        "uri" : "http://dbpedia.org/resource/Love_(Ai_Otsuka)"
-      }, {
-        "label" : "Love (footballer)",
-        "uri" : "http://dbpedia.org/resource/Love_(footballer)"
-      }, {
-        "label" : "Love Ablish",
-        "uri" : "http://dbpedia.org/resource/Love_Ablish"
-      }, {
-        "label" : "Love Allotey",
-        "uri" : "http://dbpedia.org/resource/Love_Allotey"
-      }, {
-        "label" : "Love Antell",
-        "uri" : "http://dbpedia.org/resource/Love_Antell"
-      }, {
-        "label" : "Love At First Sound",
-        "uri" : "http://dbpedia.org/resource/Love_At_First_Sound"
-      }, {
-        "label" : "Love Gantt",
-        "uri" : "http://dbpedia.org/resource/Love_Gantt"
-      }, {
-        "label" : "Love Larson",
-        "uri" : "http://dbpedia.org/resource/Love_Larson"
-      }, {
-        "label" : "Lovebug Starski",
-        "uri" : "http://dbpedia.org/resource/Lovebug_Starski"
-      }, {
-        "label" : "Loveday Enyinnaya",
-        "uri" : "http://dbpedia.org/resource/Loveday_Enyinnaya"
-      }, {
-        "label" : "Lovefoxxx",
-        "uri" : "http://dbpedia.org/resource/Lovefoxxx"
-      }, {
-        "label" : "Lovel Palmer",
-        "uri" : "http://dbpedia.org/resource/Lovel_Palmer"
-      }, {
-        "label" : "Lovelace Ackah",
-        "uri" : "http://dbpedia.org/resource/Lovelace_Ackah"
-      }, {
-        "label" : "Lovelace Watkins",
-        "uri" : "http://dbpedia.org/resource/Lovelace_Watkins"
-      }, {
-        "label" : "Loveleen Kaur Sasan",
-        "uri" : "http://dbpedia.org/resource/Loveleen_Kaur_Sasan"
-      } ]
-    },
-    "combination" : false
-  }, {
-    "id" : "115",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "FILM",
-    "returnType" : "PERSON",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar direct ($x | FILM_NP)?", "Does Neymar directs ($x | FILM_NP)?", "Does Neymar directed ($x | FILM_NP)?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/director> ?objOfProp))\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfProp"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ {
-        "label" : "1920 (film)",
-        "uri" : "http://dbpedia.org/resource/1920_(film)"
-      }, {
-        "label" : "1958 (film)",
-        "uri" : "http://dbpedia.org/resource/1958_(film)"
-      }, {
-        "label" : "2015 Adelaide Film Festival",
-        "uri" : "http://dbpedia.org/resource/2015_Adelaide_Film_Festival"
-      }, {
-        "label" : "2016: Obama's America",
-        "uri" : "http://dbpedia.org/resource/2016:_Obama's_America"
-      }, {
-        "label" : "2016 The End",
-        "uri" : "http://dbpedia.org/resource/2016_The_End"
-      }, {
-        "label" : "6-18-67",
-        "uri" : "http://dbpedia.org/resource/6-18-67"
-      }, {
-        "label" : "600,000 Francs a Month (1926 film)",
-        "uri" : "http://dbpedia.org/resource/600,000_Francs_a_Month_(1926_film)"
-      }, {
-        "label" : "600,000 Francs a Month (1933 film)",
-        "uri" : "http://dbpedia.org/resource/600,000_Francs_a_Month_(1933_film)"
-      }, {
-        "label" : "60 Cycles",
-        "uri" : "http://dbpedia.org/resource/60_Cycles"
-      }, {
-        "label" : "6 Angels",
-        "uri" : "http://dbpedia.org/resource/6_Angels"
-      }, {
-        "label" : "7-Man Army",
-        "uri" : "http://dbpedia.org/resource/7-Man_Army"
-      }, {
-        "label" : "77 Rue Chalgrin",
-        "uri" : "http://dbpedia.org/resource/77_Rue_Chalgrin"
-      }, {
-        "label" : "7 chili in 7 giorni",
-        "uri" : "http://dbpedia.org/resource/7_chili_in_7_giorni"
-      }, {
-        "label" : "80 Degrees East of Birdland",
-        "uri" : "http://dbpedia.org/resource/80_Degrees_East_of_Birdland"
-      }, {
-        "label" : "8 Ball Bunny",
-        "uri" : "http://dbpedia.org/resource/8_Ball_Bunny"
-      }, {
-        "label" : "90 Days (film)",
-        "uri" : "http://dbpedia.org/resource/90_Days_(film)"
-      }, {
-        "label" : "93Queen",
-        "uri" : "http://dbpedia.org/resource/93Queen"
-      }, {
-        "label" : "999-9999",
-        "uri" : "http://dbpedia.org/resource/999-9999"
-      }, {
-        "label" : "9 Days in Summer",
-        "uri" : "http://dbpedia.org/resource/9_Days_in_Summer"
-      }, {
-        "label" : "9 Lives of a Wet Pussy",
-        "uri" : "http://dbpedia.org/resource/9_Lives_of_a_Wet_Pussy"
-      }, {
-        "label" : "9 Nelalu",
-        "uri" : "http://dbpedia.org/resource/9_Nelalu"
-      }, {
-        "label" : "9 millimeter",
-        "uri" : "http://dbpedia.org/resource/9_millimeter"
-      }, {
-        "label" : "A-Haunting We Will Go (1942 film)",
-        "uri" : "http://dbpedia.org/resource/A-Haunting_We_Will_Go_(1942_film)"
-      }, {
-        "label" : "A-Haunting We Will Go (1966 film)",
-        "uri" : "http://dbpedia.org/resource/A-Haunting_We_Will_Go_(1966_film)"
-      }, {
-        "label" : "A.D. (miniseries)",
-        "uri" : "http://dbpedia.org/resource/A.D._(miniseries)"
-      }, {
-        "label" : "A.P.E.X.",
-        "uri" : "http://dbpedia.org/resource/A.P.E.X."
-      }, {
-        "label" : "A. K. G. (film)",
-        "uri" : "http://dbpedia.org/resource/A._K._G._(film)"
-      }, {
-        "label" : "A/k/a Tommy Chong",
-        "uri" : "http://dbpedia.org/resource/A/k/a_Tommy_Chong"
-      }, {
-        "label" : "A: Ad Infinitum",
-        "uri" : "http://dbpedia.org/resource/A:_Ad_Infinitum"
-      }, {
-        "label" : "ABCD (film)",
-        "uri" : "http://dbpedia.org/resource/ABCD_(film)"
-      }, {
-        "label" : "ABC Africa",
-        "uri" : "http://dbpedia.org/resource/ABC_Africa"
-      }, {
-        "label" : "ABC miłości",
-        "uri" : "http://dbpedia.org/resource/ABC_miłości"
-      }, {
-        "label" : "Love, Pepper and Sweets",
-        "uri" : "http://dbpedia.org/resource/Love,_Pepper_and_Sweets"
-      }, {
-        "label" : "Love, Rosie (film)",
-        "uri" : "http://dbpedia.org/resource/Love,_Rosie_(film)"
-      }, {
-        "label" : "Love, Sex and Eating the Bones",
-        "uri" : "http://dbpedia.org/resource/Love,_Sex_and_Eating_the_Bones"
-      }, {
-        "label" : "Love, Simon",
-        "uri" : "http://dbpedia.org/resource/Love,_Simon"
-      }, {
-        "label" : "Love, Theft and Other Entanglements",
-        "uri" : "http://dbpedia.org/resource/Love,_Theft_and_Other_Entanglements"
-      }, {
-        "label" : "Love, Wedding, Marriage",
-        "uri" : "http://dbpedia.org/resource/Love,_Wedding,_Marriage"
-      }, {
-        "label" : "Love, Weddings & Other Disasters",
-        "uri" : "http://dbpedia.org/resource/Love,_Weddings_&_Other_Disasters"
-      }, {
-        "label" : "Love.net",
-        "uri" : "http://dbpedia.org/resource/Love.net"
-      }, {
-        "label" : "Love & Air Sex",
-        "uri" : "http://dbpedia.org/resource/Love_&_Air_Sex"
-      }, {
-        "label" : "Love & Basketball",
-        "uri" : "http://dbpedia.org/resource/Love_&_Basketball"
-      }, {
-        "label" : "Love & Dance",
-        "uri" : "http://dbpedia.org/resource/Love_&_Dance"
-      }, {
-        "label" : "Love & Distrust",
-        "uri" : "http://dbpedia.org/resource/Love_&_Distrust"
-      }, {
-        "label" : "Love & Friendship",
-        "uri" : "http://dbpedia.org/resource/Love_&_Friendship"
-      }, {
-        "label" : "Love & Lies",
-        "uri" : "http://dbpedia.org/resource/Love_&_Lies"
-      }, {
-        "label" : "Love & Loathing & Lulu & Ayano",
-        "uri" : "http://dbpedia.org/resource/Love_&_Loathing_&_Lulu_&_Ayano"
-      }, {
-        "label" : "Love & Love Only",
-        "uri" : "http://dbpedia.org/resource/Love_&_Love_Only"
-      }, {
-        "label" : "Love & Mercy (film)",
-        "uri" : "http://dbpedia.org/resource/Love_&_Mercy_(film)"
-      }, {
-        "label" : "Love & Other Drugs",
-        "uri" : "http://dbpedia.org/resource/Love_&_Other_Drugs"
-      }, {
-        "label" : "Love & Peace (film)",
-        "uri" : "http://dbpedia.org/resource/Love_&_Peace_(film)"
-      }, {
-        "label" : "Love & Pop",
-        "uri" : "http://dbpedia.org/resource/Love_&_Pop"
-      }, {
-        "label" : "Love '47",
-        "uri" : "http://dbpedia.org/resource/Love_'47"
-      }, {
-        "label" : "Love 'Em and Feed 'Em",
-        "uri" : "http://dbpedia.org/resource/Love_'Em_and_Feed_'Em"
-      }, {
-        "label" : "Love 'Em and Leave 'Em (film)",
-        "uri" : "http://dbpedia.org/resource/Love_'Em_and_Leave_'Em_(film)"
-      }, {
-        "label" : "Love 'em and Weep",
-        "uri" : "http://dbpedia.org/resource/Love_'em_and_Weep"
-      }, {
-        "label" : "Love (1919 American film)",
-        "uri" : "http://dbpedia.org/resource/Love_(1919_American_film)"
-      }, {
-        "label" : "Love (1920 film)",
-        "uri" : "http://dbpedia.org/resource/Love_(1920_film)"
-      }, {
-        "label" : "Love (1927 American film)",
-        "uri" : "http://dbpedia.org/resource/Love_(1927_American_film)"
-      }, {
-        "label" : "Love (1971 film)",
-        "uri" : "http://dbpedia.org/resource/Love_(1971_film)"
-      }, {
-        "label" : "Love (1991 film)",
-        "uri" : "http://dbpedia.org/resource/Love_(1991_film)"
-      }, {
-        "label" : "Love (2004 film)",
-        "uri" : "http://dbpedia.org/resource/Love_(2004_film)"
-      }, {
-        "label" : "Love (2005 film)",
-        "uri" : "http://dbpedia.org/resource/Love_(2005_film)"
-      }, {
-        "label" : "Love (2008 Bengali film)",
-        "uri" : "http://dbpedia.org/resource/Love_(2008_Bengali_film)"
-      }, {
-        "label" : "Love (2008 Indonesian film)",
-        "uri" : "http://dbpedia.org/resource/Love_(2008_Indonesian_film)"
-      }, {
-        "label" : "Love (2011 film)",
-        "uri" : "http://dbpedia.org/resource/Love_(2011_film)"
-      }, {
-        "label" : "Love (2012 film)",
-        "uri" : "http://dbpedia.org/resource/Love_(2012_film)"
-      }, {
-        "label" : "Love (2015 film)",
-        "uri" : "http://dbpedia.org/resource/Love_(2015_film)"
-      }, {
-        "label" : "Love 24x7",
-        "uri" : "http://dbpedia.org/resource/Love_24x7"
-      }, {
-        "label" : "Love 65",
-        "uri" : "http://dbpedia.org/resource/Love_65"
-      }, {
-        "label" : "Love 86",
-        "uri" : "http://dbpedia.org/resource/Love_86"
-      }, {
-        "label" : "Love 911",
-        "uri" : "http://dbpedia.org/resource/Love_911"
-      }, {
-        "label" : "Love @ First Note",
-        "uri" : "http://dbpedia.org/resource/Love_@_First_Note"
-      }, {
-        "label" : "Love Aaj Kal",
-        "uri" : "http://dbpedia.org/resource/Love_Aaj_Kal"
-      }, {
-        "label" : "Love Aaj Kal (2020 film)",
-        "uri" : "http://dbpedia.org/resource/Love_Aaj_Kal_(2020_film)"
-      }, {
-        "label" : "Love Aaj Kal Porshu",
-        "uri" : "http://dbpedia.org/resource/Love_Aaj_Kal_Porshu"
-      }, {
-        "label" : "Love Action Drama",
-        "uri" : "http://dbpedia.org/resource/Love_Action_Drama"
-      }, {
-        "label" : "Love Actually",
-        "uri" : "http://dbpedia.org/resource/Love_Actually"
-      }, {
-        "label" : "Love Actually... Sucks!",
-        "uri" : "http://dbpedia.org/resource/Love_Actually..._Sucks!"
-      }, {
-        "label" : "Love Affair (1932 film)",
-        "uri" : "http://dbpedia.org/resource/Love_Affair_(1932_film)"
-      }, {
-        "label" : "Love Affair (1939 film)",
-        "uri" : "http://dbpedia.org/resource/Love_Affair_(1939_film)"
-      }, {
-        "label" : "Love Affairs (1927 film)",
-        "uri" : "http://dbpedia.org/resource/Love_Affairs_(1927_film)"
-      }, {
-        "label" : "Love After Love (1992 film)",
-        "uri" : "http://dbpedia.org/resource/Love_After_Love_(1992_film)"
-      }, {
-        "label" : "Love Always, Santa",
-        "uri" : "http://dbpedia.org/resource/Love_Always,_Santa"
-      }, {
-        "label" : "Love Among Thieves",
-        "uri" : "http://dbpedia.org/resource/Love_Among_Thieves"
-      }, {
-        "label" : "Love Among the Millionaires",
-        "uri" : "http://dbpedia.org/resource/Love_Among_the_Millionaires"
-      }, {
-        "label" : "Love Among the Ruins (film)",
-        "uri" : "http://dbpedia.org/resource/Love_Among_the_Ruins_(film)"
-      }, {
-        "label" : "Love And...",
-        "uri" : "http://dbpedia.org/resource/Love_And..."
-      }, {
-        "label" : "Love Beats Rhymes",
-        "uri" : "http://dbpedia.org/resource/Love_Beats_Rhymes"
-      }, {
-        "label" : "Love Before Breakfast",
-        "uri" : "http://dbpedia.org/resource/Love_Before_Breakfast"
-      }, {
-        "label" : "Love Begins",
-        "uri" : "http://dbpedia.org/resource/Love_Begins"
-      }, {
-        "label" : "Love Begins at 20",
-        "uri" : "http://dbpedia.org/resource/Love_Begins_at_20"
-      }, {
-        "label" : "Love Between the Raindrops",
-        "uri" : "http://dbpedia.org/resource/Love_Between_the_Raindrops"
-      }, {
-        "label" : "Love Beyond Frontier (2019 TV series)",
-        "uri" : "http://dbpedia.org/resource/Love_Beyond_Frontier_(2019_TV_series)"
-      }, {
-        "label" : "Love Birds (1934 film)",
-        "uri" : "http://dbpedia.org/resource/Love_Birds_(1934_film)"
-      }, {
-        "label" : "Love Birds (1996 film)",
-        "uri" : "http://dbpedia.org/resource/Love_Birds_(1996_film)"
-      }, {
-        "label" : "Love Bites (film)",
-        "uri" : "http://dbpedia.org/resource/Love_Bites_(film)"
-      }, {
-        "label" : "Love Bound",
-        "uri" : "http://dbpedia.org/resource/Love_Bound"
-      }, {
-        "label" : "Love Breakups Zindagi",
-        "uri" : "http://dbpedia.org/resource/Love_Breakups_Zindagi"
-      }, {
-        "label" : "Love Brewed in the African Pot",
-        "uri" : "http://dbpedia.org/resource/Love_Brewed_in_the_African_Pot"
       } ]
     },
     "combination" : false

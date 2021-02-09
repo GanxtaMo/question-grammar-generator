@@ -4249,11 +4249,17 @@
         "label" : "Luisa Ranieri",
         "uri" : "http://dbpedia.org/resource/Luisa_Ranieri"
       }, {
+        "label" : "Lynn Whitfield",
+        "uri" : "http://dbpedia.org/resource/Lynn_Whitfield"
+      }, {
         "label" : "Lysette Anthony",
         "uri" : "http://dbpedia.org/resource/Lysette_Anthony"
       }, {
         "label" : "László Moholy-Nagy",
         "uri" : "http://dbpedia.org/resource/László_Moholy-Nagy"
+      }, {
+        "label" : "M. G. Ramachandran",
+        "uri" : "http://dbpedia.org/resource/M._G._Ramachandran"
       }, {
         "label" : "Malcolm Turnbull",
         "uri" : "http://dbpedia.org/resource/Malcolm_Turnbull"
@@ -4267,8 +4273,17 @@
         "label" : "V. N. Janaki",
         "uri" : "http://dbpedia.org/resource/V._N._Janaki"
       }, {
+        "label" : "Val Butnaru",
+        "uri" : "http://dbpedia.org/resource/Val_Butnaru"
+      }, {
+        "label" : "Valentina Butnaru",
+        "uri" : "http://dbpedia.org/resource/Valentina_Butnaru"
+      }, {
         "label" : "Vantile Whitfield",
         "uri" : "http://dbpedia.org/resource/Vantile_Whitfield"
+      }, {
+        "label" : "Vera Tschechowa",
+        "uri" : "http://dbpedia.org/resource/Vera_Tschechowa"
       }, {
         "label" : "Vere Harmsworth, 3rd Viscount Rothermere",
         "uri" : "http://dbpedia.org/resource/Vere_Harmsworth,_3rd_Viscount_Rothermere"
@@ -4281,6 +4296,15 @@
       }, {
         "label" : "Peyton Sawyer",
         "uri" : "http://dbpedia.org/resource/Peyton_Sawyer"
+      }, {
+        "label" : "Rusudan of Circassia",
+        "uri" : "http://dbpedia.org/resource/Rusudan_of_Circassia"
+      }, {
+        "label" : "Sandhya Shantaram",
+        "uri" : "http://dbpedia.org/resource/Sandhya_Shantaram"
+      }, {
+        "label" : "Solomonia Saburova",
+        "uri" : "http://dbpedia.org/resource/Solomonia_Saburova"
       }, {
         "label" : "George Grierson (printer)",
         "uri" : "http://dbpedia.org/resource/George_Grierson_(printer)"
@@ -4303,8 +4327,14 @@
         "label" : "Blanche of Namur",
         "uri" : "http://dbpedia.org/resource/Blanche_of_Namur"
       }, {
+        "label" : "Derya Alabora",
+        "uri" : "http://dbpedia.org/resource/Derya_Alabora"
+      }, {
         "label" : "Desmond FitzGerald (politician)",
         "uri" : "http://dbpedia.org/resource/Desmond_FitzGerald_(politician)"
+      }, {
+        "label" : "Diana Wellesley, Duchess of Wellington",
+        "uri" : "http://dbpedia.org/resource/Diana_Wellesley,_Duchess_of_Wellington"
       }, {
         "label" : "Dick Cheney",
         "uri" : "http://dbpedia.org/resource/Dick_Cheney"
@@ -4339,6 +4369,9 @@
         "label" : "Kothamangalam Subbu",
         "uri" : "http://dbpedia.org/resource/Kothamangalam_Subbu"
       }, {
+        "label" : "Krishnachandran",
+        "uri" : "http://dbpedia.org/resource/Krishnachandran"
+      }, {
         "label" : "Prince Sahle Selassie",
         "uri" : "http://dbpedia.org/resource/Prince_Sahle_Selassie"
       }, {
@@ -4350,6 +4383,9 @@
       }, {
         "label" : "Puranmal",
         "uri" : "http://dbpedia.org/resource/Puranmal"
+      }, {
+        "label" : "Pwa Saw",
+        "uri" : "http://dbpedia.org/resource/Pwa_Saw"
       }, {
         "label" : "Queen Ratna of Nepal",
         "uri" : "http://dbpedia.org/resource/Queen_Ratna_of_Nepal"
@@ -4365,6 +4401,9 @@
       }, {
         "label" : "Rachel Portman",
         "uri" : "http://dbpedia.org/resource/Rachel_Portman"
+      }, {
+        "label" : "Rajeshwari Sachdev",
+        "uri" : "http://dbpedia.org/resource/Rajeshwari_Sachdev"
       }, {
         "label" : "Howard F. Ahmanson Sr.",
         "uri" : "http://dbpedia.org/resource/Howard_F._Ahmanson_Sr."
@@ -4417,8 +4456,14 @@
         "label" : "Alistair Petrie",
         "uri" : "http://dbpedia.org/resource/Alistair_Petrie"
       }, {
+        "label" : "Allan Turpin",
+        "uri" : "http://dbpedia.org/resource/Allan_Turpin"
+      }, {
         "label" : "Allen Paulson",
         "uri" : "http://dbpedia.org/resource/Allen_Paulson"
+      }, {
+        "label" : "Alma Adamkienė",
+        "uri" : "http://dbpedia.org/resource/Alma_Adamkienė"
       }, {
         "label" : "Charles, Count of Valois",
         "uri" : "http://dbpedia.org/resource/Charles,_Count_of_Valois"
@@ -4453,68 +4498,23 @@
         "label" : "Nilmini Tennakoon",
         "uri" : "http://dbpedia.org/resource/Nilmini_Tennakoon"
       }, {
+        "label" : "Nitin Sahrawat",
+        "uri" : "http://dbpedia.org/resource/Nitin_Sahrawat"
+      }, {
         "label" : "Nnamdi Azikiwe",
         "uri" : "http://dbpedia.org/resource/Nnamdi_Azikiwe"
       }, {
         "label" : "Noah Bean",
         "uri" : "http://dbpedia.org/resource/Noah_Bean"
       }, {
+        "label" : "Noriko Shinohara",
+        "uri" : "http://dbpedia.org/resource/Noriko_Shinohara"
+      }, {
         "label" : "Olafr Havrevold",
         "uri" : "http://dbpedia.org/resource/Olafr_Havrevold"
       }, {
         "label" : "Charlotte King",
         "uri" : "http://dbpedia.org/resource/Charlotte_King"
-      }, {
-        "label" : "Diana Laura Riojas",
-        "uri" : "http://dbpedia.org/resource/Diana_Laura_Riojas"
-      }, {
-        "label" : "George I, Landgrave of Hesse-Darmstadt",
-        "uri" : "http://dbpedia.org/resource/George_I,_Landgrave_of_Hesse-Darmstadt"
-      }, {
-        "label" : "Louis John Gardella",
-        "uri" : "http://dbpedia.org/resource/Louis_John_Gardella"
-      }, {
-        "label" : "Sawsan Gabra Ayoub Khalil",
-        "uri" : "http://dbpedia.org/resource/Sawsan_Gabra_Ayoub_Khalil"
-      }, {
-        "label" : "Ramabai Peshwa",
-        "uri" : "http://dbpedia.org/resource/Ramabai_Peshwa"
-      }, {
-        "label" : "Avinash",
-        "uri" : "http://dbpedia.org/resource/Avinash"
-      }, {
-        "label" : "Azam Farahi",
-        "uri" : "http://dbpedia.org/resource/Azam_Farahi"
-      }, {
-        "label" : "Aïssata Issoufou Mahamadou",
-        "uri" : "http://dbpedia.org/resource/Aïssata_Issoufou_Mahamadou"
-      }, {
-        "label" : "Aşubcan Kadın",
-        "uri" : "http://dbpedia.org/resource/Aşubcan_Kadın"
-      }, {
-        "label" : "Barbara Stühlmeyer",
-        "uri" : "http://dbpedia.org/resource/Barbara_Stühlmeyer"
-      }, {
-        "label" : "Barbara of Brandenburg, Marquise of Mantua",
-        "uri" : "http://dbpedia.org/resource/Barbara_of_Brandenburg,_Marquise_of_Mantua"
-      }, {
-        "label" : "Art Linares",
-        "uri" : "http://dbpedia.org/resource/Art_Linares"
-      }, {
-        "label" : "Lord Frederick Cavendish",
-        "uri" : "http://dbpedia.org/resource/Lord_Frederick_Cavendish"
-      }, {
-        "label" : "Lorenzo de' Medici, Duke of Urbino",
-        "uri" : "http://dbpedia.org/resource/Lorenzo_de'_Medici,_Duke_of_Urbino"
-      }, {
-        "label" : "Louis-Ferdinand Céline",
-        "uri" : "http://dbpedia.org/resource/Louis-Ferdinand_Céline"
-      }, {
-        "label" : "Louis Frederick II, Prince of Schwarzburg-Rudolstadt",
-        "uri" : "http://dbpedia.org/resource/Louis_Frederick_II,_Prince_of_Schwarzburg-Rudolstadt"
-      }, {
-        "label" : "Louis I, Duke of Bavaria",
-        "uri" : "http://dbpedia.org/resource/Louis_I,_Duke_of_Bavaria"
       } ]
     },
     "combination" : true
@@ -5255,336 +5255,334 @@
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bordered the birth place of $x?", "What borders the birth place of $x?", "Which state bordered the birth place of $x?", "Which state borders the birth place of $x?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for the spouse of $x?", "What was played for the spouse of $x?", "Which is played for the spouse of $x?", "Which s are played for the spouse of $x?", "Which s were played for the spouse of $x?", "Which was played for the spouse of $x?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/State> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/birthPlace> ?subjOfProp)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/spouse> ?objOfProp)\n)\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfPropx"
     },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "337",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "PERSON",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears the spouse of $x?", "What born the spouse of $x?", "Which date bears the spouse of $x?", "Which date born the spouse of $x?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/spouse> ?subjOfProp)\n)\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfPropx"
-    },
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
       "bindingList" : [ {
         "label" : "Luc Leestemaker",
         "uri" : "http://dbpedia.org/resource/Luc_Leestemaker"
       }, {
-        "label" : "Luca Zingaretti",
-        "uri" : "http://dbpedia.org/resource/Luca_Zingaretti"
-      }, {
-        "label" : "Lucia Bosè",
-        "uri" : "http://dbpedia.org/resource/Lucia_Bosè"
-      }, {
-        "label" : "Lucia Moholy",
-        "uri" : "http://dbpedia.org/resource/Lucia_Moholy"
-      }, {
-        "label" : "Lucy Turnbull",
-        "uri" : "http://dbpedia.org/resource/Lucy_Turnbull"
-      }, {
-        "label" : "Lucé Vela",
-        "uri" : "http://dbpedia.org/resource/Lucé_Vela"
-      }, {
-        "label" : "Ludu Daw Amar",
-        "uri" : "http://dbpedia.org/resource/Ludu_Daw_Amar"
-      }, {
-        "label" : "Ludu U Hla",
-        "uri" : "http://dbpedia.org/resource/Ludu_U_Hla"
+        "label" : "Lucille Ball",
+        "uri" : "http://dbpedia.org/resource/Lucille_Ball"
       }, {
         "label" : "Luisa Ranieri",
         "uri" : "http://dbpedia.org/resource/Luisa_Ranieri"
       }, {
-        "label" : "Lynn Whitfield",
-        "uri" : "http://dbpedia.org/resource/Lynn_Whitfield"
+        "label" : "Veronique Peck",
+        "uri" : "http://dbpedia.org/resource/Veronique_Peck"
       }, {
-        "label" : "Lysette Anthony",
-        "uri" : "http://dbpedia.org/resource/Lysette_Anthony"
-      }, {
-        "label" : "László Moholy-Nagy",
-        "uri" : "http://dbpedia.org/resource/László_Moholy-Nagy"
-      }, {
-        "label" : "M. G. Ramachandran",
-        "uri" : "http://dbpedia.org/resource/M._G._Ramachandran"
-      }, {
-        "label" : "Magdalena Graaf",
-        "uri" : "http://dbpedia.org/resource/Magdalena_Graaf"
-      }, {
-        "label" : "Malcolm Turnbull",
-        "uri" : "http://dbpedia.org/resource/Malcolm_Turnbull"
-      }, {
-        "label" : "V. N. Janaki",
-        "uri" : "http://dbpedia.org/resource/V._N._Janaki"
-      }, {
-        "label" : "Val Butnaru",
-        "uri" : "http://dbpedia.org/resource/Val_Butnaru"
-      }, {
-        "label" : "Valentina Butnaru",
-        "uri" : "http://dbpedia.org/resource/Valentina_Butnaru"
-      }, {
-        "label" : "Valeriy Borzov",
-        "uri" : "http://dbpedia.org/resource/Valeriy_Borzov"
-      }, {
-        "label" : "Vantile Whitfield",
-        "uri" : "http://dbpedia.org/resource/Vantile_Whitfield"
-      }, {
-        "label" : "Vera Tschechowa",
-        "uri" : "http://dbpedia.org/resource/Vera_Tschechowa"
-      }, {
-        "label" : "Veronika Franz and Severin Fiala",
-        "uri" : "http://dbpedia.org/resource/Veronika_Franz_and_Severin_Fiala"
-      }, {
-        "label" : "Marieme Faye Sall",
-        "uri" : "http://dbpedia.org/resource/Marieme_Faye_Sall"
-      }, {
-        "label" : "Sandhya Shantaram",
-        "uri" : "http://dbpedia.org/resource/Sandhya_Shantaram"
-      }, {
-        "label" : "Thomas Hassan",
-        "uri" : "http://dbpedia.org/resource/Thomas_Hassan"
-      }, {
-        "label" : "Hyman B. Samuels",
-        "uri" : "http://dbpedia.org/resource/Hyman_B._Samuels"
-      }, {
-        "label" : "Manuel Sadosky",
-        "uri" : "http://dbpedia.org/resource/Manuel_Sadosky"
-      }, {
-        "label" : "Bjørn Sand",
-        "uri" : "http://dbpedia.org/resource/Bjørn_Sand"
-      }, {
-        "label" : "Deirdre O'Connell",
-        "uri" : "http://dbpedia.org/resource/Deirdre_O'Connell"
-      }, {
-        "label" : "Derya Alabora",
-        "uri" : "http://dbpedia.org/resource/Derya_Alabora"
-      }, {
-        "label" : "Desha Breckinridge",
-        "uri" : "http://dbpedia.org/resource/Desha_Breckinridge"
-      }, {
-        "label" : "Desmond FitzGerald (politician)",
-        "uri" : "http://dbpedia.org/resource/Desmond_FitzGerald_(politician)"
-      }, {
-        "label" : "Diana Wellesley, Duchess of Wellington",
-        "uri" : "http://dbpedia.org/resource/Diana_Wellesley,_Duchess_of_Wellington"
-      }, {
-        "label" : "Dick Cheney",
-        "uri" : "http://dbpedia.org/resource/Dick_Cheney"
-      }, {
-        "label" : "Gladys Vanderbilt Széchenyi",
-        "uri" : "http://dbpedia.org/resource/Gladys_Vanderbilt_Széchenyi"
+        "label" : "Brandon Barash",
+        "uri" : "http://dbpedia.org/resource/Brandon_Barash"
       }, {
         "label" : "Gloria Carrá",
         "uri" : "http://dbpedia.org/resource/Gloria_Carrá"
       }, {
-        "label" : "Grigori Aleksandrov",
-        "uri" : "http://dbpedia.org/resource/Grigori_Aleksandrov"
+        "label" : "Gordon Scott",
+        "uri" : "http://dbpedia.org/resource/Gordon_Scott"
       }, {
-        "label" : "Kevin Seal",
-        "uri" : "http://dbpedia.org/resource/Kevin_Seal"
+        "label" : "Gry Molvær Hivju",
+        "uri" : "http://dbpedia.org/resource/Gry_Molvær_Hivju"
       }, {
-        "label" : "Khalida Safarova",
-        "uri" : "http://dbpedia.org/resource/Khalida_Safarova"
+        "label" : "Grynet Molvig",
+        "uri" : "http://dbpedia.org/resource/Grynet_Molvig"
       }, {
-        "label" : "Khan Ataur Rahman",
-        "uri" : "http://dbpedia.org/resource/Khan_Ataur_Rahman"
+        "label" : "Kirsten Storms",
+        "uri" : "http://dbpedia.org/resource/Kirsten_Storms"
       }, {
-        "label" : "Kishore Kumar",
-        "uri" : "http://dbpedia.org/resource/Kishore_Kumar"
+        "label" : "Rachel Gordon",
+        "uri" : "http://dbpedia.org/resource/Rachel_Gordon"
       }, {
-        "label" : "Koji Yamamoto (actor)",
-        "uri" : "http://dbpedia.org/resource/Koji_Yamamoto_(actor)"
+        "label" : "Rachel Rosenthal",
+        "uri" : "http://dbpedia.org/resource/Rachel_Rosenthal"
       }, {
-        "label" : "Kothamangalam Subbu",
-        "uri" : "http://dbpedia.org/resource/Kothamangalam_Subbu"
+        "label" : "Alan Halsall",
+        "uri" : "http://dbpedia.org/resource/Alan_Halsall"
       }, {
-        "label" : "Krishnachandran",
-        "uri" : "http://dbpedia.org/resource/Krishnachandran"
+        "label" : "Alan Thicke",
+        "uri" : "http://dbpedia.org/resource/Alan_Thicke"
       }, {
-        "label" : "Priya Bapat",
-        "uri" : "http://dbpedia.org/resource/Priya_Bapat"
+        "label" : "Alec Baldwin",
+        "uri" : "http://dbpedia.org/resource/Alec_Baldwin"
       }, {
-        "label" : "Quinn Martin",
-        "uri" : "http://dbpedia.org/resource/Quinn_Martin"
+        "label" : "Catherine FitzGerald",
+        "uri" : "http://dbpedia.org/resource/Catherine_FitzGerald"
       }, {
-        "label" : "Rachel Miner",
-        "uri" : "http://dbpedia.org/resource/Rachel_Miner"
+        "label" : "Cecilia Nilsson (actress)",
+        "uri" : "http://dbpedia.org/resource/Cecilia_Nilsson_(actress)"
       }, {
-        "label" : "Rachel Portman",
-        "uri" : "http://dbpedia.org/resource/Rachel_Portman"
+        "label" : "Chelsea Noble",
+        "uri" : "http://dbpedia.org/resource/Chelsea_Noble"
       }, {
-        "label" : "Ragnheiður Melsteð",
-        "uri" : "http://dbpedia.org/resource/Ragnheiður_Melsteð"
+        "label" : "Florenz Ziegfeld Jr.",
+        "uri" : "http://dbpedia.org/resource/Florenz_Ziegfeld_Jr."
       }, {
-        "label" : "Rajeshwari Sachdev",
-        "uri" : "http://dbpedia.org/resource/Rajeshwari_Sachdev"
-      }, {
-        "label" : "Howard F. Ahmanson Sr.",
-        "uri" : "http://dbpedia.org/resource/Howard_F._Ahmanson_Sr."
-      }, {
-        "label" : "Shizuko Hoshi",
-        "uri" : "http://dbpedia.org/resource/Shizuko_Hoshi"
-      }, {
-        "label" : "Albert S. Ruddy",
-        "uri" : "http://dbpedia.org/resource/Albert_S._Ruddy"
-      }, {
-        "label" : "Alex O'Loughlin",
-        "uri" : "http://dbpedia.org/resource/Alex_O'Loughlin"
-      }, {
-        "label" : "Alexander Godunov",
-        "uri" : "http://dbpedia.org/resource/Alexander_Godunov"
-      }, {
-        "label" : "Alexandre de Lesseps",
-        "uri" : "http://dbpedia.org/resource/Alexandre_de_Lesseps"
-      }, {
-        "label" : "Alfred Lunt",
-        "uri" : "http://dbpedia.org/resource/Alfred_Lunt"
-      }, {
-        "label" : "Alistair Petrie",
-        "uri" : "http://dbpedia.org/resource/Alistair_Petrie"
-      }, {
-        "label" : "Allan Turpin",
-        "uri" : "http://dbpedia.org/resource/Allan_Turpin"
-      }, {
-        "label" : "Allen Paulson",
-        "uri" : "http://dbpedia.org/resource/Allen_Paulson"
-      }, {
-        "label" : "Alma Adamkienė",
-        "uri" : "http://dbpedia.org/resource/Alma_Adamkienė"
-      }, {
-        "label" : "Altiero Spinelli",
-        "uri" : "http://dbpedia.org/resource/Altiero_Spinelli"
-      }, {
-        "label" : "Charlton Heston",
-        "uri" : "http://dbpedia.org/resource/Charlton_Heston"
-      }, {
-        "label" : "Florence Reed",
-        "uri" : "http://dbpedia.org/resource/Florence_Reed"
-      }, {
-        "label" : "Anand Mohan Singh",
-        "uri" : "http://dbpedia.org/resource/Anand_Mohan_Singh"
-      }, {
-        "label" : "Nieves Navarro",
-        "uri" : "http://dbpedia.org/resource/Nieves_Navarro"
-      }, {
-        "label" : "Nijō Motohiro",
-        "uri" : "http://dbpedia.org/resource/Nijō_Motohiro"
-      }, {
-        "label" : "Nikolai Karachentsov",
-        "uri" : "http://dbpedia.org/resource/Nikolai_Karachentsov"
-      }, {
-        "label" : "Nilmini Tennakoon",
-        "uri" : "http://dbpedia.org/resource/Nilmini_Tennakoon"
-      }, {
-        "label" : "Nirmal Kumar",
-        "uri" : "http://dbpedia.org/resource/Nirmal_Kumar"
-      }, {
-        "label" : "Nitin Sahrawat",
-        "uri" : "http://dbpedia.org/resource/Nitin_Sahrawat"
-      }, {
-        "label" : "Nnamdi Azikiwe",
-        "uri" : "http://dbpedia.org/resource/Nnamdi_Azikiwe"
+        "label" : "Nispal Singh",
+        "uri" : "http://dbpedia.org/resource/Nispal_Singh"
       }, {
         "label" : "Noah Bean",
         "uri" : "http://dbpedia.org/resource/Noah_Bean"
       }, {
-        "label" : "Olafr Havrevold",
-        "uri" : "http://dbpedia.org/resource/Olafr_Havrevold"
+        "label" : "Noah Danby",
+        "uri" : "http://dbpedia.org/resource/Noah_Danby"
       }, {
-        "label" : "Diana Laura Riojas",
-        "uri" : "http://dbpedia.org/resource/Diana_Laura_Riojas"
+        "label" : "Mithu Chakrabarty",
+        "uri" : "http://dbpedia.org/resource/Mithu_Chakrabarty"
       }, {
-        "label" : "George I, Landgrave of Hesse-Darmstadt",
-        "uri" : "http://dbpedia.org/resource/George_I,_Landgrave_of_Hesse-Darmstadt"
+        "label" : "Touriya Haoud",
+        "uri" : "http://dbpedia.org/resource/Touriya_Haoud"
       }, {
-        "label" : "Louis John Gardella",
-        "uri" : "http://dbpedia.org/resource/Louis_John_Gardella"
+        "label" : "B. J. Ward (actress)",
+        "uri" : "http://dbpedia.org/resource/B._J._Ward_(actress)"
       }, {
-        "label" : "Sawsan Gabra Ayoub Khalil",
-        "uri" : "http://dbpedia.org/resource/Sawsan_Gabra_Ayoub_Khalil"
+        "label" : "Barry Cahill (actor)",
+        "uri" : "http://dbpedia.org/resource/Barry_Cahill_(actor)"
       }, {
-        "label" : "Sulochana Gadgil",
-        "uri" : "http://dbpedia.org/resource/Sulochana_Gadgil"
+        "label" : "Camila Sodi",
+        "uri" : "http://dbpedia.org/resource/Camila_Sodi"
       }, {
-        "label" : "Ramabai Peshwa",
-        "uri" : "http://dbpedia.org/resource/Ramabai_Peshwa"
-      }, {
-        "label" : "Azam Farahi",
-        "uri" : "http://dbpedia.org/resource/Azam_Farahi"
-      }, {
-        "label" : "Aïssata Issoufou Mahamadou",
-        "uri" : "http://dbpedia.org/resource/Aïssata_Issoufou_Mahamadou"
-      }, {
-        "label" : "Baburaj (actor)",
-        "uri" : "http://dbpedia.org/resource/Baburaj_(actor)"
-      }, {
-        "label" : "Barbara Stühlmeyer",
-        "uri" : "http://dbpedia.org/resource/Barbara_Stühlmeyer"
-      }, {
-        "label" : "Barbara of Brandenburg, Marquise of Mantua",
-        "uri" : "http://dbpedia.org/resource/Barbara_of_Brandenburg,_Marquise_of_Mantua"
-      }, {
-        "label" : "Barry Levinson",
-        "uri" : "http://dbpedia.org/resource/Barry_Levinson"
-      }, {
-        "label" : "Liya Akhedzhakova",
-        "uri" : "http://dbpedia.org/resource/Liya_Akhedzhakova"
-      }, {
-        "label" : "Lord Frederick Cavendish",
-        "uri" : "http://dbpedia.org/resource/Lord_Frederick_Cavendish"
-      }, {
-        "label" : "Louis-Ferdinand Céline",
-        "uri" : "http://dbpedia.org/resource/Louis-Ferdinand_Céline"
-      }, {
-        "label" : "Caitlin Stasey",
-        "uri" : "http://dbpedia.org/resource/Caitlin_Stasey"
-      }, {
-        "label" : "Cal Rampton",
-        "uri" : "http://dbpedia.org/resource/Cal_Rampton"
-      }, {
-        "label" : "Candace Cameron Bure",
-        "uri" : "http://dbpedia.org/resource/Candace_Cameron_Bure"
-      }, {
-        "label" : "Carl Sagan",
-        "uri" : "http://dbpedia.org/resource/Carl_Sagan"
-      }, {
-        "label" : "Carla Arocha",
-        "uri" : "http://dbpedia.org/resource/Carla_Arocha"
+        "label" : "Camilla Sacre-Dallerup",
+        "uri" : "http://dbpedia.org/resource/Camilla_Sacre-Dallerup"
       }, {
         "label" : "Carmine Giovinazzo",
         "uri" : "http://dbpedia.org/resource/Carmine_Giovinazzo"
       }, {
-        "label" : "Carolina Rivas",
-        "uri" : "http://dbpedia.org/resource/Carolina_Rivas"
+        "label" : "Carol Arthur",
+        "uri" : "http://dbpedia.org/resource/Carol_Arthur"
       }, {
-        "label" : "Caroline St-Hilaire",
-        "uri" : "http://dbpedia.org/resource/Caroline_St-Hilaire"
+        "label" : "Chris Evans (presenter)",
+        "uri" : "http://dbpedia.org/resource/Chris_Evans_(presenter)"
       }, {
-        "label" : "Catarina de Lencastre, Viscountess of Balsemão",
-        "uri" : "http://dbpedia.org/resource/Catarina_de_Lencastre,_Viscountess_of_Balsemão"
+        "label" : "Christie Brinkley",
+        "uri" : "http://dbpedia.org/resource/Christie_Brinkley"
       }, {
-        "label" : "Chien-Shiung Wu",
-        "uri" : "http://dbpedia.org/resource/Chien-Shiung_Wu"
+        "label" : "Christopher Lambert",
+        "uri" : "http://dbpedia.org/resource/Christopher_Lambert"
       }, {
-        "label" : "Chitrasena",
-        "uri" : "http://dbpedia.org/resource/Chitrasena"
+        "label" : "Cindy Ambuehl",
+        "uri" : "http://dbpedia.org/resource/Cindy_Ambuehl"
+      }, {
+        "label" : "Clarence Williams III",
+        "uri" : "http://dbpedia.org/resource/Clarence_Williams_III"
+      }, {
+        "label" : "Garfield Morgan",
+        "uri" : "http://dbpedia.org/resource/Garfield_Morgan"
+      }, {
+        "label" : "Gary Morton",
+        "uri" : "http://dbpedia.org/resource/Gary_Morton"
+      }, {
+        "label" : "Gary Oldman",
+        "uri" : "http://dbpedia.org/resource/Gary_Oldman"
+      }, {
+        "label" : "George Hearn",
+        "uri" : "http://dbpedia.org/resource/George_Hearn"
+      }, {
+        "label" : "Jennifer Aniston",
+        "uri" : "http://dbpedia.org/resource/Jennifer_Aniston"
+      }, {
+        "label" : "Jennifer Esposito",
+        "uri" : "http://dbpedia.org/resource/Jennifer_Esposito"
+      }, {
+        "label" : "Jennifer Schwalbach Smith",
+        "uri" : "http://dbpedia.org/resource/Jennifer_Schwalbach_Smith"
+      }, {
+        "label" : "Jenny Lumet",
+        "uri" : "http://dbpedia.org/resource/Jenny_Lumet"
+      }, {
+        "label" : "Jill Latiano",
+        "uri" : "http://dbpedia.org/resource/Jill_Latiano"
+      }, {
+        "label" : "Joan Blondell",
+        "uri" : "http://dbpedia.org/resource/Joan_Blondell"
+      }, {
+        "label" : "Joan Valerie",
+        "uri" : "http://dbpedia.org/resource/Joan_Valerie"
+      }, {
+        "label" : "Joanne Mitchell",
+        "uri" : "http://dbpedia.org/resource/Joanne_Mitchell"
+      }, {
+        "label" : "Joanne Whalley",
+        "uri" : "http://dbpedia.org/resource/Joanne_Whalley"
+      }, {
+        "label" : "John Billingsley",
+        "uri" : "http://dbpedia.org/resource/John_Billingsley"
+      }, {
+        "label" : "John Clark (actor)",
+        "uri" : "http://dbpedia.org/resource/John_Clark_(actor)"
+      }, {
+        "label" : "John Malkovich",
+        "uri" : "http://dbpedia.org/resource/John_Malkovich"
+      }, {
+        "label" : "Ben Koldyke",
+        "uri" : "http://dbpedia.org/resource/Ben_Koldyke"
+      }, {
+        "label" : "Katherine LaNasa",
+        "uri" : "http://dbpedia.org/resource/Katherine_LaNasa"
+      }, {
+        "label" : "Kathryn Hays",
+        "uri" : "http://dbpedia.org/resource/Kathryn_Hays"
+      }, {
+        "label" : "Katie Lee (chef)",
+        "uri" : "http://dbpedia.org/resource/Katie_Lee_(chef)"
+      }, {
+        "label" : "Keith Larsen",
+        "uri" : "http://dbpedia.org/resource/Keith_Larsen"
+      }, {
+        "label" : "Ken Campbell",
+        "uri" : "http://dbpedia.org/resource/Ken_Campbell"
+      }, {
+        "label" : "Lee Mead",
+        "uri" : "http://dbpedia.org/resource/Lee_Mead"
+      }, {
+        "label" : "Lesley Judd",
+        "uri" : "http://dbpedia.org/resource/Lesley_Judd"
+      }, {
+        "label" : "Lincoln Townley",
+        "uri" : "http://dbpedia.org/resource/Lincoln_Townley"
+      }, {
+        "label" : "Zach Gilford",
+        "uri" : "http://dbpedia.org/resource/Zach_Gilford"
+      }, {
+        "label" : "Nobby Clark (photographer)",
+        "uri" : "http://dbpedia.org/resource/Nobby_Clark_(photographer)"
+      }, {
+        "label" : "Michael Jayston",
+        "uri" : "http://dbpedia.org/resource/Michael_Jayston"
+      }, {
+        "label" : "Michelle Phillips",
+        "uri" : "http://dbpedia.org/resource/Michelle_Phillips"
+      }, {
+        "label" : "Ryan Reynolds",
+        "uri" : "http://dbpedia.org/resource/Ryan_Reynolds"
+      }, {
+        "label" : "Sam Sorbo",
+        "uri" : "http://dbpedia.org/resource/Sam_Sorbo"
+      }, {
+        "label" : "Early life and career of Gene Roddenberry",
+        "uri" : "http://dbpedia.org/resource/Early_life_and_career_of_Gene_Roddenberry"
+      }, {
+        "label" : "Eden Hartford",
+        "uri" : "http://dbpedia.org/resource/Eden_Hartford"
+      }, {
+        "label" : "Franco Nero",
+        "uri" : "http://dbpedia.org/resource/Franco_Nero"
+      }, {
+        "label" : "François Olivennes",
+        "uri" : "http://dbpedia.org/resource/François_Olivennes"
+      }, {
+        "label" : "Gustaw Holoubek",
+        "uri" : "http://dbpedia.org/resource/Gustaw_Holoubek"
+      }, {
+        "label" : "Hal Holbrook",
+        "uri" : "http://dbpedia.org/resource/Hal_Holbrook"
+      }, {
+        "label" : "Hugo Ballin",
+        "uri" : "http://dbpedia.org/resource/Hugo_Ballin"
+      }, {
+        "label" : "Jack Wagner (actor)",
+        "uri" : "http://dbpedia.org/resource/Jack_Wagner_(actor)"
+      }, {
+        "label" : "Jack Wrather",
+        "uri" : "http://dbpedia.org/resource/Jack_Wrather"
+      }, {
+        "label" : "Jane Kaczmarek",
+        "uri" : "http://dbpedia.org/resource/Jane_Kaczmarek"
+      }, {
+        "label" : "Jane Powell",
+        "uri" : "http://dbpedia.org/resource/Jane_Powell"
+      }, {
+        "label" : "Sebastian Roché",
+        "uri" : "http://dbpedia.org/resource/Sebastian_Roché"
+      }, {
+        "label" : "Paul Antony-Barber",
+        "uri" : "http://dbpedia.org/resource/Paul_Antony-Barber"
+      }, {
+        "label" : "Amy Landecker",
+        "uri" : "http://dbpedia.org/resource/Amy_Landecker"
+      }, {
+        "label" : "Andrew Taylor (painter)",
+        "uri" : "http://dbpedia.org/resource/Andrew_Taylor_(painter)"
+      }, {
+        "label" : "Angelina Jolie",
+        "uri" : "http://dbpedia.org/resource/Angelina_Jolie"
+      }, {
+        "label" : "Anna Brecon",
+        "uri" : "http://dbpedia.org/resource/Anna_Brecon"
+      }, {
+        "label" : "Anne Aubrey",
+        "uri" : "http://dbpedia.org/resource/Anne_Aubrey"
+      }, {
+        "label" : "Anthony Havelock-Allan",
+        "uri" : "http://dbpedia.org/resource/Anthony_Havelock-Allan"
+      }, {
+        "label" : "Archie Pitt",
+        "uri" : "http://dbpedia.org/resource/Archie_Pitt"
+      }, {
+        "label" : "Aretha Franklin",
+        "uri" : "http://dbpedia.org/resource/Aretha_Franklin"
+      }, {
+        "label" : "Arthur L. Carter",
+        "uri" : "http://dbpedia.org/resource/Arthur_L._Carter"
+      }, {
+        "label" : "Audrey Christie",
+        "uri" : "http://dbpedia.org/resource/Audrey_Christie"
+      }, {
+        "label" : "Olga Schoberová",
+        "uri" : "http://dbpedia.org/resource/Olga_Schoberová"
+      }, {
+        "label" : "Owain Yeoman",
+        "uri" : "http://dbpedia.org/resource/Owain_Yeoman"
+      }, {
+        "label" : "Rebecca Breeds",
+        "uri" : "http://dbpedia.org/resource/Rebecca_Breeds"
+      }, {
+        "label" : "Renn Hawkey",
+        "uri" : "http://dbpedia.org/resource/Renn_Hawkey"
+      }, {
+        "label" : "Richard A. Colla",
+        "uri" : "http://dbpedia.org/resource/Richard_A._Colla"
+      }, {
+        "label" : "Richard Fidler",
+        "uri" : "http://dbpedia.org/resource/Richard_Fidler"
+      }, {
+        "label" : "Richard Schaal",
+        "uri" : "http://dbpedia.org/resource/Richard_Schaal"
+      }, {
+        "label" : "Patricia Maynard",
+        "uri" : "http://dbpedia.org/resource/Patricia_Maynard"
+      }, {
+        "label" : "Adam Rayner",
+        "uri" : "http://dbpedia.org/resource/Adam_Rayner"
+      }, {
+        "label" : "Adam Reid",
+        "uri" : "http://dbpedia.org/resource/Adam_Reid"
+      }, {
+        "label" : "Brooke Hayward",
+        "uri" : "http://dbpedia.org/resource/Brooke_Hayward"
       } ]
+    },
+    "combination" : true
+  }, {
+    "id" : "337",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "THING",
+    "returnType" : "THING",
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian prime minister?", "What is played for Australian prime ministers?", "What was played for a Australian prime minister?", "What was played for Australian prime ministers?", "Which is played for a Australian prime minister?", "Which is played for Australian prime ministers?", "Which s are played for a Australian prime minister?", "Which s are played for Australian prime ministers?", "Which s were played for a Australian prime minister?", "Which s were played for Australian prime ministers?", "Which was played for a Australian prime minister?", "Which was played for Australian prime ministers?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PrimeMinister>)\n)\n",
+    "sentenceToSparqlParameterMapping" : null,
+    "returnVariable" : "subjOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "NONE",
+      "bindingList" : [ ]
     },
     "combination" : true
   }, {
@@ -5593,12 +5591,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian prime minister?", "What bears Australian prime ministers?", "What born a Australian prime minister?", "What born Australian prime ministers?", "Which date bears a Australian prime minister?", "Which date bears Australian prime ministers?", "Which date born a Australian prime minister?", "Which date born Australian prime ministers?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian agent?", "What is played for Australian agents?", "What was played for a Australian agent?", "What was played for Australian agents?", "Which is played for a Australian agent?", "Which is played for Australian agents?", "Which s are played for a Australian agent?", "Which s are played for Australian agents?", "Which s were played for a Australian agent?", "Which s were played for Australian agents?", "Which was played for a Australian agent?", "Which was played for Australian agents?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PrimeMinister>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5610,12 +5608,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian agent?", "What bears Australian agents?", "What born a Australian agent?", "What born Australian agents?", "Which date bears a Australian agent?", "Which date bears Australian agents?", "Which date born a Australian agent?", "Which date born Australian agents?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian artist?", "What is played for Australian artists?", "What was played for a Australian artist?", "What was played for Australian artists?", "Which is played for a Australian artist?", "Which is played for Australian artists?", "Which s are played for a Australian artist?", "Which s are played for Australian artists?", "Which s were played for a Australian artist?", "Which s were played for Australian artists?", "Which was played for a Australian artist?", "Which was played for Australian artists?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5627,12 +5625,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian artist?", "What bears Australian artists?", "What born a Australian artist?", "What born Australian artists?", "Which date bears a Australian artist?", "Which date bears Australian artists?", "Which date born a Australian artist?", "Which date born Australian artists?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian motorcycle rider?", "What is played for Australian motorcycle riders?", "What was played for a Australian motorcycle rider?", "What was played for Australian motorcycle riders?", "Which is played for a Australian motorcycle rider?", "Which is played for Australian motorcycle riders?", "Which s are played for a Australian motorcycle rider?", "Which s are played for Australian motorcycle riders?", "Which s were played for a Australian motorcycle rider?", "Which s were played for Australian motorcycle riders?", "Which was played for a Australian motorcycle rider?", "Which was played for Australian motorcycle riders?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5644,12 +5642,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian motorcycle rider?", "What bears Australian motorcycle riders?", "What born a Australian motorcycle rider?", "What born Australian motorcycle riders?", "Which date bears a Australian motorcycle rider?", "Which date bears Australian motorcycle riders?", "Which date born a Australian motorcycle rider?", "Which date born Australian motorcycle riders?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian scientist?", "What is played for Australian scientists?", "What was played for a Australian scientist?", "What was played for Australian scientists?", "Which is played for a Australian scientist?", "Which is played for Australian scientists?", "Which s are played for a Australian scientist?", "Which s are played for Australian scientists?", "Which s were played for a Australian scientist?", "Which s were played for Australian scientists?", "Which was played for a Australian scientist?", "Which was played for Australian scientists?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5661,12 +5659,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian scientist?", "What bears Australian scientists?", "What born a Australian scientist?", "What born Australian scientists?", "Which date bears a Australian scientist?", "Which date bears Australian scientists?", "Which date born a Australian scientist?", "Which date born Australian scientists?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian military person?", "What is played for Australian military persons?", "What was played for a Australian military person?", "What was played for Australian military persons?", "Which is played for a Australian military person?", "Which is played for Australian military persons?", "Which s are played for a Australian military person?", "Which s are played for Australian military persons?", "Which s were played for a Australian military person?", "Which s were played for Australian military persons?", "Which was played for a Australian military person?", "Which was played for Australian military persons?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryPerson>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5678,12 +5676,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian military person?", "What bears Australian military persons?", "What born a Australian military person?", "What born Australian military persons?", "Which date bears a Australian military person?", "Which date bears Australian military persons?", "Which date born a Australian military person?", "Which date born Australian military persons?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian volleyball player?", "What is played for Australian volleyball players?", "What was played for a Australian volleyball player?", "What was played for Australian volleyball players?", "Which is played for a Australian volleyball player?", "Which is played for Australian volleyball players?", "Which s are played for a Australian volleyball player?", "Which s are played for Australian volleyball players?", "Which s were played for a Australian volleyball player?", "Which s were played for Australian volleyball players?", "Which was played for a Australian volleyball player?", "Which was played for Australian volleyball players?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryPerson>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5695,12 +5693,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian volleyball player?", "What bears Australian volleyball players?", "What born a Australian volleyball player?", "What born Australian volleyball players?", "Which date bears a Australian volleyball player?", "Which date bears Australian volleyball players?", "Which date born a Australian volleyball player?", "Which date born Australian volleyball players?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian basketball player?", "What is played for Australian basketball players?", "What was played for a Australian basketball player?", "What was played for Australian basketball players?", "Which is played for a Australian basketball player?", "Which is played for Australian basketball players?", "Which s are played for a Australian basketball player?", "Which s are played for Australian basketball players?", "Which s were played for a Australian basketball player?", "Which s were played for Australian basketball players?", "Which was played for a Australian basketball player?", "Which was played for Australian basketball players?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/BasketballPlayer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5712,12 +5710,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian basketball player?", "What bears Australian basketball players?", "What born a Australian basketball player?", "What born Australian basketball players?", "Which date bears a Australian basketball player?", "Which date bears Australian basketball players?", "Which date born a Australian basketball player?", "Which date born Australian basketball players?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian speedway rider?", "What is played for Australian speedway riders?", "What was played for a Australian speedway rider?", "What was played for Australian speedway riders?", "Which is played for a Australian speedway rider?", "Which is played for Australian speedway riders?", "Which s are played for a Australian speedway rider?", "Which s are played for Australian speedway riders?", "Which s were played for a Australian speedway rider?", "Which s were played for Australian speedway riders?", "Which was played for a Australian speedway rider?", "Which was played for Australian speedway riders?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/BasketballPlayer>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SpeedwayRider>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5729,12 +5727,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian speedway rider?", "What bears Australian speedway riders?", "What born a Australian speedway rider?", "What born Australian speedway riders?", "Which date bears a Australian speedway rider?", "Which date bears Australian speedway riders?", "Which date born a Australian speedway rider?", "Which date born Australian speedway riders?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian model?", "What is played for Australian models?", "What was played for a Australian model?", "What was played for Australian models?", "Which is played for a Australian model?", "Which is played for Australian models?", "Which s are played for a Australian model?", "Which s are played for Australian models?", "Which s were played for a Australian model?", "Which s were played for Australian models?", "Which was played for a Australian model?", "Which was played for Australian models?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SpeedwayRider>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Model>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5746,12 +5744,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian model?", "What bears Australian models?", "What born a Australian model?", "What born Australian models?", "Which date bears a Australian model?", "Which date bears Australian models?", "Which date born a Australian model?", "Which date born Australian models?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian motorsport racer?", "What is played for Australian motorsport racers?", "What was played for a Australian motorsport racer?", "What was played for Australian motorsport racers?", "Which is played for a Australian motorsport racer?", "Which is played for Australian motorsport racers?", "Which s are played for a Australian motorsport racer?", "Which s are played for Australian motorsport racers?", "Which s were played for a Australian motorsport racer?", "Which s were played for Australian motorsport racers?", "Which was played for a Australian motorsport racer?", "Which was played for Australian motorsport racers?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Model>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5763,12 +5761,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian motorsport racer?", "What bears Australian motorsport racers?", "What born a Australian motorsport racer?", "What born Australian motorsport racers?", "Which date bears a Australian motorsport racer?", "Which date bears Australian motorsport racers?", "Which date born a Australian motorsport racer?", "Which date born Australian motorsport racers?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian cleric?", "What is played for Australian clerics?", "What was played for a Australian cleric?", "What was played for Australian clerics?", "Which is played for a Australian cleric?", "Which is played for Australian clerics?", "Which s are played for a Australian cleric?", "Which s are played for Australian clerics?", "Which s were played for a Australian cleric?", "Which s were played for Australian clerics?", "Which was played for a Australian cleric?", "Which was played for Australian clerics?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5780,12 +5778,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian cleric?", "What bears Australian clerics?", "What born a Australian cleric?", "What born Australian clerics?", "Which date bears a Australian cleric?", "Which date bears Australian clerics?", "Which date born a Australian cleric?", "Which date born Australian clerics?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian boxer?", "What is played for Australian boxers?", "What was played for a Australian boxer?", "What was played for Australian boxers?", "Which is played for a Australian boxer?", "Which is played for Australian boxers?", "Which s are played for a Australian boxer?", "Which s are played for Australian boxers?", "Which s were played for a Australian boxer?", "Which s were played for Australian boxers?", "Which was played for a Australian boxer?", "Which was played for Australian boxers?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Boxer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5797,12 +5795,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian boxer?", "What bears Australian boxers?", "What born a Australian boxer?", "What born Australian boxers?", "Which date bears a Australian boxer?", "Which date bears Australian boxers?", "Which date born a Australian boxer?", "Which date born Australian boxers?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian office holder?", "What is played for Australian office holders?", "What was played for a Australian office holder?", "What was played for Australian office holders?", "Which is played for a Australian office holder?", "Which is played for Australian office holders?", "Which s are played for a Australian office holder?", "Which s are played for Australian office holders?", "Which s were played for a Australian office holder?", "Which s were played for Australian office holders?", "Which was played for a Australian office holder?", "Which was played for Australian office holders?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Boxer>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5814,12 +5812,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian office holder?", "What bears Australian office holders?", "What born a Australian office holder?", "What born Australian office holders?", "Which date bears a Australian office holder?", "Which date bears Australian office holders?", "Which date born a Australian office holder?", "Which date born Australian office holders?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian economist?", "What is played for Australian economists?", "What was played for a Australian economist?", "What was played for Australian economists?", "Which is played for a Australian economist?", "Which is played for Australian economists?", "Which s are played for a Australian economist?", "Which s are played for Australian economists?", "Which s were played for a Australian economist?", "Which s were played for Australian economists?", "Which was played for a Australian economist?", "Which was played for Australian economists?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5831,12 +5829,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian economist?", "What bears Australian economists?", "What born a Australian economist?", "What born Australian economists?", "Which date bears a Australian economist?", "Which date bears Australian economists?", "Which date born a Australian economist?", "Which date born Australian economists?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian fictional character?", "What is played for Australian fictional characters?", "What was played for a Australian fictional character?", "What was played for Australian fictional characters?", "Which is played for a Australian fictional character?", "Which is played for Australian fictional characters?", "Which s are played for a Australian fictional character?", "Which s are played for Australian fictional characters?", "Which s were played for a Australian fictional character?", "Which s were played for Australian fictional characters?", "Which was played for a Australian fictional character?", "Which was played for Australian fictional characters?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FictionalCharacter>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5848,12 +5846,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian fictional character?", "What bears Australian fictional characters?", "What born a Australian fictional character?", "What born Australian fictional characters?", "Which date bears a Australian fictional character?", "Which date bears Australian fictional characters?", "Which date born a Australian fictional character?", "Which date born Australian fictional characters?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian athlete?", "What is played for Australian athletes?", "What was played for a Australian athlete?", "What was played for Australian athletes?", "Which is played for a Australian athlete?", "Which is played for Australian athletes?", "Which s are played for a Australian athlete?", "Which s are played for Australian athletes?", "Which s were played for a Australian athlete?", "Which s were played for Australian athletes?", "Which was played for a Australian athlete?", "Which was played for Australian athletes?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FictionalCharacter>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5865,12 +5863,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian athlete?", "What bears Australian athletes?", "What born a Australian athlete?", "What born Australian athletes?", "Which date bears a Australian athlete?", "Which date bears Australian athletes?", "Which date born a Australian athlete?", "Which date born Australian athletes?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian racing driver?", "What is played for Australian racing drivers?", "What was played for a Australian racing driver?", "What was played for Australian racing drivers?", "Which is played for a Australian racing driver?", "Which is played for Australian racing drivers?", "Which s are played for a Australian racing driver?", "Which s are played for Australian racing drivers?", "Which s were played for a Australian racing driver?", "Which s were played for Australian racing drivers?", "Which was played for a Australian racing driver?", "Which was played for Australian racing drivers?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5882,12 +5880,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian racing driver?", "What bears Australian racing drivers?", "What born a Australian racing driver?", "What born Australian racing drivers?", "Which date bears a Australian racing driver?", "Which date bears Australian racing drivers?", "Which date born a Australian racing driver?", "Which date born Australian racing drivers?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian golf player?", "What is played for Australian golf players?", "What was played for a Australian golf player?", "What was played for Australian golf players?", "Which is played for a Australian golf player?", "Which is played for Australian golf players?", "Which s are played for a Australian golf player?", "Which s are played for Australian golf players?", "Which s were played for a Australian golf player?", "Which s were played for Australian golf players?", "Which was played for a Australian golf player?", "Which was played for Australian golf players?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5899,12 +5897,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian golf player?", "What bears Australian golf players?", "What born a Australian golf player?", "What born Australian golf players?", "Which date bears a Australian golf player?", "Which date bears Australian golf players?", "Which date born a Australian golf player?", "Which date born Australian golf players?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian politician?", "What is played for Australian politicians?", "What was played for a Australian politician?", "What was played for Australian politicians?", "Which is played for a Australian politician?", "Which is played for Australian politicians?", "Which s are played for a Australian politician?", "Which s are played for Australian politicians?", "Which s were played for a Australian politician?", "Which s were played for Australian politicians?", "Which was played for a Australian politician?", "Which was played for Australian politicians?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5916,12 +5914,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian politician?", "What bears Australian politicians?", "What born a Australian politician?", "What born Australian politicians?", "Which date bears a Australian politician?", "Which date bears Australian politicians?", "Which date born a Australian politician?", "Which date born Australian politicians?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian swimmer?", "What is played for Australian swimmers?", "What was played for a Australian swimmer?", "What was played for Australian swimmers?", "Which is played for a Australian swimmer?", "Which is played for Australian swimmers?", "Which s are played for a Australian swimmer?", "Which s are played for Australian swimmers?", "Which s were played for a Australian swimmer?", "Which s were played for Australian swimmers?", "Which was played for a Australian swimmer?", "Which was played for Australian swimmers?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5933,12 +5931,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian swimmer?", "What bears Australian swimmers?", "What born a Australian swimmer?", "What born Australian swimmers?", "Which date bears a Australian swimmer?", "Which date bears Australian swimmers?", "Which date born a Australian swimmer?", "Which date born Australian swimmers?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian handball player?", "What is played for Australian handball players?", "What was played for a Australian handball player?", "What was played for Australian handball players?", "Which is played for a Australian handball player?", "Which is played for Australian handball players?", "Which s are played for a Australian handball player?", "Which s are played for Australian handball players?", "Which s were played for a Australian handball player?", "Which s were played for Australian handball players?", "Which was played for a Australian handball player?", "Which was played for Australian handball players?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/HandballPlayer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5950,12 +5948,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian handball player?", "What bears Australian handball players?", "What born a Australian handball player?", "What born Australian handball players?", "Which date bears a Australian handball player?", "Which date bears Australian handball players?", "Which date born a Australian handball player?", "Which date born Australian handball players?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian person?", "What is played for Australian persons?", "What was played for a Australian person?", "What was played for Australian persons?", "Which is played for a Australian person?", "Which is played for Australian persons?", "Which s are played for a Australian person?", "Which s are played for Australian persons?", "Which s were played for a Australian person?", "Which s were played for Australian persons?", "Which was played for a Australian person?", "Which was played for Australian persons?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/HandballPlayer>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5967,12 +5965,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian person?", "What bears Australian persons?", "What born a Australian person?", "What born Australian persons?", "Which date bears a Australian person?", "Which date bears Australian persons?", "Which date born a Australian person?", "Which date born Australian persons?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian Christian Bishop?", "What is played for Australian Christian Bishops?", "What was played for a Australian Christian Bishop?", "What was played for Australian Christian Bishops?", "Which is played for a Australian Christian Bishop?", "Which is played for Australian Christian Bishops?", "Which s are played for a Australian Christian Bishop?", "Which s are played for Australian Christian Bishops?", "Which s were played for a Australian Christian Bishop?", "Which s were played for Australian Christian Bishops?", "Which was played for a Australian Christian Bishop?", "Which was played for Australian Christian Bishops?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ChristianBishop>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -5984,12 +5982,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian Christian Bishop?", "What bears Australian Christian Bishops?", "What born a Australian Christian Bishop?", "What born Australian Christian Bishops?", "Which date bears a Australian Christian Bishop?", "Which date bears Australian Christian Bishops?", "Which date born a Australian Christian Bishop?", "Which date born Australian Christian Bishops?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Australian writer?", "What is played for Australian writers?", "What was played for a Australian writer?", "What was played for Australian writers?", "Which is played for a Australian writer?", "Which is played for Australian writers?", "Which s are played for a Australian writer?", "Which s are played for Australian writers?", "Which s were played for a Australian writer?", "Which s were played for Australian writers?", "Which was played for a Australian writer?", "Which was played for Australian writers?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ChristianBishop>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6001,12 +5999,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Australian writer?", "What bears Australian writers?", "What born a Australian writer?", "What born Australian writers?", "Which date bears a Australian writer?", "Which date bears Australian writers?", "Which date born a Australian writer?", "Which date born Australian writers?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian cleric?", "What is played for Belgian clerics?", "What was played for a Belgian cleric?", "What was played for Belgian clerics?", "Which is played for a Belgian cleric?", "Which is played for Belgian clerics?", "Which s are played for a Belgian cleric?", "Which s are played for Belgian clerics?", "Which s were played for a Belgian cleric?", "Which s were played for Belgian clerics?", "Which was played for a Belgian cleric?", "Which was played for Belgian clerics?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6018,12 +6016,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian cleric?", "What bears Belgian clerics?", "What born a Belgian cleric?", "What born Belgian clerics?", "Which date bears a Belgian cleric?", "Which date bears Belgian clerics?", "Which date born a Belgian cleric?", "Which date born Belgian clerics?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian office holder?", "What is played for Belgian office holders?", "What was played for a Belgian office holder?", "What was played for Belgian office holders?", "Which is played for a Belgian office holder?", "Which is played for Belgian office holders?", "Which s are played for a Belgian office holder?", "Which s are played for Belgian office holders?", "Which s were played for a Belgian office holder?", "Which s were played for Belgian office holders?", "Which was played for a Belgian office holder?", "Which was played for Belgian office holders?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6035,12 +6033,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian office holder?", "What bears Belgian office holders?", "What born a Belgian office holder?", "What born Belgian office holders?", "Which date bears a Belgian office holder?", "Which date bears Belgian office holders?", "Which date born a Belgian office holder?", "Which date born Belgian office holders?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian agent?", "What is played for Belgian agents?", "What was played for a Belgian agent?", "What was played for Belgian agents?", "Which is played for a Belgian agent?", "Which is played for Belgian agents?", "Which s are played for a Belgian agent?", "Which s are played for Belgian agents?", "Which s were played for a Belgian agent?", "Which s were played for Belgian agents?", "Which was played for a Belgian agent?", "Which was played for Belgian agents?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6052,12 +6050,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian agent?", "What bears Belgian agents?", "What born a Belgian agent?", "What born Belgian agents?", "Which date bears a Belgian agent?", "Which date bears Belgian agents?", "Which date born a Belgian agent?", "Which date born Belgian agents?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian economist?", "What is played for Belgian economists?", "What was played for a Belgian economist?", "What was played for Belgian economists?", "Which is played for a Belgian economist?", "Which is played for Belgian economists?", "Which s are played for a Belgian economist?", "Which s are played for Belgian economists?", "Which s were played for a Belgian economist?", "Which s were played for Belgian economists?", "Which was played for a Belgian economist?", "Which was played for Belgian economists?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6069,12 +6067,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian economist?", "What bears Belgian economists?", "What born a Belgian economist?", "What born Belgian economists?", "Which date bears a Belgian economist?", "Which date bears Belgian economists?", "Which date born a Belgian economist?", "Which date born Belgian economists?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian motorcycle rider?", "What is played for Belgian motorcycle riders?", "What was played for a Belgian motorcycle rider?", "What was played for Belgian motorcycle riders?", "Which is played for a Belgian motorcycle rider?", "Which is played for Belgian motorcycle riders?", "Which s are played for a Belgian motorcycle rider?", "Which s are played for Belgian motorcycle riders?", "Which s were played for a Belgian motorcycle rider?", "Which s were played for Belgian motorcycle riders?", "Which was played for a Belgian motorcycle rider?", "Which was played for Belgian motorcycle riders?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6086,12 +6084,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian motorcycle rider?", "What bears Belgian motorcycle riders?", "What born a Belgian motorcycle rider?", "What born Belgian motorcycle riders?", "Which date bears a Belgian motorcycle rider?", "Which date bears Belgian motorcycle riders?", "Which date born a Belgian motorcycle rider?", "Which date born Belgian motorcycle riders?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian artist?", "What is played for Belgian artists?", "What was played for a Belgian artist?", "What was played for Belgian artists?", "Which is played for a Belgian artist?", "Which is played for Belgian artists?", "Which s are played for a Belgian artist?", "Which s are played for Belgian artists?", "Which s were played for a Belgian artist?", "Which s were played for Belgian artists?", "Which was played for a Belgian artist?", "Which was played for Belgian artists?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6103,12 +6101,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian artist?", "What bears Belgian artists?", "What born a Belgian artist?", "What born Belgian artists?", "Which date bears a Belgian artist?", "Which date bears Belgian artists?", "Which date born a Belgian artist?", "Which date born Belgian artists?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian athlete?", "What is played for Belgian athletes?", "What was played for a Belgian athlete?", "What was played for Belgian athletes?", "Which is played for a Belgian athlete?", "Which is played for Belgian athletes?", "Which s are played for a Belgian athlete?", "Which s are played for Belgian athletes?", "Which s were played for a Belgian athlete?", "Which s were played for Belgian athletes?", "Which was played for a Belgian athlete?", "Which was played for Belgian athletes?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6120,12 +6118,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian athlete?", "What bears Belgian athletes?", "What born a Belgian athlete?", "What born Belgian athletes?", "Which date bears a Belgian athlete?", "Which date bears Belgian athletes?", "Which date born a Belgian athlete?", "Which date born Belgian athletes?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian scientist?", "What is played for Belgian scientists?", "What was played for a Belgian scientist?", "What was played for Belgian scientists?", "Which is played for a Belgian scientist?", "Which is played for Belgian scientists?", "Which s are played for a Belgian scientist?", "Which s are played for Belgian scientists?", "Which s were played for a Belgian scientist?", "Which s were played for Belgian scientists?", "Which was played for a Belgian scientist?", "Which was played for Belgian scientists?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6137,12 +6135,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian scientist?", "What bears Belgian scientists?", "What born a Belgian scientist?", "What born Belgian scientists?", "Which date bears a Belgian scientist?", "Which date bears Belgian scientists?", "Which date born a Belgian scientist?", "Which date born Belgian scientists?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian architect?", "What is played for Belgian architects?", "What was played for a Belgian architect?", "What was played for Belgian architects?", "Which is played for a Belgian architect?", "Which is played for Belgian architects?", "Which s are played for a Belgian architect?", "Which s are played for Belgian architects?", "Which s were played for a Belgian architect?", "Which s were played for Belgian architects?", "Which was played for a Belgian architect?", "Which was played for Belgian architects?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Architect>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6154,12 +6152,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian architect?", "What bears Belgian architects?", "What born a Belgian architect?", "What born Belgian architects?", "Which date bears a Belgian architect?", "Which date bears Belgian architects?", "Which date born a Belgian architect?", "Which date born Belgian architects?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian golf player?", "What is played for Belgian golf players?", "What was played for a Belgian golf player?", "What was played for Belgian golf players?", "Which is played for a Belgian golf player?", "Which is played for Belgian golf players?", "Which s are played for a Belgian golf player?", "Which s are played for Belgian golf players?", "Which s were played for a Belgian golf player?", "Which s were played for Belgian golf players?", "Which was played for a Belgian golf player?", "Which was played for Belgian golf players?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Architect>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6171,12 +6169,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian golf player?", "What bears Belgian golf players?", "What born a Belgian golf player?", "What born Belgian golf players?", "Which date bears a Belgian golf player?", "Which date bears Belgian golf players?", "Which date born a Belgian golf player?", "Which date born Belgian golf players?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian racing driver?", "What is played for Belgian racing drivers?", "What was played for a Belgian racing driver?", "What was played for Belgian racing drivers?", "Which is played for a Belgian racing driver?", "Which is played for Belgian racing drivers?", "Which s are played for a Belgian racing driver?", "Which s are played for Belgian racing drivers?", "Which s were played for a Belgian racing driver?", "Which s were played for Belgian racing drivers?", "Which was played for a Belgian racing driver?", "Which was played for Belgian racing drivers?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6188,12 +6186,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian racing driver?", "What bears Belgian racing drivers?", "What born a Belgian racing driver?", "What born Belgian racing drivers?", "Which date bears a Belgian racing driver?", "Which date bears Belgian racing drivers?", "Which date born a Belgian racing driver?", "Which date born Belgian racing drivers?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian politician?", "What is played for Belgian politicians?", "What was played for a Belgian politician?", "What was played for Belgian politicians?", "Which is played for a Belgian politician?", "Which is played for Belgian politicians?", "Which s are played for a Belgian politician?", "Which s are played for Belgian politicians?", "Which s were played for a Belgian politician?", "Which s were played for Belgian politicians?", "Which was played for a Belgian politician?", "Which was played for Belgian politicians?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6205,12 +6203,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian politician?", "What bears Belgian politicians?", "What born a Belgian politician?", "What born Belgian politicians?", "Which date bears a Belgian politician?", "Which date bears Belgian politicians?", "Which date born a Belgian politician?", "Which date born Belgian politicians?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian swimmer?", "What is played for Belgian swimmers?", "What was played for a Belgian swimmer?", "What was played for Belgian swimmers?", "Which is played for a Belgian swimmer?", "Which is played for Belgian swimmers?", "Which s are played for a Belgian swimmer?", "Which s are played for Belgian swimmers?", "Which s were played for a Belgian swimmer?", "Which s were played for Belgian swimmers?", "Which was played for a Belgian swimmer?", "Which was played for Belgian swimmers?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6222,12 +6220,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian swimmer?", "What bears Belgian swimmers?", "What born a Belgian swimmer?", "What born Belgian swimmers?", "Which date bears a Belgian swimmer?", "Which date bears Belgian swimmers?", "Which date born a Belgian swimmer?", "Which date born Belgian swimmers?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian volleyball player?", "What is played for Belgian volleyball players?", "What was played for a Belgian volleyball player?", "What was played for Belgian volleyball players?", "Which is played for a Belgian volleyball player?", "Which is played for Belgian volleyball players?", "Which s are played for a Belgian volleyball player?", "Which s are played for Belgian volleyball players?", "Which s were played for a Belgian volleyball player?", "Which s were played for Belgian volleyball players?", "Which was played for a Belgian volleyball player?", "Which was played for Belgian volleyball players?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6239,12 +6237,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian volleyball player?", "What bears Belgian volleyball players?", "What born a Belgian volleyball player?", "What born Belgian volleyball players?", "Which date bears a Belgian volleyball player?", "Which date bears Belgian volleyball players?", "Which date born a Belgian volleyball player?", "Which date born Belgian volleyball players?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian person?", "What is played for Belgian persons?", "What was played for a Belgian person?", "What was played for Belgian persons?", "Which is played for a Belgian person?", "Which is played for Belgian persons?", "Which s are played for a Belgian person?", "Which s are played for Belgian persons?", "Which s were played for a Belgian person?", "Which s were played for Belgian persons?", "Which was played for a Belgian person?", "Which was played for Belgian persons?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6256,12 +6254,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian person?", "What bears Belgian persons?", "What born a Belgian person?", "What born Belgian persons?", "Which date bears a Belgian person?", "Which date bears Belgian persons?", "Which date born a Belgian person?", "Which date born Belgian persons?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian comics creator?", "What is played for Belgian comics creators?", "What was played for a Belgian comics creator?", "What was played for Belgian comics creators?", "Which is played for a Belgian comics creator?", "Which is played for Belgian comics creators?", "Which s are played for a Belgian comics creator?", "Which s are played for Belgian comics creators?", "Which s were played for a Belgian comics creator?", "Which s were played for Belgian comics creators?", "Which was played for a Belgian comics creator?", "Which was played for Belgian comics creators?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ComicsCreator>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6273,12 +6271,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian comics creator?", "What bears Belgian comics creators?", "What born a Belgian comics creator?", "What born Belgian comics creators?", "Which date bears a Belgian comics creator?", "Which date bears Belgian comics creators?", "Which date born a Belgian comics creator?", "Which date born Belgian comics creators?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian writer?", "What is played for Belgian writers?", "What was played for a Belgian writer?", "What was played for Belgian writers?", "Which is played for a Belgian writer?", "Which is played for Belgian writers?", "Which s are played for a Belgian writer?", "Which s are played for Belgian writers?", "Which s were played for a Belgian writer?", "Which s were played for Belgian writers?", "Which was played for a Belgian writer?", "Which was played for Belgian writers?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ComicsCreator>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6290,12 +6288,12 @@
     "type" : "SENTENCE",
     "bindingType" : "THING",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian writer?", "What bears Belgian writers?", "What born a Belgian writer?", "What born Belgian writers?", "Which date bears a Belgian writer?", "Which date bears Belgian writers?", "Which date born a Belgian writer?", "Which date born Belgian writers?" ],
+    "frameType" : "APP",
+    "sentences" : [ "What is played for a Belgian motorsport racer?", "What is played for Belgian motorsport racers?", "What was played for a Belgian motorsport racer?", "What was played for Belgian motorsport racers?", "Which is played for a Belgian motorsport racer?", "Which is played for Belgian motorsport racers?", "Which s are played for a Belgian motorsport racer?", "Which s are played for Belgian motorsport racers?", "Which s were played for a Belgian motorsport racer?", "Which s were played for Belgian motorsport racers?", "Which was played for a Belgian motorsport racer?", "Which was played for Belgian motorsport racers?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?objOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
     "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
+    "returnVariable" : "subjOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
@@ -6303,23 +6301,6 @@
     "combination" : true
   }, {
     "id" : "380",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "What bears a Belgian motorsport racer?", "What bears Belgian motorsport racers?", "What born a Belgian motorsport racer?", "What born Belgian motorsport racers?", "Which date bears a Belgian motorsport racer?", "Which date bears Belgian motorsport racers?", "Which date born a Belgian motorsport racer?", "Which date born Belgian motorsport racers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "381",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
@@ -6338,7 +6319,7 @@
     },
     "combination" : true
   }, {
-    "id" : "382",
+    "id" : "381",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
@@ -6570,7 +6551,7 @@
     },
     "combination" : true
   }, {
-    "id" : "383",
+    "id" : "382",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -6587,7 +6568,7 @@
     },
     "combination" : true
   }, {
-    "id" : "384",
+    "id" : "383",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -6604,7 +6585,7 @@
     },
     "combination" : true
   }, {
-    "id" : "385",
+    "id" : "384",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -6621,7 +6602,7 @@
     },
     "combination" : true
   }, {
-    "id" : "386",
+    "id" : "385",
     "language" : "EN",
     "type" : "SENTENCE",
     "bindingType" : "THING",
@@ -6635,6 +6616,76 @@
     "sentenceBindings" : {
       "bindingVariableName" : "NONE",
       "bindingList" : [ ]
+    },
+    "combination" : true
+  }, {
+    "id" : "386",
+    "language" : "EN",
+    "type" : "SENTENCE",
+    "bindingType" : "PERSON",
+    "returnType" : "THING",
+    "frameType" : "IPP",
+    "sentences" : [ "When was the s played for $x belonged?", "When was the s played for $x belongs?", "When were the s played for $x belonged?", "When were the s played for $x belongs?", "Which animal was the s played for $x belonged?", "Which animal was the s played for $x belongs?", "Which animal were the s played for $x belonged?", "Which animal were the s played for $x belongs?" ],
+    "queryType" : "SELECT",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/species> ?objOfProp)\n  (triple ?objOfProp <http://dbpedia.org/ontology/portrayer> ?objOfPropx)\n)\n",
+    "sentenceToSparqlParameterMapping" : {
+      "$x" : "objOfPropx"
+    },
+    "returnVariable" : "subjOfProp",
+    "sentenceBindings" : {
+      "bindingVariableName" : "$x",
+      "bindingList" : [ {
+        "label" : "Boris Karloff",
+        "uri" : "http://dbpedia.org/resource/Boris_Karloff"
+      }, {
+        "label" : "Glenn Strange",
+        "uri" : "http://dbpedia.org/resource/Glenn_Strange"
+      }, {
+        "label" : "Kevin James",
+        "uri" : "http://dbpedia.org/resource/Kevin_James"
+      }, {
+        "label" : "Mizuho Yoshida",
+        "uri" : "http://dbpedia.org/resource/Mizuho_Yoshida"
+      }, {
+        "label" : "Christopher Lee",
+        "uri" : "http://dbpedia.org/resource/Christopher_Lee"
+      }, {
+        "label" : "Katsumi Tezuka",
+        "uri" : "http://dbpedia.org/resource/Katsumi_Tezuka"
+      }, {
+        "label" : "Kenpachiro Satsuma",
+        "uri" : "http://dbpedia.org/resource/Kenpachiro_Satsuma"
+      }, {
+        "label" : "Bin Furuya",
+        "uri" : "http://dbpedia.org/resource/Bin_Furuya"
+      }, {
+        "label" : "Tsutomu Kitagawa",
+        "uri" : "http://dbpedia.org/resource/Tsutomu_Kitagawa"
+      }, {
+        "label" : "Frank Welker",
+        "uri" : "http://dbpedia.org/resource/Frank_Welker"
+      }, {
+        "label" : "Haruo Nakajima",
+        "uri" : "http://dbpedia.org/resource/Haruo_Nakajima"
+      }, {
+        "label" : "Toru Kawai",
+        "uri" : "http://dbpedia.org/resource/Toru_Kawai"
+      }, {
+        "label" : "Robert De Niro",
+        "uri" : "http://dbpedia.org/resource/Robert_De_Niro"
+      }, {
+        "label" : "Susumu Kurobe",
+        "uri" : "http://dbpedia.org/resource/Susumu_Kurobe"
+      }, {
+        "label" : "T.J. Storm",
+        "uri" : "http://dbpedia.org/resource/T.J._Storm"
+      }, {
+        "label" : "Ted Cassidy",
+        "uri" : "http://dbpedia.org/resource/Ted_Cassidy"
+      }, {
+        "label" : "Mansai Nomura",
+        "uri" : "http://dbpedia.org/resource/Mansai_Nomura"
+      } ]
     },
     "combination" : true
   }, {
@@ -6995,1066 +7046,16 @@
     "type" : "SENTENCE",
     "bindingType" : "PERSON",
     "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar border the birth place of $x?", "Does Neymar borders the birth place of $x?", "Does Neymar bordered the birth place of $x?" ],
+    "frameType" : "IPP",
+    "sentences" : [ "When was the s played for $x builds?", "When was the s played for $x built?", "When were the s played for $x builds?", "When were the s played for $x built?", "Which date was the s played for $x builds?", "Which date was the s played for $x built?", "Which date were the s played for $x builds?", "Which date were the s played for $x built?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/State> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/birthPlace> ?subjOfProp)\n)\n",
+    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/date> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfPropx)\n)\n",
     "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfPropx"
+      "$x" : "objOfPropx"
     },
     "returnVariable" : "objOfProp",
     "sentenceBindings" : {
       "bindingVariableName" : "$x",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "394",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "PERSON",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear the spouse of $x?", "Does Neymar bears the spouse of $x?", "Does Neymar born the spouse of $x?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfPropx <http://dbpedia.org/ontology/spouse> ?subjOfProp)\n)\n",
-    "sentenceToSparqlParameterMapping" : {
-      "$x" : "subjOfPropx"
-    },
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "$x",
-      "bindingList" : [ {
-        "label" : "Luc Leestemaker",
-        "uri" : "http://dbpedia.org/resource/Luc_Leestemaker"
-      }, {
-        "label" : "Luca Zingaretti",
-        "uri" : "http://dbpedia.org/resource/Luca_Zingaretti"
-      }, {
-        "label" : "Lucia Bosè",
-        "uri" : "http://dbpedia.org/resource/Lucia_Bosè"
-      }, {
-        "label" : "Lucia Moholy",
-        "uri" : "http://dbpedia.org/resource/Lucia_Moholy"
-      }, {
-        "label" : "Lucy Turnbull",
-        "uri" : "http://dbpedia.org/resource/Lucy_Turnbull"
-      }, {
-        "label" : "Lucé Vela",
-        "uri" : "http://dbpedia.org/resource/Lucé_Vela"
-      }, {
-        "label" : "Ludu Daw Amar",
-        "uri" : "http://dbpedia.org/resource/Ludu_Daw_Amar"
-      }, {
-        "label" : "Ludu U Hla",
-        "uri" : "http://dbpedia.org/resource/Ludu_U_Hla"
-      }, {
-        "label" : "Luisa Ranieri",
-        "uri" : "http://dbpedia.org/resource/Luisa_Ranieri"
-      }, {
-        "label" : "Lynn Whitfield",
-        "uri" : "http://dbpedia.org/resource/Lynn_Whitfield"
-      }, {
-        "label" : "Lysette Anthony",
-        "uri" : "http://dbpedia.org/resource/Lysette_Anthony"
-      }, {
-        "label" : "László Moholy-Nagy",
-        "uri" : "http://dbpedia.org/resource/László_Moholy-Nagy"
-      }, {
-        "label" : "M. G. Ramachandran",
-        "uri" : "http://dbpedia.org/resource/M._G._Ramachandran"
-      }, {
-        "label" : "Magdalena Graaf",
-        "uri" : "http://dbpedia.org/resource/Magdalena_Graaf"
-      }, {
-        "label" : "Malcolm Turnbull",
-        "uri" : "http://dbpedia.org/resource/Malcolm_Turnbull"
-      }, {
-        "label" : "V. N. Janaki",
-        "uri" : "http://dbpedia.org/resource/V._N._Janaki"
-      }, {
-        "label" : "Val Butnaru",
-        "uri" : "http://dbpedia.org/resource/Val_Butnaru"
-      }, {
-        "label" : "Valentina Butnaru",
-        "uri" : "http://dbpedia.org/resource/Valentina_Butnaru"
-      }, {
-        "label" : "Valeriy Borzov",
-        "uri" : "http://dbpedia.org/resource/Valeriy_Borzov"
-      }, {
-        "label" : "Vantile Whitfield",
-        "uri" : "http://dbpedia.org/resource/Vantile_Whitfield"
-      }, {
-        "label" : "Vera Tschechowa",
-        "uri" : "http://dbpedia.org/resource/Vera_Tschechowa"
-      }, {
-        "label" : "Veronika Franz and Severin Fiala",
-        "uri" : "http://dbpedia.org/resource/Veronika_Franz_and_Severin_Fiala"
-      }, {
-        "label" : "Marieme Faye Sall",
-        "uri" : "http://dbpedia.org/resource/Marieme_Faye_Sall"
-      }, {
-        "label" : "Sandhya Shantaram",
-        "uri" : "http://dbpedia.org/resource/Sandhya_Shantaram"
-      }, {
-        "label" : "Thomas Hassan",
-        "uri" : "http://dbpedia.org/resource/Thomas_Hassan"
-      }, {
-        "label" : "Hyman B. Samuels",
-        "uri" : "http://dbpedia.org/resource/Hyman_B._Samuels"
-      }, {
-        "label" : "Manuel Sadosky",
-        "uri" : "http://dbpedia.org/resource/Manuel_Sadosky"
-      }, {
-        "label" : "Bjørn Sand",
-        "uri" : "http://dbpedia.org/resource/Bjørn_Sand"
-      }, {
-        "label" : "Deirdre O'Connell",
-        "uri" : "http://dbpedia.org/resource/Deirdre_O'Connell"
-      }, {
-        "label" : "Derya Alabora",
-        "uri" : "http://dbpedia.org/resource/Derya_Alabora"
-      }, {
-        "label" : "Desha Breckinridge",
-        "uri" : "http://dbpedia.org/resource/Desha_Breckinridge"
-      }, {
-        "label" : "Desmond FitzGerald (politician)",
-        "uri" : "http://dbpedia.org/resource/Desmond_FitzGerald_(politician)"
-      }, {
-        "label" : "Diana Wellesley, Duchess of Wellington",
-        "uri" : "http://dbpedia.org/resource/Diana_Wellesley,_Duchess_of_Wellington"
-      }, {
-        "label" : "Dick Cheney",
-        "uri" : "http://dbpedia.org/resource/Dick_Cheney"
-      }, {
-        "label" : "Gladys Vanderbilt Széchenyi",
-        "uri" : "http://dbpedia.org/resource/Gladys_Vanderbilt_Széchenyi"
-      }, {
-        "label" : "Gloria Carrá",
-        "uri" : "http://dbpedia.org/resource/Gloria_Carrá"
-      }, {
-        "label" : "Grigori Aleksandrov",
-        "uri" : "http://dbpedia.org/resource/Grigori_Aleksandrov"
-      }, {
-        "label" : "Kevin Seal",
-        "uri" : "http://dbpedia.org/resource/Kevin_Seal"
-      }, {
-        "label" : "Khalida Safarova",
-        "uri" : "http://dbpedia.org/resource/Khalida_Safarova"
-      }, {
-        "label" : "Khan Ataur Rahman",
-        "uri" : "http://dbpedia.org/resource/Khan_Ataur_Rahman"
-      }, {
-        "label" : "Kishore Kumar",
-        "uri" : "http://dbpedia.org/resource/Kishore_Kumar"
-      }, {
-        "label" : "Koji Yamamoto (actor)",
-        "uri" : "http://dbpedia.org/resource/Koji_Yamamoto_(actor)"
-      }, {
-        "label" : "Kothamangalam Subbu",
-        "uri" : "http://dbpedia.org/resource/Kothamangalam_Subbu"
-      }, {
-        "label" : "Krishnachandran",
-        "uri" : "http://dbpedia.org/resource/Krishnachandran"
-      }, {
-        "label" : "Priya Bapat",
-        "uri" : "http://dbpedia.org/resource/Priya_Bapat"
-      }, {
-        "label" : "Quinn Martin",
-        "uri" : "http://dbpedia.org/resource/Quinn_Martin"
-      }, {
-        "label" : "Rachel Miner",
-        "uri" : "http://dbpedia.org/resource/Rachel_Miner"
-      }, {
-        "label" : "Rachel Portman",
-        "uri" : "http://dbpedia.org/resource/Rachel_Portman"
-      }, {
-        "label" : "Ragnheiður Melsteð",
-        "uri" : "http://dbpedia.org/resource/Ragnheiður_Melsteð"
-      }, {
-        "label" : "Rajeshwari Sachdev",
-        "uri" : "http://dbpedia.org/resource/Rajeshwari_Sachdev"
-      }, {
-        "label" : "Howard F. Ahmanson Sr.",
-        "uri" : "http://dbpedia.org/resource/Howard_F._Ahmanson_Sr."
-      }, {
-        "label" : "Shizuko Hoshi",
-        "uri" : "http://dbpedia.org/resource/Shizuko_Hoshi"
-      }, {
-        "label" : "Albert S. Ruddy",
-        "uri" : "http://dbpedia.org/resource/Albert_S._Ruddy"
-      }, {
-        "label" : "Alex O'Loughlin",
-        "uri" : "http://dbpedia.org/resource/Alex_O'Loughlin"
-      }, {
-        "label" : "Alexander Godunov",
-        "uri" : "http://dbpedia.org/resource/Alexander_Godunov"
-      }, {
-        "label" : "Alexandre de Lesseps",
-        "uri" : "http://dbpedia.org/resource/Alexandre_de_Lesseps"
-      }, {
-        "label" : "Alfred Lunt",
-        "uri" : "http://dbpedia.org/resource/Alfred_Lunt"
-      }, {
-        "label" : "Alistair Petrie",
-        "uri" : "http://dbpedia.org/resource/Alistair_Petrie"
-      }, {
-        "label" : "Allan Turpin",
-        "uri" : "http://dbpedia.org/resource/Allan_Turpin"
-      }, {
-        "label" : "Allen Paulson",
-        "uri" : "http://dbpedia.org/resource/Allen_Paulson"
-      }, {
-        "label" : "Alma Adamkienė",
-        "uri" : "http://dbpedia.org/resource/Alma_Adamkienė"
-      }, {
-        "label" : "Altiero Spinelli",
-        "uri" : "http://dbpedia.org/resource/Altiero_Spinelli"
-      }, {
-        "label" : "Charlton Heston",
-        "uri" : "http://dbpedia.org/resource/Charlton_Heston"
-      }, {
-        "label" : "Florence Reed",
-        "uri" : "http://dbpedia.org/resource/Florence_Reed"
-      }, {
-        "label" : "Anand Mohan Singh",
-        "uri" : "http://dbpedia.org/resource/Anand_Mohan_Singh"
-      }, {
-        "label" : "Nieves Navarro",
-        "uri" : "http://dbpedia.org/resource/Nieves_Navarro"
-      }, {
-        "label" : "Nijō Motohiro",
-        "uri" : "http://dbpedia.org/resource/Nijō_Motohiro"
-      }, {
-        "label" : "Nikolai Karachentsov",
-        "uri" : "http://dbpedia.org/resource/Nikolai_Karachentsov"
-      }, {
-        "label" : "Nilmini Tennakoon",
-        "uri" : "http://dbpedia.org/resource/Nilmini_Tennakoon"
-      }, {
-        "label" : "Nirmal Kumar",
-        "uri" : "http://dbpedia.org/resource/Nirmal_Kumar"
-      }, {
-        "label" : "Nitin Sahrawat",
-        "uri" : "http://dbpedia.org/resource/Nitin_Sahrawat"
-      }, {
-        "label" : "Nnamdi Azikiwe",
-        "uri" : "http://dbpedia.org/resource/Nnamdi_Azikiwe"
-      }, {
-        "label" : "Noah Bean",
-        "uri" : "http://dbpedia.org/resource/Noah_Bean"
-      }, {
-        "label" : "Olafr Havrevold",
-        "uri" : "http://dbpedia.org/resource/Olafr_Havrevold"
-      }, {
-        "label" : "Diana Laura Riojas",
-        "uri" : "http://dbpedia.org/resource/Diana_Laura_Riojas"
-      }, {
-        "label" : "George I, Landgrave of Hesse-Darmstadt",
-        "uri" : "http://dbpedia.org/resource/George_I,_Landgrave_of_Hesse-Darmstadt"
-      }, {
-        "label" : "Louis John Gardella",
-        "uri" : "http://dbpedia.org/resource/Louis_John_Gardella"
-      }, {
-        "label" : "Sawsan Gabra Ayoub Khalil",
-        "uri" : "http://dbpedia.org/resource/Sawsan_Gabra_Ayoub_Khalil"
-      }, {
-        "label" : "Sulochana Gadgil",
-        "uri" : "http://dbpedia.org/resource/Sulochana_Gadgil"
-      }, {
-        "label" : "Ramabai Peshwa",
-        "uri" : "http://dbpedia.org/resource/Ramabai_Peshwa"
-      }, {
-        "label" : "Azam Farahi",
-        "uri" : "http://dbpedia.org/resource/Azam_Farahi"
-      }, {
-        "label" : "Aïssata Issoufou Mahamadou",
-        "uri" : "http://dbpedia.org/resource/Aïssata_Issoufou_Mahamadou"
-      }, {
-        "label" : "Baburaj (actor)",
-        "uri" : "http://dbpedia.org/resource/Baburaj_(actor)"
-      }, {
-        "label" : "Barbara Stühlmeyer",
-        "uri" : "http://dbpedia.org/resource/Barbara_Stühlmeyer"
-      }, {
-        "label" : "Barbara of Brandenburg, Marquise of Mantua",
-        "uri" : "http://dbpedia.org/resource/Barbara_of_Brandenburg,_Marquise_of_Mantua"
-      }, {
-        "label" : "Barry Levinson",
-        "uri" : "http://dbpedia.org/resource/Barry_Levinson"
-      }, {
-        "label" : "Liya Akhedzhakova",
-        "uri" : "http://dbpedia.org/resource/Liya_Akhedzhakova"
-      }, {
-        "label" : "Lord Frederick Cavendish",
-        "uri" : "http://dbpedia.org/resource/Lord_Frederick_Cavendish"
-      }, {
-        "label" : "Louis-Ferdinand Céline",
-        "uri" : "http://dbpedia.org/resource/Louis-Ferdinand_Céline"
-      }, {
-        "label" : "Caitlin Stasey",
-        "uri" : "http://dbpedia.org/resource/Caitlin_Stasey"
-      }, {
-        "label" : "Cal Rampton",
-        "uri" : "http://dbpedia.org/resource/Cal_Rampton"
-      }, {
-        "label" : "Candace Cameron Bure",
-        "uri" : "http://dbpedia.org/resource/Candace_Cameron_Bure"
-      }, {
-        "label" : "Carl Sagan",
-        "uri" : "http://dbpedia.org/resource/Carl_Sagan"
-      }, {
-        "label" : "Carla Arocha",
-        "uri" : "http://dbpedia.org/resource/Carla_Arocha"
-      }, {
-        "label" : "Carmine Giovinazzo",
-        "uri" : "http://dbpedia.org/resource/Carmine_Giovinazzo"
-      }, {
-        "label" : "Carolina Rivas",
-        "uri" : "http://dbpedia.org/resource/Carolina_Rivas"
-      }, {
-        "label" : "Caroline St-Hilaire",
-        "uri" : "http://dbpedia.org/resource/Caroline_St-Hilaire"
-      }, {
-        "label" : "Catarina de Lencastre, Viscountess of Balsemão",
-        "uri" : "http://dbpedia.org/resource/Catarina_de_Lencastre,_Viscountess_of_Balsemão"
-      }, {
-        "label" : "Chien-Shiung Wu",
-        "uri" : "http://dbpedia.org/resource/Chien-Shiung_Wu"
-      }, {
-        "label" : "Chitrasena",
-        "uri" : "http://dbpedia.org/resource/Chitrasena"
-      } ]
-    },
-    "combination" : true
-  }, {
-    "id" : "395",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian prime minister?", "Does Neymar bear Australian prime ministers?", "Does Neymar bears a Australian prime minister?", "Does Neymar bears Australian prime ministers?", "Does Neymar born a Australian prime minister?", "Does Neymar born Australian prime ministers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/PrimeMinister>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "396",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian agent?", "Does Neymar bear Australian agents?", "Does Neymar bears a Australian agent?", "Does Neymar bears Australian agents?", "Does Neymar born a Australian agent?", "Does Neymar born Australian agents?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "397",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian artist?", "Does Neymar bear Australian artists?", "Does Neymar bears a Australian artist?", "Does Neymar bears Australian artists?", "Does Neymar born a Australian artist?", "Does Neymar born Australian artists?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "398",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian motorcycle rider?", "Does Neymar bear Australian motorcycle riders?", "Does Neymar bears a Australian motorcycle rider?", "Does Neymar bears Australian motorcycle riders?", "Does Neymar born a Australian motorcycle rider?", "Does Neymar born Australian motorcycle riders?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "399",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian scientist?", "Does Neymar bear Australian scientists?", "Does Neymar bears a Australian scientist?", "Does Neymar bears Australian scientists?", "Does Neymar born a Australian scientist?", "Does Neymar born Australian scientists?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "400",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian military person?", "Does Neymar bear Australian military persons?", "Does Neymar bears a Australian military person?", "Does Neymar bears Australian military persons?", "Does Neymar born a Australian military person?", "Does Neymar born Australian military persons?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MilitaryPerson>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "401",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian volleyball player?", "Does Neymar bear Australian volleyball players?", "Does Neymar bears a Australian volleyball player?", "Does Neymar bears Australian volleyball players?", "Does Neymar born a Australian volleyball player?", "Does Neymar born Australian volleyball players?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "402",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian basketball player?", "Does Neymar bear Australian basketball players?", "Does Neymar bears a Australian basketball player?", "Does Neymar bears Australian basketball players?", "Does Neymar born a Australian basketball player?", "Does Neymar born Australian basketball players?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/BasketballPlayer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "403",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian speedway rider?", "Does Neymar bear Australian speedway riders?", "Does Neymar bears a Australian speedway rider?", "Does Neymar bears Australian speedway riders?", "Does Neymar born a Australian speedway rider?", "Does Neymar born Australian speedway riders?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/SpeedwayRider>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "404",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian model?", "Does Neymar bear Australian models?", "Does Neymar bears a Australian model?", "Does Neymar bears Australian models?", "Does Neymar born a Australian model?", "Does Neymar born Australian models?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Model>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "405",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian motorsport racer?", "Does Neymar bear Australian motorsport racers?", "Does Neymar bears a Australian motorsport racer?", "Does Neymar bears Australian motorsport racers?", "Does Neymar born a Australian motorsport racer?", "Does Neymar born Australian motorsport racers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "406",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian cleric?", "Does Neymar bear Australian clerics?", "Does Neymar bears a Australian cleric?", "Does Neymar bears Australian clerics?", "Does Neymar born a Australian cleric?", "Does Neymar born Australian clerics?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "407",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian boxer?", "Does Neymar bear Australian boxers?", "Does Neymar bears a Australian boxer?", "Does Neymar bears Australian boxers?", "Does Neymar born a Australian boxer?", "Does Neymar born Australian boxers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Boxer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "408",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian office holder?", "Does Neymar bear Australian office holders?", "Does Neymar bears a Australian office holder?", "Does Neymar bears Australian office holders?", "Does Neymar born a Australian office holder?", "Does Neymar born Australian office holders?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "409",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian economist?", "Does Neymar bear Australian economists?", "Does Neymar bears a Australian economist?", "Does Neymar bears Australian economists?", "Does Neymar born a Australian economist?", "Does Neymar born Australian economists?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "410",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian fictional character?", "Does Neymar bear Australian fictional characters?", "Does Neymar bears a Australian fictional character?", "Does Neymar bears Australian fictional characters?", "Does Neymar born a Australian fictional character?", "Does Neymar born Australian fictional characters?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/FictionalCharacter>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "411",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian athlete?", "Does Neymar bear Australian athletes?", "Does Neymar bears a Australian athlete?", "Does Neymar bears Australian athletes?", "Does Neymar born a Australian athlete?", "Does Neymar born Australian athletes?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "412",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian racing driver?", "Does Neymar bear Australian racing drivers?", "Does Neymar bears a Australian racing driver?", "Does Neymar bears Australian racing drivers?", "Does Neymar born a Australian racing driver?", "Does Neymar born Australian racing drivers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "413",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian golf player?", "Does Neymar bear Australian golf players?", "Does Neymar bears a Australian golf player?", "Does Neymar bears Australian golf players?", "Does Neymar born a Australian golf player?", "Does Neymar born Australian golf players?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "414",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian politician?", "Does Neymar bear Australian politicians?", "Does Neymar bears a Australian politician?", "Does Neymar bears Australian politicians?", "Does Neymar born a Australian politician?", "Does Neymar born Australian politicians?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "415",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian swimmer?", "Does Neymar bear Australian swimmers?", "Does Neymar bears a Australian swimmer?", "Does Neymar bears Australian swimmers?", "Does Neymar born a Australian swimmer?", "Does Neymar born Australian swimmers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "416",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian handball player?", "Does Neymar bear Australian handball players?", "Does Neymar bears a Australian handball player?", "Does Neymar bears Australian handball players?", "Does Neymar born a Australian handball player?", "Does Neymar born Australian handball players?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/HandballPlayer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "417",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian person?", "Does Neymar bear Australian persons?", "Does Neymar bears a Australian person?", "Does Neymar bears Australian persons?", "Does Neymar born a Australian person?", "Does Neymar born Australian persons?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "418",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian Christian Bishop?", "Does Neymar bear Australian Christian Bishops?", "Does Neymar bears a Australian Christian Bishop?", "Does Neymar bears Australian Christian Bishops?", "Does Neymar born a Australian Christian Bishop?", "Does Neymar born Australian Christian Bishops?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ChristianBishop>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "419",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Australian writer?", "Does Neymar bear Australian writers?", "Does Neymar bears a Australian writer?", "Does Neymar bears Australian writers?", "Does Neymar born a Australian writer?", "Does Neymar born Australian writers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Australia>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "420",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian cleric?", "Does Neymar bear Belgian clerics?", "Does Neymar bears a Belgian cleric?", "Does Neymar bears Belgian clerics?", "Does Neymar born a Belgian cleric?", "Does Neymar born Belgian clerics?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Cleric>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "421",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian office holder?", "Does Neymar bear Belgian office holders?", "Does Neymar bears a Belgian office holder?", "Does Neymar bears Belgian office holders?", "Does Neymar born a Belgian office holder?", "Does Neymar born Belgian office holders?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/OfficeHolder>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "422",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian agent?", "Does Neymar bear Belgian agents?", "Does Neymar bears a Belgian agent?", "Does Neymar bears Belgian agents?", "Does Neymar born a Belgian agent?", "Does Neymar born Belgian agents?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Agent>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "423",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian economist?", "Does Neymar bear Belgian economists?", "Does Neymar bears a Belgian economist?", "Does Neymar bears Belgian economists?", "Does Neymar born a Belgian economist?", "Does Neymar born Belgian economists?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Economist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "424",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian motorcycle rider?", "Does Neymar bear Belgian motorcycle riders?", "Does Neymar bears a Belgian motorcycle rider?", "Does Neymar bears Belgian motorcycle riders?", "Does Neymar born a Belgian motorcycle rider?", "Does Neymar born Belgian motorcycle riders?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorcycleRider>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "425",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian artist?", "Does Neymar bear Belgian artists?", "Does Neymar bears a Belgian artist?", "Does Neymar bears Belgian artists?", "Does Neymar born a Belgian artist?", "Does Neymar born Belgian artists?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Artist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "426",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian athlete?", "Does Neymar bear Belgian athletes?", "Does Neymar bears a Belgian athlete?", "Does Neymar bears Belgian athletes?", "Does Neymar born a Belgian athlete?", "Does Neymar born Belgian athletes?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Athlete>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "427",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian scientist?", "Does Neymar bear Belgian scientists?", "Does Neymar bears a Belgian scientist?", "Does Neymar bears Belgian scientists?", "Does Neymar born a Belgian scientist?", "Does Neymar born Belgian scientists?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Scientist>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "428",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian architect?", "Does Neymar bear Belgian architects?", "Does Neymar bears a Belgian architect?", "Does Neymar bears Belgian architects?", "Does Neymar born a Belgian architect?", "Does Neymar born Belgian architects?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Architect>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "429",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian golf player?", "Does Neymar bear Belgian golf players?", "Does Neymar bears a Belgian golf player?", "Does Neymar bears Belgian golf players?", "Does Neymar born a Belgian golf player?", "Does Neymar born Belgian golf players?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/GolfPlayer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "430",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian racing driver?", "Does Neymar bear Belgian racing drivers?", "Does Neymar bears a Belgian racing driver?", "Does Neymar bears Belgian racing drivers?", "Does Neymar born a Belgian racing driver?", "Does Neymar born Belgian racing drivers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/RacingDriver>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "431",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian politician?", "Does Neymar bear Belgian politicians?", "Does Neymar bears a Belgian politician?", "Does Neymar bears Belgian politicians?", "Does Neymar born a Belgian politician?", "Does Neymar born Belgian politicians?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Politician>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "432",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian swimmer?", "Does Neymar bear Belgian swimmers?", "Does Neymar bears a Belgian swimmer?", "Does Neymar bears Belgian swimmers?", "Does Neymar born a Belgian swimmer?", "Does Neymar born Belgian swimmers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Swimmer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "433",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian volleyball player?", "Does Neymar bear Belgian volleyball players?", "Does Neymar bears a Belgian volleyball player?", "Does Neymar bears Belgian volleyball players?", "Does Neymar born a Belgian volleyball player?", "Does Neymar born Belgian volleyball players?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/VolleyballPlayer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "434",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian person?", "Does Neymar bear Belgian persons?", "Does Neymar bears a Belgian person?", "Does Neymar bears Belgian persons?", "Does Neymar born a Belgian person?", "Does Neymar born Belgian persons?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Person>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "435",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian comics creator?", "Does Neymar bear Belgian comics creators?", "Does Neymar bears a Belgian comics creator?", "Does Neymar bears Belgian comics creators?", "Does Neymar born a Belgian comics creator?", "Does Neymar born Belgian comics creators?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/ComicsCreator>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "436",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian writer?", "Does Neymar bear Belgian writers?", "Does Neymar bears a Belgian writer?", "Does Neymar bears Belgian writers?", "Does Neymar born a Belgian writer?", "Does Neymar born Belgian writers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/Writer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
-      "bindingList" : [ ]
-    },
-    "combination" : true
-  }, {
-    "id" : "437",
-    "language" : "EN",
-    "type" : "SENTENCE",
-    "bindingType" : "THING",
-    "returnType" : "THING",
-    "frameType" : "VP",
-    "sentences" : [ "Does Neymar bear a Belgian motorsport racer?", "Does Neymar bear Belgian motorsport racers?", "Does Neymar bears a Belgian motorsport racer?", "Does Neymar bears Belgian motorsport racers?", "Does Neymar born a Belgian motorsport racer?", "Does Neymar born Belgian motorsport racers?" ],
-    "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp\n  (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp)\n  (triple ?subjOfProp <http://dbpedia.org/ontology/nationality> <http://dbpedia.org/resource/Belgium>)\n  (triple ?subjOfProp <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://dbpedia.org/ontology/MotorsportRacer>)\n)\n",
-    "sentenceToSparqlParameterMapping" : null,
-    "returnVariable" : "objOfProp",
-    "sentenceBindings" : {
-      "bindingVariableName" : "NONE",
       "bindingList" : [ ]
     },
     "combination" : true
