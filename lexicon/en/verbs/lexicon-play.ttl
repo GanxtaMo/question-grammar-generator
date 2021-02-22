@@ -42,13 +42,13 @@
 
 :play_ontomap a     lemon:OntoMap, lemon:LexicalSense ;
   lemon:ontoMapping :play_ontomap ;
-  lemon:reference   <http://dbpedia.org/ontology/SoccerPlayer> ;
+  lemon:reference   <https://www.w3.org/2001/XMLSchema#boolean> ;
   lemon:subjOfProp  :play_obj ;
   lemon:objOfProp   :play_subj ;
   lemon:condition   :play_condition .
 
 :play_condition a      lemon:condition ;
-  lemon:propertyDomain <http://dbpedia.org/ontology/Team> ;
+  lemon:propertyDomain <https://dbpedia.org/ontology/SoccerClub> ;
   lemon:propertyRange  <http://dbpedia.org/ontology/Person> .
 
 

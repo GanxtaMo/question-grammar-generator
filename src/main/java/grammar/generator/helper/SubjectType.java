@@ -14,7 +14,8 @@ public enum SubjectType {
   INTERROGATIVE_DETERMINER,     // which
   THING_INTERROGATIVE_PRONOUN,  // what
   INTERROGATIVE_TEMPORAL,  // what
-  TEST_SUBJECT_TYPE; // does
+  BOOLEAN_INTERROGATIVE_DO,// does
+    BOOLEAN_INTERROGATIVE_BE;//Was
 
   /**
    * Get the matching pronoun type (person or thing). The default value is "thing" if there is no clear match.<br>

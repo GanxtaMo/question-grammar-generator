@@ -31,7 +31,7 @@ public class SentenceTemplateTestGrammarRuleGenerator extends GrammarRuleGenerat
     ) throws QueGGMissingFactoryClassException {
         List<String> generatedSentences = new ArrayList<>();
 
-        String qWord = lexicalEntryUtil.getSubjectBySubjectType(SubjectType.TEST_SUBJECT_TYPE, Language.EN, null);
+        String qWord = lexicalEntryUtil.getSubjectBySubjectType(SubjectType.BOOLEAN_INTERROGATIVE_DO, Language.EN, null);
 
         List<AnnotatedVerb> annotatedVerbs = lexicalEntryUtil.parseLexicalEntryToAnnotatedVerbs();
         for (AnnotatedVerb annotatedVerb : annotatedVerbs) {

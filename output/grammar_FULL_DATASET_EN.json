@@ -3196,7 +3196,7 @@
     "bindingType" : "LOCATION",
     "returnType" : "THING",
     "frameType" : "VP",
-    "sentences" : [ "Does THING border for ($x | LOCATION_VP)?", "What border ($x | LOCATION_NP)?", "What bordered ($x | LOCATION_NP)?", "What borders ($x | LOCATION_NP)?", "Which state border ($x | LOCATION_NP)?", "Which state bordered ($x | LOCATION_NP)?", "Which state borders ($x | LOCATION_NP)?" ],
+    "sentences" : [ "What border ($x | LOCATION_NP)?", "What bordered ($x | LOCATION_NP)?", "What borders ($x | LOCATION_NP)?", "Which state border ($x | LOCATION_NP)?", "Which state bordered ($x | LOCATION_NP)?", "Which state borders ($x | LOCATION_NP)?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/State> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
@@ -3215,9 +3215,9 @@
     "bindingType" : "THING",
     "returnType" : "PERSON",
     "frameType" : "VP",
-    "sentences" : [ "Does PERSON play for ($x | THING_VP)?", "What play ($x | THING_NP)?", "What played ($x | THING_NP)?", "What plays ($x | THING_NP)?", "Which person play ($x | THING_NP)?", "Which person played ($x | THING_NP)?", "Which person plays ($x | THING_NP)?" ],
+    "sentences" : [ "Does PERSON play for ($x | THING_VP)?", "Does play ($x | THING_NP)?", "Does played ($x | THING_NP)?", "Does plays ($x | THING_NP)?", "Was PERSON play for ($x | THING_VP)?", "Which person play ($x | THING_NP)?", "Which person played ($x | THING_NP)?", "Which person plays ($x | THING_NP)?" ],
     "queryType" : "SELECT",
-    "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/SoccerPlayer> ?objOfProp))\n",
+    "sparqlQuery" : "(bgp (triple ?subjOfProp <https://www.w3.org/2001/XMLSchema#boolean> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
       "$x" : "subjOfProp"
     },
@@ -3234,7 +3234,7 @@
     "bindingType" : "PERSON",
     "returnType" : "THING",
     "frameType" : "VP",
-    "sentences" : [ "Does THING bear for ($x | PERSON_VP)?", "What bear ($x | PERSON_NP)?", "What bears ($x | PERSON_NP)?", "What born ($x | PERSON_NP)?", "Which date bear ($x | PERSON_NP)?", "Which date bears ($x | PERSON_NP)?", "Which date born ($x | PERSON_NP)?" ],
+    "sentences" : [ "What bear ($x | PERSON_NP)?", "What bears ($x | PERSON_NP)?", "What born ($x | PERSON_NP)?", "Which date bear ($x | PERSON_NP)?", "Which date bears ($x | PERSON_NP)?", "Which date born ($x | PERSON_NP)?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/birthDate> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
@@ -3553,7 +3553,7 @@
     "bindingType" : "FILM",
     "returnType" : "PERSON",
     "frameType" : "VP",
-    "sentences" : [ "Does PERSON direct for ($x | FILM_VP)?", "What direct ($x | FILM_NP)?", "What directed ($x | FILM_NP)?", "What directs ($x | FILM_NP)?", "Which person direct ($x | FILM_NP)?", "Which person directed ($x | FILM_NP)?", "Which person directs ($x | FILM_NP)?" ],
+    "sentences" : [ "What direct ($x | FILM_NP)?", "What directed ($x | FILM_NP)?", "What directs ($x | FILM_NP)?", "Which person direct ($x | FILM_NP)?", "Which person directed ($x | FILM_NP)?", "Which person directs ($x | FILM_NP)?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/director> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
@@ -5470,7 +5470,7 @@
     "bindingType" : "PERSON",
     "returnType" : "THING",
     "frameType" : "APP",
-    "sentences" : [ "What is played for ($x | PERSON_NP)?", "What was played for ($x | PERSON_NP)?", "Which is played for ($x | PERSON_NP)?", "Which s are played for ($x | PERSON_NP)?", "Which s were played for ($x | PERSON_NP)?", "Which was played for ($x | PERSON_NP)?" ],
+    "sentences" : [ "What is played for ($x | PERSON_NP)?", "What was played for ($x | PERSON_NP)?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <http://dbpedia.org/ontology/portrayer> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {

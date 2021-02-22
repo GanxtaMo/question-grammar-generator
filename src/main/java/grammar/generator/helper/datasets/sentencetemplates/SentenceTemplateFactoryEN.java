@@ -147,9 +147,7 @@ class SentenceTemplateFactoryEN implements Factory<SentenceTemplateRepository> {
                         language,
                         List.of(
                                 "interrogativeDeterminer noun(condition:subject) VP(directObject)?",
-                                "interrogativePronoun VP(directObject)?",
-                                " noun(condition:subject) verb(root) TEST VP(directObject)?"         //Does Neymar play for Real Madrid
-
+                                "interrogativePronoun VP(directObject)?"
                         ),
                         "subject",
                         "directObject"
@@ -164,6 +162,17 @@ class SentenceTemplateFactoryEN implements Factory<SentenceTemplateRepository> {
                                 "verb(root) directObject"
                         ),
                         "directObject"
+                )
+        );
+        // VP(Boolean Template)
+        sentenceTemplateRepository.add(
+                createVPTemplate(
+                        language,
+                        List.of(
+                                "Boolean_Interrogative_Do subject verb(root) directObject"
+                                , "Boolean_Interrogative_Be subject verb(root) directObject"
+                        ),
+                        "booleanSentence"
                 )
         );
     }

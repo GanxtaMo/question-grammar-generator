@@ -55,7 +55,7 @@ public class SentenceBuilderCopulativePP extends SentenceBuilderImpl {
         List<AnnotatedNounOrQuestionWord> annotatedLexicalEntryNouns = lexicalEntryUtil.parseLexicalEntryToAnnotatedAnnotatedNounOrQuestionWords();
         AnnotatedNounOrQuestionWord questionWord
                 = // Who / what
-                getAnnotatedQuestionWordBySubjectType(lexicalEntryUtil.getSubjectType(lexicalEntryUtil.getSelectVariable(),DomainOrRangeType.PERSON), getLanguage(), null);
+                getAnnotatedQuestionWordBySubjectType(lexicalEntryUtil.getSubjectType(lexicalEntryUtil.getSelectVariable(), DomainOrRangeType.PERSON), getLanguage(), null);
         String nounToken = lexicalEntryUtil.getReturnVariableConditionLabel(lexicalEntryUtil.getSelectVariable());
         String object = String.format(
                 BINDING_TOKEN_TEMPLATE,
@@ -218,7 +218,7 @@ public class SentenceBuilderCopulativePP extends SentenceBuilderImpl {
                         -> sentenceToken.getPartOfSpeechValue()
                         .equals(getLexInfo().getPropertyValue(
                                 "interrogativePronoun"))
-                || sentenceToken.getPartOfSpeechValue()
+                        || sentenceToken.getPartOfSpeechValue()
                         .equals(getLexInfo().getPropertyValue("interrogativeDeterminer"))
                 )
                 .findFirst();
@@ -228,9 +228,9 @@ public class SentenceBuilderCopulativePP extends SentenceBuilderImpl {
         return sentenceTokens.stream()
                 .filter(sentenceToken -> !isNull(sentenceToken.getSynArgForCondition()))
                 .filter(sentenceToken -> sentenceToken.getSynArgForCondition()
-                .getURI()
-                .getFragment()
-                .startsWith("copulative"))
+                        .getURI()
+                        .getFragment()
+                        .startsWith("copulative"))
                 .findFirst();
     }
 
@@ -238,7 +238,7 @@ public class SentenceBuilderCopulativePP extends SentenceBuilderImpl {
         return sentenceTokens.stream()
                 .filter(sentenceToken -> !isNull(sentenceToken.getPartOfSpeechValue()))
                 .filter(sentenceToken -> sentenceToken.getPartOfSpeechValue()
-                .equals(getLexInfo().getPropertyValue("determiner")))
+                        .equals(getLexInfo().getPropertyValue("determiner")))
                 .findFirst();
     }
 
@@ -252,7 +252,7 @@ public class SentenceBuilderCopulativePP extends SentenceBuilderImpl {
         return sentenceTokens.stream()
                 .filter(sentenceToken -> !isNull(sentenceToken.getPartOfSpeechValue()))
                 .filter(sentenceToken -> sentenceToken.getPartOfSpeechValue()
-                .equals(getLexInfo().getPropertyValue("preposition")))
+                        .equals(getLexInfo().getPropertyValue("preposition")))
                 .findFirst();
     }
 
@@ -266,7 +266,7 @@ public class SentenceBuilderCopulativePP extends SentenceBuilderImpl {
         return sentenceTokens.stream()
                 .filter(sentenceToken -> !isNull(sentenceToken.getPartOfSpeechValue()))
                 .filter(sentenceToken -> sentenceToken.getPartOfSpeechValue()
-                .equals(getLexInfo().getPropertyValue("verb")))
+                        .equals(getLexInfo().getPropertyValue("verb")))
                 .filter(sentenceToken -> !isNull(sentenceToken.getLocalReference()))
                 .findFirst();
     }
@@ -275,7 +275,7 @@ public class SentenceBuilderCopulativePP extends SentenceBuilderImpl {
         return sentenceTokens.stream()
                 .filter(sentenceToken -> !isNull(sentenceToken.getPartOfSpeechValue()))
                 .filter(sentenceToken -> sentenceToken.getPartOfSpeechValue()
-                .equals(getLexInfo().getPropertyValue("pronoun")))
+                        .equals(getLexInfo().getPropertyValue("pronoun")))
                 .findFirst();
     }
 }

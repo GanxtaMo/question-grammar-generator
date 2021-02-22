@@ -13,6 +13,7 @@ import grammar.structure.component.FrameType;
 import grammar.structure.component.Language;
 import grammar.structure.component.SentenceType;
 import lexicon.LexicalEntryUtil;
+import lombok.Data;
 import lombok.SneakyThrows;
 import net.lexinfo.LexInfo;
 import org.apache.logging.log4j.LogManager;
@@ -27,7 +28,7 @@ import java.util.Map;
 import java.util.stream.Collectors;
 
 import static java.util.Objects.isNull;
-
+@Data
 public abstract class SentenceBuilderImpl implements SentenceBuilder {
   private static final Logger LOG = LogManager.getLogger(LexicalEntryUtil.class);
 
