@@ -50,17 +50,35 @@ public class TransitiveVPGrammarRuleGenerator extends GrammarRuleGeneratorRoot {
         for (AnnotatedVerb annotatedVerb : annotatedVerbs) {
             SentenceBuilderTransitiveVPEN sentenceBuilder = new SentenceBuilderTransitiveVPEN(
                     getLanguage(), getFrameType(), getSentenceTemplateRepository(), getSentenceTemplateParser());
-            // skip infinitive forms
+            List<String> booleanSentenceTemplates =
+                    getSentenceTemplateRepository().
+                            findOneByEntryTypeAndLanguageAndArguments(
+                                    SentenceType.VP,
+                                    getLanguage(),
+                                    "booleanSentence");
+            //if booleansentencetemplate and past tense verb then use Was question word
+            if (annotatedVerb.getTense().toString().contains("past") && lexicalEntryUtil.getLexicalSense().getReference().toString().contains("boolean")) {
+                qWord = lexicalEntryUtil.getSubjectBySubjectType(SubjectType.BOOLEAN_INTERROGATIVE_BE, getLanguage(), null);
+                String testSentence = sentenceBuilder.getBooleanSentence(
+                        qWord,
+                        DomainOrRangeType.getMatchingType(
+                                lexicalEntryUtil.getConditionUriBySelectVariable(
+                                        lexicalEntryUtil.getSelectVariable())).name(),
+                        annotatedVerb.getWrittenRepValue(), "for",
+                        String.format(BINDING_TOKEN_TEMPLATE,
+                                getBindingVariable(),
+                                DomainOrRangeType.getMatchingType(lexicalEntryUtil.getConditionUriBySelectVariable(
+                                        LexicalEntryUtil.getOppositeSelectVariable(lexicalEntryUtil.getSelectVariable())
+                                )).name(),
+                                SentenceType.VP));
+                generatedSentences.add(testSentence);
+            }
             if (new LexInfo().getPropertyValue("infinitive").equals(annotatedVerb.getVerbFormMood())) {
                 //todo: find out how to get preposition from annotatedverb
-                //todo: write tokenparser for boolean sentencetemplates
+                //todo: write tokenparser for boolean sentencetemplates(Boolean_Interrogative_Do,Boolean_Interrogative_Be)
                 //todo: change returntype to boolean
-                List<String> booleanSentenceTemplates =
-                        getSentenceTemplateRepository().
-                                findOneByEntryTypeAndLanguageAndArguments(
-                                        SentenceType.VP,
-                                        getLanguage(),
-                                        "booleanSentence");
+
+                // skip infinitive forms
                 if (!booleanSentenceTemplates.isEmpty() && lexicalEntryUtil.getLexicalSense().getReference().toString().contains("boolean")) {
                     //   List<LexicalEntry> entries = new ArrayList<>(lexicalEntryUtil.getLexicon().getEntrys());
                     // for (LexicalEntry e : entries) {
@@ -87,7 +105,6 @@ public class TransitiveVPGrammarRuleGenerator extends GrammarRuleGeneratorRoot {
                     //String qword = doEntry.getOtherForms().stream().findFirst().get().getWrittenRep().value;
                     //String qword2 = new ArrayList<LexicalForm>(beEntry.getOtherForms()).get(3).getWrittenRep().value;
                     qWord = lexicalEntryUtil.getSubjectBySubjectType(SubjectType.BOOLEAN_INTERROGATIVE_DO, getLanguage(), null);
-                    String qWord2 = lexicalEntryUtil.getSubjectBySubjectType(SubjectType.BOOLEAN_INTERROGATIVE_BE, getLanguage(), null);
                     String testSentence = sentenceBuilder.getBooleanSentence(
                             qWord,
                             DomainOrRangeType.getMatchingType(
@@ -101,19 +118,7 @@ public class TransitiveVPGrammarRuleGenerator extends GrammarRuleGeneratorRoot {
                                     )).name(),
                                     SentenceType.VP));
                     generatedSentences.add(testSentence);
-                    testSentence = sentenceBuilder.getBooleanSentence(
-                            qWord2,
-                            DomainOrRangeType.getMatchingType(
-                                    lexicalEntryUtil.getConditionUriBySelectVariable(
-                                            lexicalEntryUtil.getSelectVariable())).name(),
-                            annotatedVerb.getWrittenRepValue(), "for",
-                            String.format(BINDING_TOKEN_TEMPLATE,
-                                    getBindingVariable(),
-                                    DomainOrRangeType.getMatchingType(lexicalEntryUtil.getConditionUriBySelectVariable(
-                                            LexicalEntryUtil.getOppositeSelectVariable(lexicalEntryUtil.getSelectVariable())
-                                    )).name(),
-                                    SentenceType.VP));
-                    generatedSentences.add(testSentence);
+
                     // LexicalEntryUtil lexicalEntryUtil1 = new LexicalEntryUtil(getLexicon(),
                     //       doEntry,FrameType.VP,new ArrayList<LexicalSense>(doEntry.getSenses()).get(0));
                     //  System.out.println(new ArrayList<LexicalEntry>(getLexicon().getEntrys()).get(0).getSenses().toArray()[0]);
@@ -125,8 +130,6 @@ public class TransitiveVPGrammarRuleGenerator extends GrammarRuleGeneratorRoot {
                     //String determiner = entry.getCanonicalForm().getWrittenRep().value;
                     //System.out.println(determiner);
                     // System.out.println(new LexiconSearch(getLexicon()).getReferencedResource("reference:component_do"));
-
-                    System.out.println(lexicalEntryUtil.getSelectVariable());
                 }
             }
             // Make simple sentence (who develops $x?)

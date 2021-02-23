@@ -3215,7 +3215,7 @@
     "bindingType" : "THING",
     "returnType" : "PERSON",
     "frameType" : "VP",
-    "sentences" : [ "Does PERSON play for ($x | THING_VP)?", "Does play ($x | THING_NP)?", "Does played ($x | THING_NP)?", "Does plays ($x | THING_NP)?", "Was PERSON play for ($x | THING_VP)?", "Which person play ($x | THING_NP)?", "Which person played ($x | THING_NP)?", "Which person plays ($x | THING_NP)?" ],
+    "sentences" : [ "Does PERSON play for ($x | THING_VP)?", "Does play ($x | THING_NP)?", "Was PERSON played for ($x | THING_VP)?", "Was played ($x | THING_NP)?", "Was plays ($x | THING_NP)?", "Which person play ($x | THING_NP)?", "Which person played ($x | THING_NP)?", "Which person plays ($x | THING_NP)?" ],
     "queryType" : "SELECT",
     "sparqlQuery" : "(bgp (triple ?subjOfProp <https://www.w3.org/2001/XMLSchema#boolean> ?objOfProp))\n",
     "sentenceToSparqlParameterMapping" : {
