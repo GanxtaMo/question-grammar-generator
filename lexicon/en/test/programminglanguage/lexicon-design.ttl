@@ -1,0 +1,72 @@
+@prefix :        <http://localhost:8080/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+
+@base   <http://localhost:8080#> .
+
+:lexicon_en
+    a              lemon:Lexicon ;
+    lemon:language "en" ;
+    lemon:entry    :to_design ;
+    lemon:entry    :by .
+
+:to_design
+    a                    lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    lemon:canonicalForm  :form_design ;
+    lemon:otherForm      :form_designs ;
+    lemon:otherForm      :form_designed ;
+    lemon:synBehavior    :design_frame_transitive, :design_frame_intransitive ;
+    lemon:sense          :design_ontomap .
+
+:form_design
+    a                    lemon:Form ;
+    lemon:writtenRep     "design"@en ;
+    lexinfo:verbFormMood lexinfo:infinitive .
+
+:form_designs
+    a                lemon:Form ;
+    lemon:writtenRep "designs"@en ;
+    lexinfo:tense    lexinfo:present ;
+    lexinfo:number   lexinfo:singular ;
+    lexinfo:person   lexinfo:secondPerson .
+
+:form_designed
+    a                lemon:Form ;
+    lemon:writtenRep "designed"@en ;
+    lexinfo:tense    lexinfo:past .
+
+
+:design_frame_intransitive
+    a                            lexinfo:IntransitivePPFrame ;
+    lexinfo:subject              :design_subj ;
+    lexinfo:prepositionalAdjunct :design_obj .
+
+:design_frame_transitive
+    a                            lexinfo:TransitivePPFrame ;
+    lexinfo:subject              :design_subj ;
+    lexinfo:prepositionalAdjunct :design_obj .
+
+:design_ontomap
+    a                 lemon:OntoMap, lemon:LexicalSense ;
+    lemon:ontoMapping :design_ontomap ;
+    lemon:reference   <http://dbpedia.org/ontology/designer> ;
+    lemon:subjOfProp  :design_obj ;
+    lemon:objOfProp   :design_subj ;
+    lemon:condition   :design_condition .
+
+:design_condition
+    a                    lemon:condition ;
+    lemon:propertyDomain <https://dbpedia.org/ontology/programmingLanguage> ;
+    lemon:propertyRange  <http://dbpedia.org/ontology/Person> .
+
+:design_obj
+    lemon:marker :by .
+
+## Prepositions ##
+
+:by
+    a                    lemon:SynRoleMarker ;
+    lemon:canonicalForm  [ lemon:writtenRep "by"@en ] ;
+    lexinfo:partOfSpeech lexinfo:preposition .

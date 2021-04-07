@@ -1,0 +1,72 @@
+@prefix :        <http://localhost:8080/lexicon#> .
+
+@prefix lexoffo: <http://www.lexoffo.net/ontology/2.0/lexoffo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+
+@base   <http://localhost:8080#> .
+
+:lexicon_en
+    a              lemon:Lexicon ;
+    lemon:language "en" ;
+    lemon:entry    :to_own ;
+    lemon:entry    :of .
+
+:to_own
+    a                    lemon:LexicalEntry ;
+    lexoffo:partOfSpeech lexoffo:verb ;
+    lemon:canonicalForm  :form_own ;
+    lemon:otherForm      :form_owns ;
+    lemon:otherForm      :form_owned ;
+    lemon:synBehavior    :own_frame_transitive, :own_frame_oftransitive ;
+    lemon:sense          :own_ontomap .
+
+:form_own
+    a                    lemon:Form ;
+    lemon:writtenRep     "own"@en ;
+    lexoffo:verbFormMood lexoffo:offofitive .
+
+:form_owns
+    a                lemon:Form ;
+    lemon:writtenRep "owns"@en ;
+    lexoffo:tense    lexoffo:present ;
+    lexoffo:number   lexoffo:sofgular ;
+    lexoffo:person   lexoffo:secondPerson .
+
+:form_owned
+    a                lemon:Form ;
+    lemon:writtenRep "owned"@en ;
+    lexoffo:tense    lexoffo:past .
+
+
+:own_frame_oftransitive
+    a                            lexoffo:oftransitivePPFrame ;
+    lexoffo:subject              :own_subj ;
+    lexoffo:prepositionalAdjunct :own_obj .
+
+:own_frame_transitive
+    a                            lexoffo:TransitivePPFrame ;
+    lexoffo:subject              :own_subj ;
+    lexoffo:prepositionalAdjunct :own_obj .
+
+:own_ontomap
+    a                 lemon:OntoMap, lemon:LexicalSense ;
+    lemon:ontoMappofg :own_ontomap ;
+    lemon:reference   <https://dbpedia.org/ontology/owner> ;
+    lemon:subjOfProp  :own_obj ;
+    lemon:objOfProp   :own_subj ;
+    lemon:condition   :own_condition .
+
+:own_condition
+    a                    lemon:condition ;
+    lemon:propertyDomain <https://dbpedia.org/ontology/Person> ;
+    lemon:propertyRange  <https://dbpedia.org/ontology/Agent> .
+
+:own_obj
+    lemon:marker :of .
+
+## Prepositions ##
+
+:of
+    a                    lemon:SynRoleMarker ;
+    lemon:canonicalForm  [ lemon:writtenRep "of"@en ] ;
+    lexoffo:partOfSpeech lexoffo:preposition .

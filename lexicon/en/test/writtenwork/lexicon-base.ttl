@@ -1,0 +1,72 @@
+@prefix :        <http://localhost:8080/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+
+@base   <http://localhost:8080#> .
+
+:lexicon_en
+    a              lemon:Lexicon ;
+    lemon:language "en" ;
+    lemon:entry    :to_base ;
+    lemon:entry    :on .
+
+:to_base
+    a                    lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:verb ;
+    lemon:canonicalForm  :form_base ;
+    lemon:otherForm      :form_bases ;
+    lemon:otherForm      :form_based ;
+    lemon:synBehavior    :base_frame_transitive, :base_frame_intransitive ;
+    lemon:sense          :base_ontomap .
+
+:form_base
+    a                    lemon:Form ;
+    lemon:writtenRep     "base"@en ;
+    lexinfo:verbFormMood lexinfo:infinitive .
+
+:form_bases
+    a                lemon:Form ;
+    lemon:writtenRep "bases"@en ;
+    lexinfo:tense    lexinfo:present ;
+    lexinfo:number   lexinfo:singular ;
+    lexinfo:person   lexinfo:secondPerson .
+
+:form_based
+    a                lemon:Form ;
+    lemon:writtenRep "based"@en ;
+    lexinfo:tense    lexinfo:past .
+
+
+:base_frame_intransitive
+    a                            lexinfo:IntransitivePPFrame ;
+    lexinfo:subject              :base_subj ;
+    lexinfo:prepositionalAdjunct :base_obj .
+
+:base_frame_transitive
+    a                            lexinfo:TransitivePPFrame ;
+    lexinfo:subject              :base_subj ;
+    lexinfo:prepositionalAdjunct :base_obj .
+
+:base_ontomap
+    a                 lemon:OntoMap, lemon:LexicalSense ;
+    lemon:ontoMapping :base_ontomap ;
+    lemon:reference   <dbpedia.org/ontology/Work> ;
+    lemon:subjOfProp  :base_obj ;
+    lemon:objOfProp   :base_subj ;
+    lemon:condition   :base_condition .
+
+:base_condition
+    a                    lemon:condition ;
+    lemon:propertyDomain <dbpedia.org/ontology/Work> ;
+    lemon:propertyRange  <dbpedia.org/ontology/Work> .
+
+:base_obj
+    lemon:marker :on .
+
+## Prepositions ##
+
+:on
+    a                    lemon:SynRoleMarker ;
+    lemon:canonicalForm  [ lemon:writtenRep "on"@en ] ;
+    lexinfo:partOfSpeech lexinfo:preposition .
