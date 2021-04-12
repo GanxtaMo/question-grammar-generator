@@ -1,0 +1,51 @@
+@prefix :        <http://localhost:8080/lexicon#> .
+
+@prefix lexinfo: <http://www.lexinfo.net/ontology/2.0/lexinfo#> .
+@prefix lemon:   <http://lemon-model.net/lemon#> .
+
+@base   <http://localhost:8080#> .
+
+:lexicon_en
+    a              lemon:Lexicon ;
+    lemon:language "en" ;
+    lemon:entry    :termStart_of ;
+    lemon:entry    :of .
+
+:termStart_of
+    a                    lemon:LexicalEntry ;
+    lexinfo:partOfSpeech lexinfo:noun ;
+    lemon:canonicalForm  :termStart_form ;
+    lemon:synBehavior    :termStart_of_nounpp ;
+    lemon:sense          :termStart_sense_ontomap .
+
+:termStart_form
+    a                lemon:Form ;
+    lemon:writtenRep "starting term"@en .
+
+:termStart_of_nounpp
+    a                            lexinfo:NounPPFrame ;
+    lexinfo:copulativeArg        :arg1 ;
+    lexinfo:prepositionalAdjunct :arg2 .
+
+:termStart_sense_ontomap
+    a                 lemon:OntoMap, lemon:LexicalSense ;
+    lemon:ontoMapping :termStart_sense_ontomap ;
+    lemon:reference   <http://dbpedia.org/property/termStart> ;
+    lemon:subjOfProp  :arg2 ;
+    lemon:objOfProp   :arg1 ;
+    lemon:condition   :termStart_condition .
+
+:termStart_condition
+    a                    lemon:condition ;
+    lemon:propertyDomain <http://dbpedia.org/ontology/Person> ;
+    lemon:propertyRange  <https://www.w3.org/2001/XMLSchema#integer> .
+
+:arg2
+    lemon:marker :of .
+
+## Prepositions ##
+
+:of
+    a                    lemon:SynRoleMarker ;
+    lemon:canonicalForm  [ lemon:writtenRep "of"@en ] ;
+    lexinfo:partOfSpeech lexinfo:preposition .
